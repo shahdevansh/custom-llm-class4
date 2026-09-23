@@ -1,0 +1,1074 @@
+{
+  "schema": "class4-evidence-audit-v1",
+  "generated_at_utc": "2026-09-23T07:02:03.632089+00:00",
+  "status": "pass",
+  "missing_experiments": [],
+  "check_counts": {
+    "passed": 28,
+    "failed": 0
+  },
+  "replayed_all_evaluations": false,
+  "checks": [
+    {
+      "check": "fixed_runner_suite_chat_and_nanogpt_source_hashes",
+      "status": "pass",
+      "details": {
+        "upstream_commit": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+        "verified_sha256": {
+          "run_evals.py": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0",
+          "chat.py": "6152c8b7780f3b46fef5de38461adfc4b1a55df70ed106ca73ec5e9aded86d25",
+          "evals/language_evals.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+          "nanogpt_model.py": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c"
+        }
+      }
+    },
+    {
+      "check": "fixed_suite_has_48_unique_cases",
+      "status": "pass",
+      "details": {
+        "cases": 48,
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d"
+      }
+    },
+    {
+      "check": "starter.executed_notebook",
+      "status": "pass",
+      "details": {
+        "code_cells": 15,
+        "execution_counters": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "original_nonsettings_code_preserved": true,
+        "settings": {
+          "CORPUS": "classroom",
+          "CORPUS_FOLDER": "corpus/starter",
+          "TRAINING_STEPS": 3000,
+          "LEARNING_RATE": 0.001
+        }
+      }
+    },
+    {
+      "check": "starter.corpus_split_panels_and_exact_prefix_separation",
+      "status": "pass",
+      "details": {
+        "train": 4132,
+        "validation": 460,
+        "unique_passages": 4592,
+        "new_unique_passages": 0,
+        "exact_prefix_matches": 0,
+        "panels": {
+          "train": 20,
+          "validation": 20
+        },
+        "imported_files": 0
+      }
+    },
+    {
+      "check": "starter.training_only_vocabulary",
+      "status": "pass",
+      "details": {
+        "vocabulary_size": 136,
+        "training_unknown_rate": 0.0,
+        "validation_unknown_rate": 0.0,
+        "exact_training_only_reconstruction": true
+      }
+    },
+    {
+      "check": "starter.untrained.saved_model",
+      "status": "pass",
+      "details": {
+        "model_sha256": "73fcac5a3daaed81be800a450cc50c3cd932db3b3b1cb79b27401124eeb1f16b",
+        "completed_steps": 0
+      }
+    },
+    {
+      "check": "starter.untrained.complete_evaluation_and_arithmetic",
+      "status": "pass",
+      "details": {
+        "cases": 48,
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "overall": {
+          "correct": 9,
+          "total": 48,
+          "scorable": 24,
+          "success_rate_all_cases": 0.1875,
+          "accuracy_scorable_cases": 0.375,
+          "coverage": 0.5
+        }
+      }
+    },
+    {
+      "check": "starter.final.saved_model",
+      "status": "pass",
+      "details": {
+        "model_sha256": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+        "completed_steps": 3000
+      }
+    },
+    {
+      "check": "starter.final.complete_evaluation_and_arithmetic",
+      "status": "pass",
+      "details": {
+        "cases": 48,
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "overall": {
+          "correct": 20,
+          "total": 48,
+          "scorable": 24,
+          "success_rate_all_cases": 0.4166666666666667,
+          "accuracy_scorable_cases": 0.8333333333333334,
+          "coverage": 0.5
+        }
+      }
+    },
+    {
+      "check": "starter.before_after_identity_and_settings",
+      "status": "pass",
+      "details": {
+        "completed_steps": 3000,
+        "elapsed_seconds": 9.063363291999849
+      }
+    },
+    {
+      "check": "starter.loss_samples_embeddings_probabilities_and_update",
+      "status": "pass",
+      "details": {
+        "history_rows": 3,
+        "sample_stages": [
+          0,
+          1500,
+          3000
+        ],
+        "inspection_token": "customer",
+        "embedding_dimensions": 64,
+        "first_update_delta": -9.991228580474854e-06
+      }
+    },
+    {
+      "check": "starter.chat_identity_and_actual_reply_replay",
+      "status": "pass",
+      "details": {
+        "turns": 4,
+        "model_sha256": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+        "all_replies_replayed": true,
+        "turns_with_unknown_words": 2
+      }
+    },
+    {
+      "check": "starter.archive_integrity_and_freshness",
+      "status": "pass",
+      "details": {
+        "archive": "llm_runs/20260923T043154_967139Z.zip",
+        "files": 29,
+        "crc_and_byte_parity": true
+      }
+    },
+    {
+      "check": "starter.audit_completed",
+      "status": "pass",
+      "details": {
+        "run_dir": "llm_runs/20260923T043154_967139Z",
+        "notebook": "custom_llm.ipynb",
+        "summaries": {
+          "untrained": {
+            "suite_id": "synthetic-language-v1",
+            "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+            "model_sha256": "73fcac5a3daaed81be800a450cc50c3cd932db3b3b1cb79b27401124eeb1f16b",
+            "stage": "untrained",
+            "settings": {
+              "seed": 2026,
+              "temperature": 0.8,
+              "max_tokens": 24
+            },
+            "metric": "highest-probability answer among four single-word choices; ties get zero",
+            "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+            "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+            "overall": {
+              "correct": 9,
+              "total": 48,
+              "scorable": 24,
+              "success_rate_all_cases": 0.1875,
+              "accuracy_scorable_cases": 0.375,
+              "coverage": 0.5
+            },
+            "by_group": {
+              "extend_corpus": {
+                "correct": 0,
+                "total": 24,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "starter_patterns": {
+                "correct": 6,
+                "total": 16,
+                "scorable": 16,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              },
+              "starter_transfer": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              }
+            },
+            "by_category": {
+              "categories_and_analogies": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "domain_context": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              },
+              "domain_place": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              },
+              "everyday_knowledge": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "grammar": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "negation": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "new_wording": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              },
+              "opposites": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "reference": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "sequence": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "spatial_relations": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              }
+            }
+          },
+          "final": {
+            "suite_id": "synthetic-language-v1",
+            "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+            "model_sha256": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+            "stage": "final",
+            "settings": {
+              "seed": 2026,
+              "temperature": 0.8,
+              "max_tokens": 24
+            },
+            "metric": "highest-probability answer among four single-word choices; ties get zero",
+            "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+            "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+            "overall": {
+              "correct": 20,
+              "total": 48,
+              "scorable": 24,
+              "success_rate_all_cases": 0.4166666666666667,
+              "accuracy_scorable_cases": 0.8333333333333334,
+              "coverage": 0.5
+            },
+            "by_group": {
+              "extend_corpus": {
+                "correct": 0,
+                "total": 24,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "starter_patterns": {
+                "correct": 16,
+                "total": 16,
+                "scorable": 16,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "starter_transfer": {
+                "correct": 4,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.5,
+                "accuracy_scorable_cases": 0.5,
+                "coverage": 1.0
+              }
+            },
+            "by_category": {
+              "categories_and_analogies": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "domain_context": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "domain_place": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "everyday_knowledge": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "grammar": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "negation": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "new_wording": {
+                "correct": 4,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.5,
+                "accuracy_scorable_cases": 0.5,
+                "coverage": 1.0
+              },
+              "opposites": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "reference": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "sequence": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "spatial_relations": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              }
+            }
+          }
+        },
+        "model_hashes": {
+          "untrained": "73fcac5a3daaed81be800a450cc50c3cd932db3b3b1cb79b27401124eeb1f16b",
+          "final": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e"
+        },
+        "config": {
+          "model": "nanoGPT",
+          "upstream_commit": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+          "tokenizer": "word",
+          "corpus_source": "Synthetic classroom sentences plus corpus folder files",
+          "corpus_sha256": "e3f76ad8ebdb38689ea63d1f93bd888606197730135a53f43fc7c3c8ab56cbc0",
+          "training_steps": 3000,
+          "learning_rate": 0.001,
+          "seed": 42,
+          "n_embd": 64,
+          "n_head": 4,
+          "n_layer": 2,
+          "block_size": 48,
+          "batch_size": 32,
+          "vocabulary_size": 136,
+          "parameters": 111872,
+          "train_documents": 4132,
+          "validation_documents": 460,
+          "validation_unknown_rate": 0.0,
+          "training_unknown_rate": 0.0,
+          "corpus_files": 0,
+          "corpus_mode": "classroom",
+          "evaluation_panel_size": {
+            "train": 20,
+            "validation": 20
+          },
+          "evaluation_reduction": "mean over non-padding next-token panel targets",
+          "language_eval_suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+          "reserved_eval_passages": 160,
+          "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+          "torch": "2.14.0",
+          "device": "cpu",
+          "hardware": "macOS-26.6.2-arm64-arm-64bit"
+        }
+      }
+    },
+    {
+      "check": "expanded.executed_notebook",
+      "status": "pass",
+      "details": {
+        "code_cells": 15,
+        "execution_counters": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "original_nonsettings_code_preserved": true,
+        "settings": {
+          "CORPUS": "classroom",
+          "CORPUS_FOLDER": "corpus/expanded",
+          "TRAINING_STEPS": 3000,
+          "LEARNING_RATE": 0.001
+        }
+      }
+    },
+    {
+      "check": "expanded.corpus_split_panels_and_exact_prefix_separation",
+      "status": "pass",
+      "details": {
+        "train": 4953,
+        "validation": 551,
+        "unique_passages": 5504,
+        "new_unique_passages": 912,
+        "exact_prefix_matches": 0,
+        "panels": {
+          "train": 20,
+          "validation": 20
+        },
+        "imported_files": 2
+      }
+    },
+    {
+      "check": "expanded.training_only_vocabulary",
+      "status": "pass",
+      "details": {
+        "vocabulary_size": 319,
+        "training_unknown_rate": 0.0,
+        "validation_unknown_rate": 0.0,
+        "exact_training_only_reconstruction": true
+      }
+    },
+    {
+      "check": "expanded.untrained.saved_model",
+      "status": "pass",
+      "details": {
+        "model_sha256": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+        "completed_steps": 0
+      }
+    },
+    {
+      "check": "expanded.untrained.complete_evaluation_and_arithmetic",
+      "status": "pass",
+      "details": {
+        "cases": 48,
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "overall": {
+          "correct": 9,
+          "total": 48,
+          "scorable": 27,
+          "success_rate_all_cases": 0.1875,
+          "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 0.5625
+        }
+      }
+    },
+    {
+      "check": "expanded.final.saved_model",
+      "status": "pass",
+      "details": {
+        "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+        "completed_steps": 3000
+      }
+    },
+    {
+      "check": "expanded.final.complete_evaluation_and_arithmetic",
+      "status": "pass",
+      "details": {
+        "cases": 48,
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "overall": {
+          "correct": 24,
+          "total": 48,
+          "scorable": 27,
+          "success_rate_all_cases": 0.5,
+          "accuracy_scorable_cases": 0.8888888888888888,
+          "coverage": 0.5625
+        }
+      }
+    },
+    {
+      "check": "expanded.before_after_identity_and_settings",
+      "status": "pass",
+      "details": {
+        "completed_steps": 3000,
+        "elapsed_seconds": 13.797743291001098
+      }
+    },
+    {
+      "check": "expanded.loss_samples_embeddings_probabilities_and_update",
+      "status": "pass",
+      "details": {
+        "history_rows": 3,
+        "sample_stages": [
+          0,
+          1500,
+          3000
+        ],
+        "inspection_token": "customer",
+        "embedding_dimensions": 64,
+        "first_update_delta": -9.998679161071777e-06
+      }
+    },
+    {
+      "check": "expanded.chat_identity_and_actual_reply_replay",
+      "status": "pass",
+      "details": {
+        "turns": 4,
+        "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+        "all_replies_replayed": true,
+        "turns_with_unknown_words": 2
+      }
+    },
+    {
+      "check": "expanded.archive_integrity_and_freshness",
+      "status": "pass",
+      "details": {
+        "archive": "llm_runs/20260923T062639_403952Z.zip",
+        "files": 29,
+        "crc_and_byte_parity": true
+      }
+    },
+    {
+      "check": "expanded.audit_completed",
+      "status": "pass",
+      "details": {
+        "run_dir": "llm_runs/20260923T062639_403952Z",
+        "notebook": "custom_llm_expanded.ipynb",
+        "summaries": {
+          "untrained": {
+            "suite_id": "synthetic-language-v1",
+            "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+            "model_sha256": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+            "stage": "untrained",
+            "settings": {
+              "seed": 2026,
+              "temperature": 0.8,
+              "max_tokens": 24
+            },
+            "metric": "highest-probability answer among four single-word choices; ties get zero",
+            "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+            "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+            "overall": {
+              "correct": 9,
+              "total": 48,
+              "scorable": 27,
+              "success_rate_all_cases": 0.1875,
+              "accuracy_scorable_cases": 0.3333333333333333,
+              "coverage": 0.5625
+            },
+            "by_group": {
+              "extend_corpus": {
+                "correct": 2,
+                "total": 24,
+                "scorable": 3,
+                "success_rate_all_cases": 0.08333333333333333,
+                "accuracy_scorable_cases": 0.6666666666666666,
+                "coverage": 0.125
+              },
+              "starter_patterns": {
+                "correct": 4,
+                "total": 16,
+                "scorable": 16,
+                "success_rate_all_cases": 0.25,
+                "accuracy_scorable_cases": 0.25,
+                "coverage": 1.0
+              },
+              "starter_transfer": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              }
+            },
+            "by_category": {
+              "categories_and_analogies": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "domain_context": {
+                "correct": 2,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.25,
+                "accuracy_scorable_cases": 0.25,
+                "coverage": 1.0
+              },
+              "domain_place": {
+                "correct": 2,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.25,
+                "accuracy_scorable_cases": 0.25,
+                "coverage": 1.0
+              },
+              "everyday_knowledge": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "grammar": {
+                "correct": 1,
+                "total": 3,
+                "scorable": 1,
+                "success_rate_all_cases": 0.3333333333333333,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 0.3333333333333333
+              },
+              "negation": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "new_wording": {
+                "correct": 3,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 0.375,
+                "accuracy_scorable_cases": 0.375,
+                "coverage": 1.0
+              },
+              "opposites": {
+                "correct": 1,
+                "total": 3,
+                "scorable": 2,
+                "success_rate_all_cases": 0.3333333333333333,
+                "accuracy_scorable_cases": 0.5,
+                "coverage": 0.6666666666666666
+              },
+              "reference": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "sequence": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "spatial_relations": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              }
+            }
+          },
+          "final": {
+            "suite_id": "synthetic-language-v1",
+            "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+            "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+            "stage": "final",
+            "settings": {
+              "seed": 2026,
+              "temperature": 0.8,
+              "max_tokens": 24
+            },
+            "metric": "highest-probability answer among four single-word choices; ties get zero",
+            "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+            "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+            "overall": {
+              "correct": 24,
+              "total": 48,
+              "scorable": 27,
+              "success_rate_all_cases": 0.5,
+              "accuracy_scorable_cases": 0.8888888888888888,
+              "coverage": 0.5625
+            },
+            "by_group": {
+              "extend_corpus": {
+                "correct": 0,
+                "total": 24,
+                "scorable": 3,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": 0.0,
+                "coverage": 0.125
+              },
+              "starter_patterns": {
+                "correct": 16,
+                "total": 16,
+                "scorable": 16,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "starter_transfer": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              }
+            },
+            "by_category": {
+              "categories_and_analogies": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "domain_context": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "domain_place": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "everyday_knowledge": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "grammar": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 1,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": 0.0,
+                "coverage": 0.3333333333333333
+              },
+              "negation": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "new_wording": {
+                "correct": 8,
+                "total": 8,
+                "scorable": 8,
+                "success_rate_all_cases": 1.0,
+                "accuracy_scorable_cases": 1.0,
+                "coverage": 1.0
+              },
+              "opposites": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 2,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": 0.0,
+                "coverage": 0.6666666666666666
+              },
+              "reference": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "sequence": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              },
+              "spatial_relations": {
+                "correct": 0,
+                "total": 3,
+                "scorable": 0,
+                "success_rate_all_cases": 0.0,
+                "accuracy_scorable_cases": null,
+                "coverage": 0.0
+              }
+            }
+          }
+        },
+        "model_hashes": {
+          "untrained": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+          "final": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8"
+        },
+        "config": {
+          "model": "nanoGPT",
+          "upstream_commit": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+          "tokenizer": "word",
+          "corpus_source": "Synthetic classroom sentences plus corpus folder files",
+          "corpus_sha256": "8442979a14945380975d21a96fb9266a0eed74a1e76270d7c14957366061def6",
+          "training_steps": 3000,
+          "learning_rate": 0.001,
+          "seed": 42,
+          "n_embd": 64,
+          "n_head": 4,
+          "n_layer": 2,
+          "block_size": 48,
+          "batch_size": 32,
+          "vocabulary_size": 319,
+          "parameters": 123584,
+          "train_documents": 4953,
+          "validation_documents": 551,
+          "validation_unknown_rate": 0.0,
+          "training_unknown_rate": 0.0,
+          "corpus_files": 2,
+          "corpus_mode": "classroom",
+          "evaluation_panel_size": {
+            "train": 20,
+            "validation": 20
+          },
+          "evaluation_reduction": "mean over non-padding next-token panel targets",
+          "language_eval_suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+          "reserved_eval_passages": 160,
+          "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+          "torch": "2.14.0",
+          "device": "cpu",
+          "hardware": "macOS-26.6.2-arm64-arm-64bit"
+        }
+      }
+    },
+    {
+      "check": "two_fresh_experiments_four_complete_result_sets",
+      "status": "pass",
+      "details": {
+        "experiments": 2,
+        "stages": 4,
+        "case_results": 192,
+        "same_training_settings": true
+      }
+    },
+    {
+      "check": "readme_local_evidence_links",
+      "status": "pass",
+      "details": {
+        "local_links_checked": 101,
+        "note": "Existence only; hosted access and fragment anchors are not checked."
+      }
+    }
+  ],
+  "input_file_sha256": {
+    "README.md": "bfd30297375060be9b1e4525952e4078f1be4afc81c5a6c08cdc15a9da9d6889",
+    "chat.py": "6152c8b7780f3b46fef5de38461adfc4b1a55df70ed106ca73ec5e9aded86d25",
+    "corpus/expanded/contextual_contrasts.txt": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710",
+    "corpus/expanded/grammar_practice.txt": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8",
+    "custom_llm.ipynb": "9e871eb0ceb930f42477ea375326882143f6bf5aebd7c49ab90bdf6350f0b43b",
+    "custom_llm_expanded.ipynb": "129a51df4f65e89346523f63ffff2573683a13989735a9247fe93aca05fe2186",
+    "evals/language_evals.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "experiment_runs.json": "67cefcb1815d8bd4548ee1bfa3aaacb06956874fabd09e0013d9ac3711190e3c",
+    "llm_runs/20260923T043154_967139Z.zip": "0241a3a1480563974c327ea8f99695aa5f8a276394e6e3643bb866eb51bf1df0",
+    "llm_runs/20260923T043154_967139Z/chat_transcript.json": "048cf1d89868d924f0173f691036080d11f013bd53362bad39e3b8f33a286d45",
+    "llm_runs/20260923T043154_967139Z/checkpoint.json": "5b4ff4d60b8389e715ff084f6fde0e41d909b1c43e9090160fe2f855a481cd6e",
+    "llm_runs/20260923T043154_967139Z/config.json": "4a226741b1da078e3ede9522075f75fa66b67c18ab2adfa604b7e1d6ca672cbb",
+    "llm_runs/20260923T043154_967139Z/corpus.txt": "e3f76ad8ebdb38689ea63d1f93bd888606197730135a53f43fc7c3c8ab56cbc0",
+    "llm_runs/20260923T043154_967139Z/corpus_manifest.json": "1d83f4aeeb529489d267025912121894fcf698a16565caceb70fc9c3622be322",
+    "llm_runs/20260923T043154_967139Z/eval_separation.json": "9afcc48d06a0d6db77131ad91f52ca698871a73838811d21790e2daca5264570",
+    "llm_runs/20260923T043154_967139Z/history.json": "5384328669ffd377c3af6c831a6919ab58de3f73e6d284e394a81216901b1e08",
+    "llm_runs/20260923T043154_967139Z/inspection.json": "b9ad5a2de5ffe319feadade329d7f4ba5cf133ba18be7ef1447e9eaa1228a98c",
+    "llm_runs/20260923T043154_967139Z/language_eval_comparison.json": "4f02e2376040694fc7649d1fa62cdfe204e4ef7cc87542fc923b14511ed21d17",
+    "llm_runs/20260923T043154_967139Z/language_evals/final/eval_cases.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.csv": "ff2b1b0bf7c6b23efd4129c88fabe1754f2d07b970485cd2d32fa1f82749f94b",
+    "llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.json": "6c52400c12eb480cb393c8095c975bb23e013ddc82a95c6652529cdadc03e56a",
+    "llm_runs/20260923T043154_967139Z/language_evals/final/eval_summary.json": "f21d0811695125577d8f6b1b3aa71c54a005769b23a626dae56f1f47b67f2638",
+    "llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_cases.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.csv": "355bc505766b088203951e6405c0ee6193d724eca6934fc708f42e2863b83308",
+    "llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.json": "2b16e578723467903f8c1d7c8df4c1f069f9b1383c07357db2bb5068aa3d7f5a",
+    "llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_summary.json": "00733b11d0d90a9c389e96b481b859f1c368fdf897e4af6e920df949fb249036",
+    "llm_runs/20260923T043154_967139Z/model.pt": "44f0f67db8622a4c7dad0636bd18ef9a95f1f466a95c58e7059076ad38932ace",
+    "llm_runs/20260923T043154_967139Z/model_untrained.pt": "6e1c99227a68e1e83cdd58ea28bf1bdddb113f43ba7b6e15cdd80498b3dd685a",
+    "llm_runs/20260923T043154_967139Z/samples/step_0000.txt": "c22a24c511ff843bd1383104a5c25cf9667e5dfa74d340caede0d5c9fdd71e4c",
+    "llm_runs/20260923T043154_967139Z/samples/step_1500.txt": "537b0418020be41c152bf996ed474ea13f2e41b80baf0cdd7e3e49a51d5d6742",
+    "llm_runs/20260923T043154_967139Z/samples/step_3000.txt": "01a7bee42e6ded5ce995385790e6b52391d4434fb463eba122f1810c20f97ba2",
+    "llm_runs/20260923T043154_967139Z/split.json": "d17f4dcc442fe10967980808d9ea750289ccf73754a8734f627a7c4a9d836e8b",
+    "llm_runs/20260923T043154_967139Z/temperature_comparison.json": "8886aff79fa98b39403007396417e7eb25f5143d3f6de069439af3ffb838fff0",
+    "llm_runs/20260923T043154_967139Z/tokenization.json": "3d66748844e546d5993414973917f04cf2d4a900b5e0bc2516d567f3eb878334",
+    "llm_runs/20260923T043154_967139Z/training.csv": "513cde9ae39272ffab922505535807c24ab1a79526539554ea3d0a4facd0ac8f",
+    "llm_runs/20260923T043154_967139Z/training_curves.svg": "30e28f7a5272d947a330ba25a388b81585d79c2cec9fab5d454faf16ef3e2fa2",
+    "llm_runs/20260923T043154_967139Z/training_summary.json": "efc0e8bd8ff6423617fd397c4a5bb58b5bd37d27329dc9217b9540140a6904ed",
+    "llm_runs/20260923T043154_967139Z/vocabulary_report.json": "c0073b37c93072cbb622f1ee2ebb69d28afbcabdb05cd7a9b11b66fce2e70ce7",
+    "llm_runs/20260923T062639_403952Z.zip": "bedb68609f5450e19ef98592a11ae075c076c159029ea7b687ad43277d2ec05e",
+    "llm_runs/20260923T062639_403952Z/chat_transcript.json": "28c594ebba4fd7b227d280a173d15806d18676f9002db0da6d82d2995b6bb9f4",
+    "llm_runs/20260923T062639_403952Z/checkpoint.json": "25ae75ef486e84813b2ffc57c11ae3674db39951dc788799d0bd45176e802bcf",
+    "llm_runs/20260923T062639_403952Z/config.json": "f7f90729c80cb4c6cb8f7e2becd5ea2f83338d1b470203c123371a7d6cad4128",
+    "llm_runs/20260923T062639_403952Z/corpus.txt": "8442979a14945380975d21a96fb9266a0eed74a1e76270d7c14957366061def6",
+    "llm_runs/20260923T062639_403952Z/corpus_manifest.json": "69ef574fed15f3948084b30b320a82c235a7ef3c671ac4d0d602a5268fb814fb",
+    "llm_runs/20260923T062639_403952Z/eval_separation.json": "9afcc48d06a0d6db77131ad91f52ca698871a73838811d21790e2daca5264570",
+    "llm_runs/20260923T062639_403952Z/history.json": "71e2cf9aa7bda233f02848f2249e98aaae0e5b838f1be10b235a8bfb11c0b8a2",
+    "llm_runs/20260923T062639_403952Z/inspection.json": "010b4c71e769ff591c69eb34d7e267b841a0dbe77dd0fdeb3159f599829fc9ae",
+    "llm_runs/20260923T062639_403952Z/language_eval_comparison.json": "e59cb0260edb38708e2bf78b315f27d66e8d4b7658163ce59553f713b01763da",
+    "llm_runs/20260923T062639_403952Z/language_evals/final/eval_cases.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.csv": "33dae4f39c3ea80f77c466b6d09010fb7bb76167141f5ac55c18d3571c7827ff",
+    "llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.json": "02e93709ce2666df88ecb9131c92a5d3f9feaf13ca2d3e3a3e69ea53770e7520",
+    "llm_runs/20260923T062639_403952Z/language_evals/final/eval_summary.json": "a5a496253888855916878cd3db7a1b1122c138ce200769a12b43f63af827a0f5",
+    "llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_cases.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.csv": "fcbe4b081cd6bc3839c8d5fca97d78079f3b38ad93376125d9c19f907a9dc55b",
+    "llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.json": "5b778e7e84b99b4941c74ba8e2ab43131f17ff0726eff0ba5ab71ee2747629fc",
+    "llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_summary.json": "867c3888c43a03692b3c439d3a6ec504a2e05600f30b088613602dcbf10be08d",
+    "llm_runs/20260923T062639_403952Z/model.pt": "5e1b65ea8baf306af94cbfc05afaa72e811dd97175468825ee50d4e955666890",
+    "llm_runs/20260923T062639_403952Z/model_untrained.pt": "66ea025ed8c4c644c94ac0e1114f82a300f0d0aa0d35738cb6d414f6fd71d300",
+    "llm_runs/20260923T062639_403952Z/samples/step_0000.txt": "a9dcbbc60d5d3c0dcb0fd417174cbe9fd91e640525d54688417de7888380e331",
+    "llm_runs/20260923T062639_403952Z/samples/step_1500.txt": "a5b0d3a7bfa9b00cf4fea43d95e3e23b71534d68fc9b15b77ee8dae58b1953cc",
+    "llm_runs/20260923T062639_403952Z/samples/step_3000.txt": "a8a43c202d81c86d9c3725a2de7c0e58da5617ad36d06b92ba0cb47ccac2af24",
+    "llm_runs/20260923T062639_403952Z/split.json": "11ea8b470c19060964505032088570bd320fb99982d0f05daad234e4a7ae088d",
+    "llm_runs/20260923T062639_403952Z/temperature_comparison.json": "79fc26062aebde37478246982ba842960446087af4423cd596fc20db85903f03",
+    "llm_runs/20260923T062639_403952Z/tokenization.json": "438c82412bbbb0138b40efce9e8ceebccb2aabf60534d03eab636d5bb6ed7662",
+    "llm_runs/20260923T062639_403952Z/training.csv": "a2a4cda0e4ed9f8a1ca3a3dbc3a60906a5778ee26d8e7b3bb6f19108a122c2e4",
+    "llm_runs/20260923T062639_403952Z/training_curves.svg": "123ec36d5f62571a3f3964385cee972b6fd596df8333595d81eb687e1fd39f56",
+    "llm_runs/20260923T062639_403952Z/training_summary.json": "5a64467dd49eb8adb3d817d4e42f06a4d9eea6ff8c7043b10991a73f51664d9e",
+    "llm_runs/20260923T062639_403952Z/vocabulary_report.json": "eede132e726101600afc3d6806f93cc4b8e474d9d8fab8eafb32f8f61ef2fe0f",
+    "nanogpt_model.py": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c",
+    "run_evals.py": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0",
+    "source/course_starter.ipynb": "6ed0f3b45cce7d85cc951ea9bf48a33be01c834ad5dfadd8a15604b37b903683"
+  },
+  "limitations": [
+    "Exact normalized prefix detection does not prove absence of semantic leakage, paraphrased tests, or answer-list contamination; inspect teaching material independently.",
+    "Vocabulary is reconstructed from saved training passages; file consistency cannot prove the historical process independently of the saved code and evidence.",
+    "The recorded gradient and first update are checked for finite values and initial/final checkpoint consistency; the optimizer trajectory is not retrained by this audit.",
+    "No claim of general language understanding, unseen-source generalization, or statistically reliable improvement follows from these public development tests.",
+    "This local audit does not verify signed-out GitHub accessibility, repository rendering, course-portal submission, screenshot authenticity, or student understanding."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 3969,
+    "passage": "the farmers are tired before work .",
+    "prefix": "the farmers are",
+    "target": "tired",
+    "embedding_token": "farmers",
+    "token_id": 88,
+    "coordinate": 0,
+    "batch_document_indices": [
+      1224,
+      3911,
+      868,
+      1090,
+      2582,
+      19,
+      3363,
+      2517,
+      1883,
+      3969,
+      4498,
+      3354,
+      1026,
+      4569,
+      3134,
+      945,
+      2994,
+      3986,
+      1160,
+      4540,
+      2950,
+      3951,
+      3155,
+      4053,
+      1520,
+      909,
+      3595,
+      4720,
+      1545,
+      4054,
+      1602,
+      273
+    ]
+  },
+  "learning_rate": 0.0008029375200334588,
+  "before": {
+    "batch_loss": 0.7917362451553345,
+    "target_probability": 0.17618843913078308,
+    "validation": {
+      "starter": 0.6900388598442078,
+      "grammar": 1.3323460817337036,
+      "contrasts": 1.3263403177261353,
+      "original": 0.8234741687774658,
+      "macro": 1.1162417531013489
+    },
+    "parameter": -0.07190292328596115
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.00018598278984427452,
+    "v": 1.7792964399632183e-06
+  },
+  "raw_gradient": 0.007965784519910812,
+  "gradient_norm_before_clipping": 0.6825100779533386,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": 0.007965784519910812,
+  "after": {
+    "batch_loss": 0.7823517918586731,
+    "target_probability": 0.18142303824424744,
+    "validation": {
+      "starter": 0.6906474828720093,
+      "grammar": 1.3149608373641968,
+      "contrasts": 1.3518424034118652,
+      "original": 0.8233846426010132,
+      "macro": 1.1191502412160237
+    },
+    "parameter": -0.07225332409143448
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 0.0009639629861339927,
+    "v": 4.86301814817125e-06
+  },
+  "weight_decay_delta": 5.773355490638568e-07,
+  "adaptive_delta": -0.00035098390060138364,
+  "predicted_delta_float64": -0.00035040656505231976,
+  "actual_delta": -0.00035040080547332764,
+  "reconstruction_error": 5.7595789921226215e-09
+}

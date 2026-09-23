@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 2692,
+    "passage": "the helper is happy before work .",
+    "prefix": "the helper is",
+    "target": "happy",
+    "embedding_token": "helper",
+    "token_id": 115,
+    "coordinate": 0,
+    "batch_document_indices": [
+      4672,
+      3886,
+      4592,
+      4379,
+      1719,
+      712,
+      1971,
+      2692,
+      425,
+      1139,
+      861,
+      2269,
+      2253,
+      1616,
+      161,
+      967,
+      4234,
+      616,
+      186,
+      617,
+      1513,
+      681,
+      2797,
+      4807,
+      3313,
+      653,
+      3694,
+      58,
+      3687,
+      1785,
+      2280,
+      3322
+    ]
+  },
+  "learning_rate": 0.0008029375200334588,
+  "before": {
+    "batch_loss": 0.796212375164032,
+    "target_probability": 0.2816985249519348,
+    "validation": {
+      "starter": 0.7189446091651917,
+      "grammar": 1.3122926950454712,
+      "contrasts": 1.3885724544525146,
+      "original": 0.8092830777168274,
+      "macro": 1.139936586221059
+    },
+    "parameter": -0.03111916407942772
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.000359780911821872,
+    "v": 2.2050710413168417e-06
+  },
+  "raw_gradient": -0.00019654398784041405,
+  "gradient_norm_before_clipping": 0.5232470035552979,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": -0.00019654398784041405,
+  "after": {
+    "batch_loss": 0.7874174118041992,
+    "target_probability": 0.2857746183872223,
+    "validation": {
+      "starter": 0.7214499115943909,
+      "grammar": 1.3032482862472534,
+      "contrasts": 1.3979897499084473,
+      "original": 0.8093914985656738,
+      "macro": 1.1408959825833638
+    },
+    "parameter": -0.03128756582736969
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 0.0003041484160348773,
+    "v": 2.0967490854673088e-06
+  },
+  "weight_decay_delta": 2.4986744431449983e-07,
+  "adaptive_delta": -0.0001686518389403579,
+  "predicted_delta_float64": -0.0001684019714960434,
+  "actual_delta": -0.00016840174794197083,
+  "reconstruction_error": 2.2355407257898356e-10
+}

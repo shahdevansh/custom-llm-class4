@@ -1,0 +1,72 @@
+{
+  "starter": {
+    "valid_svg_xml": true,
+    "points": [
+      [
+        [
+          60.0,
+          76.4
+        ],
+        [
+          380.0,
+          260.4
+        ],
+        [
+          700.0,
+          260.6
+        ]
+      ],
+      [
+        [
+          60.0,
+          76.4
+        ],
+        [
+          380.0,
+          258.9
+        ],
+        [
+          700.0,
+          259.4
+        ]
+      ]
+    ],
+    "all_coordinates_finite": true,
+    "matches_notebook_svg": true
+  },
+  "expanded": {
+    "valid_svg_xml": true,
+    "points": [
+      [
+        [
+          60.0,
+          77.2
+        ],
+        [
+          380.0,
+          261.4
+        ],
+        [
+          700.0,
+          263.0
+        ]
+      ],
+      [
+        [
+          60.0,
+          76.4
+        ],
+        [
+          380.0,
+          260.9
+        ],
+        [
+          700.0,
+          262.5
+        ]
+      ]
+    ],
+    "all_coordinates_finite": true,
+    "matches_notebook_svg": true
+  }
+}

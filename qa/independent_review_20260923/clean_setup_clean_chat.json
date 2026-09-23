@@ -1,0 +1,31 @@
+{
+  "model": "llm_runs/20260923T062639_403952Z/model.pt",
+  "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the gardener feels",
+      "seed": 2026,
+      "response": "tired before work .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the client discussed the",
+      "seed": 2027,
+      "response": "brand after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "last week the musicians",
+      "seed": 2028,
+      "response": "walked through the park .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

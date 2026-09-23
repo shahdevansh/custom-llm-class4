@@ -1,0 +1,150 @@
+{
+  "created_at": "2026-09-23T06:58:55.394044+00:00",
+  "command": "source .venv/bin/activate\npython chat.py --model tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/model.pt --transcript qa/independent_review_20260923/selected_chat_transcript.json",
+  "exit_code": 0,
+  "duration_seconds": 1.6927354170002218,
+  "selected_checkpoint": "tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/model.pt",
+  "checkpoint_file_sha256": "092bf04c266d0985491707b6ea9cc3aeafa7d505c58829d351aeacc622fd5169",
+  "checkpoint_unchanged": true,
+  "model_state_sha256": "f9adaae02d3d29d3d0a70b572ef6d8a8f7eeff300e87657a0e6a9afeefc68de5",
+  "transcript_hash_matches_checkpoint": true,
+  "completed_steps": 3000,
+  "vocabulary_size": 319,
+  "model_args": {
+    "block_size": 48,
+    "vocab_size": 319,
+    "n_layer": 2,
+    "n_head": 4,
+    "n_embd": 64,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "turn_count": 8,
+  "same_frozen_prompts": true,
+  "same_prompts_and_seeds_as_original": true,
+  "same_generation_settings": true,
+  "preserved_original_evidence": {
+    "qa/independent_review_20260923/own_prompts.json": true,
+    "qa/independent_review_20260923/own_chat_transcript.json": true,
+    "qa/independent_review_20260923/review.md": true
+  },
+  "transcript_sha256": "3299335f840e7be7e8a9388a9a01913d72b0890517f50f2dd91661cd8d2b1018",
+  "rows": [
+    {
+      "id": "review_01",
+      "prompt": "the investor reviewed the",
+      "seed": 2026,
+      "original_response": "wall in the sun , which is bright , which is dark .",
+      "selected_response": "bag of rice , while the kitchen , which is bag in the kitchen .",
+      "original_unknown": [
+        "investor"
+      ],
+      "selected_unknown": [
+        "investor"
+      ],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_02",
+      "prompt": "the doctor works at the",
+      "seed": 2027,
+      "original_response": "hospital is short , but the hospital is long .",
+      "selected_response": "garden is short .",
+      "original_unknown": [],
+      "selected_unknown": [],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_03",
+      "prompt": "yesterday the artist",
+      "seed": 2028,
+      "original_response": "is empty , while the visitor is soft .",
+      "selected_response": "was empty , which is empty , the rice bowl on the table is full .",
+      "original_unknown": [],
+      "selected_unknown": [],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_04",
+      "prompt": "the teachers",
+      "seed": 2029,
+      "original_response": "the box in the hall , which is empty , with the office is full .",
+      "selected_response": "the box in the hall is empty , traffic , peach near the tree is full .",
+      "original_unknown": [
+        "teachers"
+      ],
+      "selected_unknown": [
+        "teachers"
+      ],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_05",
+      "prompt": "the stone is heavy but the feather is",
+      "seed": 2030,
+      "original_response": "light .",
+      "selected_response": "heavy , but the stone near the farmer is light .",
+      "original_unknown": [
+        "feather"
+      ],
+      "selected_unknown": [
+        "feather"
+      ],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_06",
+      "prompt": "the opposite of cold is",
+      "seed": 2031,
+      "original_response": "loud and the new instructor was loud and the lesson at the school was short .",
+      "selected_response": "hot , but the soup in the pot in the new pot .",
+      "original_unknown": [],
+      "selected_unknown": [],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_07",
+      "prompt": "write a story about a dragon",
+      "seed": 2032,
+      "original_response": "the local customer .",
+      "selected_response": "our local customer and service .",
+      "original_unknown": [
+        "dragon",
+        "story",
+        "write"
+      ],
+      "selected_unknown": [
+        "dragon",
+        "story",
+        "write"
+      ],
+      "original_truncated": false,
+      "selected_truncated": false
+    },
+    {
+      "id": "review_08",
+      "prompt": "two plus two equals",
+      "seed": 2033,
+      "original_response": "the course and the local instructor .",
+      "selected_response": "the important peach was mentioned in the fruit report yesterday .",
+      "original_unknown": [
+        "equals",
+        "plus",
+        "two"
+      ],
+      "selected_unknown": [
+        "equals",
+        "plus",
+        "two"
+      ],
+      "original_truncated": false,
+      "selected_truncated": false
+    }
+  ]
+}

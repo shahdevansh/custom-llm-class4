@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "run_evals.py",
+      "--model",
+      "llm_runs/20260923T043154_967139Z/model_untrained.pt",
+      "--output",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/replay/starter-untrained"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.071297708000202,
+    "stdout": "number of parameters: 0.11M\nLanguage evals (final): 9/48; 24/48 cases have usable vocabulary/context.\n  extend_corpus: 0/24 correct; 0 scorable\n  starter_patterns: 6/16 correct; 16 scorable\n  starter_transfer: 3/8 correct; 8 scorable\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "run_evals.py",
+      "--model",
+      "llm_runs/20260923T043154_967139Z/model.pt",
+      "--output",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/replay/starter-final"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.7713774160001776,
+    "stdout": "number of parameters: 0.11M\nLanguage evals (final): 20/48; 24/48 cases have usable vocabulary/context.\n  extend_corpus: 0/24 correct; 0 scorable\n  starter_patterns: 16/16 correct; 16 scorable\n  starter_transfer: 4/8 correct; 8 scorable\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "run_evals.py",
+      "--model",
+      "llm_runs/20260923T062639_403952Z/model_untrained.pt",
+      "--output",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/replay/expanded-untrained"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.0417071250012668,
+    "stdout": "number of parameters: 0.12M\nLanguage evals (final): 9/48; 27/48 cases have usable vocabulary/context.\n  extend_corpus: 2/24 correct; 3 scorable\n  starter_patterns: 4/16 correct; 16 scorable\n  starter_transfer: 3/8 correct; 8 scorable\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "run_evals.py",
+      "--model",
+      "llm_runs/20260923T062639_403952Z/model.pt",
+      "--output",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/replay/expanded-final"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.8130311249988154,
+    "stdout": "number of parameters: 0.12M\nLanguage evals (final): 24/48; 27/48 cases have usable vocabulary/context.\n  extend_corpus: 0/24 correct; 3 scorable\n  starter_patterns: 16/16 correct; 16 scorable\n  starter_transfer: 8/8 correct; 8 scorable\n",
+    "stderr": ""
+  },
+  {
+    "command": "source .venv/bin/activate\npython chat.py --model llm_runs/20260923T062639_403952Z/model.pt --transcript qa/independent_review_20260923/own_chat_transcript.json",
+    "pty": true,
+    "exit_code": 0,
+    "duration_seconds": 1.4848098330003268,
+    "prompts_file": "own_prompts.json"
+  }
+]

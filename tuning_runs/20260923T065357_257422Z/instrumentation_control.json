@@ -1,0 +1,7 @@
+{
+  "instrumented_run": "balanced_lr0.003_seed42",
+  "control_run": "balanced_lr0.003_seed42_control",
+  "model_equal": true,
+  "optimizer_equal": true,
+  "torch_rng_equal": true
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "check": "docs/tuning_findings.md.links",
+    "passed": true,
+    "missing": []
+  },
+  {
+    "check": "tuning_runs/20260923T065432_482471Z/REPORT.md.links",
+    "passed": true,
+    "missing": []
+  },
+  {
+    "check": "notebook_complete",
+    "passed": true,
+    "code_cells": 8
+  },
+  {
+    "check": "all_study_audits_passed",
+    "passed": true,
+    "count": 96
+  },
+  {
+    "check": "all_runs_preserved",
+    "passed": true,
+    "run_count": 11,
+    "evaluated_count": 10
+  }
+]

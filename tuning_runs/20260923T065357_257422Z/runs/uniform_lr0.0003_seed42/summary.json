@@ -1,0 +1,35 @@
+{
+  "run_id": "uniform_lr0.0003_seed42",
+  "sampling": "uniform",
+  "peak_lr": 0.0003,
+  "seed": 42,
+  "initial_model_sha256": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+  "model_sha256": "ea28d6efa7b944d4c2952bffa0b925ec8b3c9785b5ec7f2afecd46c15c7f4640",
+  "schedule_sha256": "399abf8ba2e5afdaffa646ac8e13fbc3ed73dd7c5dee464a083be6b03628ae6b",
+  "input_sha256": {
+    "llm_runs/20260923T062639_403952Z/corpus.txt": "8442979a14945380975d21a96fb9266a0eed74a1e76270d7c14957366061def6",
+    "llm_runs/20260923T062639_403952Z/split.json": "11ea8b470c19060964505032088570bd320fb99982d0f05daad234e4a7ae088d",
+    "llm_runs/20260923T062639_403952Z/tokenization.json": "438c82412bbbb0138b40efce9e8ceebccb2aabf60534d03eab636d5bb6ed7662",
+    "llm_runs/20260923T062639_403952Z/model_untrained.pt": "66ea025ed8c4c644c94ac0e1114f82a300f0d0aa0d35738cb6d414f6fd71d300",
+    "corpus/expanded/grammar_practice.txt": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8",
+    "corpus/expanded/contextual_contrasts.txt": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710",
+    "nanogpt_model.py": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c",
+    "run_evals.py": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0",
+    "evals/language_evals.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7"
+  },
+  "panel_sha256": "713c6e90eee69fbf3ddb7cfaeb679239aebe8e8be82cdfe51124d7e034f49891",
+  "final": {
+    "step": 3000,
+    "starter": 0.7449866533279419,
+    "grammar": 1.372893214225769,
+    "contrasts": 1.5329264402389526,
+    "original": 0.8387090563774109,
+    "macro": 1.216935435930888
+  },
+  "elapsed_seconds": 14.10886691700216,
+  "completed_steps": 3000,
+  "max_gradient_norm": 4.490054607391357,
+  "clipped_steps": 1412,
+  "instrumented": true,
+  "path": "tuning_runs/20260923T065357_257422Z/runs/uniform_lr0.0003_seed42"
+}

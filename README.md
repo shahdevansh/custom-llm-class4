@@ -1,22 +1,20 @@
 # Class 4: two executed custom-LLM experiments
 
-This repository contains executed notebooks, saved trained and untrained weights, all 192 case results, raw samples, and a recorded terminal session. All results come from these two runs. Confidence is **high** in the recorded results, **moderate** in the interpretation of learned corpus patterns, and **low** in attributing the gains solely to the added examples because initialization and split membership also changed.
+Two fresh nanoGPT models completed 3,000 training updates each. The same 48-case suite ran before and after each experiment, producing **192 recorded case results**. Executed notebooks: [starter](custom_llm.ipynb) and [expanded corpus](custom_llm_expanded.ipynb).
 
-Both fresh nanoGPT runs completed 3,000 updates. The starter scored **20/48 (41.67%)** after training; the expanded corpus scored **24/48 (50.00%)**. The four additional correct answers came from the familiar-vocabulary `new_wording` category. **All 24 extension cases still failed after training**, despite increased vocabulary coverage.
+## Evaluation result sets
 
-## Evidence entry points
+| Experiment / stage | Correct / all | All-case success | Scorable | Scorable accuracy | Coverage | Complete evidence |
+|---|---:|---:|---:|---:|---:|---|
+| Starter / untrained | 9/48 | 18.75% | 24 | 37.50% | 50.00% | [JSON](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.json) · [CSV](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.csv) · [summary](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_summary.json) · [cases](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_cases.json) |
+| Starter / trained | 20/48 | 41.67% | 24 | 83.33% | 50.00% | [JSON](llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.json) · [CSV](llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.csv) · [summary](llm_runs/20260923T043154_967139Z/language_evals/final/eval_summary.json) · [cases](llm_runs/20260923T043154_967139Z/language_evals/final/eval_cases.json) |
+| Expanded / untrained | 9/48 | 18.75% | 27 | 33.33% | 56.25% | [JSON](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.json) · [CSV](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.csv) · [summary](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_summary.json) · [cases](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_cases.json) |
+| Expanded / trained | 24/48 | 50.00% | 27 | 88.89% | 56.25% | [JSON](llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.json) · [CSV](llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.csv) · [summary](llm_runs/20260923T062639_403952Z/language_evals/final/eval_summary.json) · [cases](llm_runs/20260923T062639_403952Z/language_evals/final/eval_cases.json) |
 
-- [Machine-readable verification report](qa/audit.json) and [audit source](scripts/audit_artifacts.py): reconstruct training-only vocabularies, check splits and source hashes, replay every saved evaluation, verify notebook execution and ZIP contents. The [14 upstream tests](qa/course_tests.log) also passed, and the [documented evaluation CLI](qa/cli_eval_replay.log) reproduced the expanded score.
-
-- **Starter**: [executed notebook](custom_llm.ipynb), [complete run folder](llm_runs/20260923T043154_967139Z/), [results ZIP](llm_runs/20260923T043154_967139Z.zip). Run ID: `20260923T043154_967139Z`.
-
-- **Expanded**: [executed notebook](custom_llm_expanded.ipynb), [complete run folder](llm_runs/20260923T062639_403952Z/), [results ZIP](llm_runs/20260923T062639_403952Z.zip). Run ID: `20260923T062639_403952Z`.
-
-- [Detailed learning evidence](docs/learning_evidence.md): complete 64-coordinate before/after vectors, gradients, probabilities, all timeline and temperature samples, and case-by-case score changes.
-
-- [Actual terminal recording](evidence/chat_recording.html), [recording source](evidence/chat.cast), [terminal text](evidence/chat_terminal.txt), and [chat transcript](evidence/chat_transcript.json). Download/open the HTML locally to play it if GitHub shows its source.
-
-- [Prediction recorded before training](docs/pretraining_plan.md), [corpus rationale and provenance](docs/corpus_design.md), [execution ledger](experiment_runs.json), and [original assignment](ASSIGNMENT.md).
+- **Extension categories and added data:** **grammar** and **opposites**. Added [528 grammar passages](corpus/expanded/grammar_practice.txt) and [384 contextual-contrast passages](corpus/expanded/contextual_contrasts.txt), for **912 unique additions**. Total corpus size grew from 4,592 to 5,504 unique passages. [Design and sources](docs/corpus_design.md).
+- **Finding and concrete failure:** trained scores rose from **20/48 to 24/48**, with all four gains in familiar-vocabulary rephrasings. The expanded model still failed **all 24 extension cases**. For `yesterday she`, it selected `walk` instead of `walked` even though every required word was known. [Case evidence and limitations](#what-improved-and-what-failed).
+- **Working chat evidence:** **four actual interactions** with the saved expanded model, including failures. [Recording](evidence/chat_recording.html) · [transcript](evidence/chat_transcript.json) · [screenshot](evidence/chat_screenshot.png) · [interface source](chat.py) · [launch instructions](#working-chat).
+- **Training/evaluation separation:** [98 verification checks](qa/training_separation.json), source reconstruction, and exact retraining of all 23 original and supplemental final checkpoints. [Controls and recheck command](#proof-of-trainingevaluation-separation).
 
 ## What was chosen and why
 
@@ -52,6 +50,20 @@ Within each run, the vocabulary, train/validation split, fixed loss panels, seed
 
 **Expanded audit links:** [config.json](llm_runs/20260923T062639_403952Z/config.json) · [corpus_manifest.json](llm_runs/20260923T062639_403952Z/corpus_manifest.json) · [vocabulary_report.json](llm_runs/20260923T062639_403952Z/vocabulary_report.json) · [split.json](llm_runs/20260923T062639_403952Z/split.json) · [corpus.txt](llm_runs/20260923T062639_403952Z/corpus.txt) · [tokenization.json](llm_runs/20260923T062639_403952Z/tokenization.json) · [training_summary.json](llm_runs/20260923T062639_403952Z/training_summary.json) · [eval_separation.json](llm_runs/20260923T062639_403952Z/eval_separation.json)
 
+## Proof of training/evaluation separation
+
+- **Enforced before training:** the course loader excludes 160 reserved-prefix passages before splitting or building vocabulary, rejects exact eval prompts in imported text, and rejects training folders containing the project root or eval directory. Evaluation runs in inference mode and checks that weights stay unchanged.
+- **Inputs reconstructed:** the [separation audit](qa/training_separation.json) regenerated both teaching files and both saved corpora byte for byte, then reconstructed the training splits and vocabularies. The manifests contain only the classroom generator and the two declared teaching files. Scans found **zero matches** for normalized eval prompts, prompt-answer sequences, ordered choice lists, or serialized answer-key/result signatures. Deliberately injected examples were detected.
+- **Weights reproduced:** **98 checks passed, zero failed.** Fifteen fresh 3,000-step runs reproduced the exact model-state hashes of **all 23 final checkpoints**, including both tuning studies. Only reconstructed teaching passages and verified training indices entered these replays; tracing recorded **zero file opens during weight updates**.
+
+The audit records one generated response matching a teaching sentence already present in the pre-tuning source commit. Its source and clean replay account for that overlap. These checks establish reproducible input separation; exhaustive paraphrase detection remains a source-review judgment. [Independent corpus review](qa/independent_review_20260923/notebook_corpus/corpus_check/findings.md).
+
+Reverify with the [audit script](scripts/audit_training_separation.py):
+
+~~~sh
+.venv/bin/python scripts/audit_training_separation.py --retrain-all
+~~~
+
 ## Before training: prediction
 
 The [pretraining plan](docs/pretraining_plan.md) set three expectations:
@@ -67,7 +79,7 @@ The [pretraining plan](docs/pretraining_plan.md) set three expectations:
 - In the expanded run, `customer`'s closest vectors changed from `traffic`, `chair`, and `waiting` to `subscriber`, `client`, and `shopper`.
 - Plausible templates coexisted with malformed sentences and failed transfer.
 
-## Evaluation result sets
+## Evaluation method and detailed results
 
 - **Suite:** 48 fixed cases: 16 starter patterns, 8 new phrasings, and 24 extension challenges.
 - **Scoring:** the correct word must have the highest probability among four choices. Ties earn zero; free continuations are saved separately.
@@ -76,12 +88,6 @@ The [pretraining plan](docs/pretraining_plan.md) set three expectations:
 - **Separation:** only the prefix enters the model; weights stay fixed during evaluation. Each corpus excludes 160 reserved-prefix passages. Exact-prefix checks are supplemented by source review; semantic overlap remains a review limitation.
 - **Interpretation:** these public tests guided category selection and serve as a development benchmark.
 
-| Experiment / stage | Correct / all | All-case success | Scorable | Scorable accuracy | Coverage | Complete evidence |
-|---|---:|---:|---:|---:|---:|---|
-| Starter / untrained | 9/48 | 18.75% | 24 | 37.50% | 50.00% | [JSON](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.json) · [CSV](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_results.csv) · [summary](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_summary.json) · [cases](llm_runs/20260923T043154_967139Z/language_evals/untrained/eval_cases.json) |
-| Starter / final | 20/48 | 41.67% | 24 | 83.33% | 50.00% | [JSON](llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.json) · [CSV](llm_runs/20260923T043154_967139Z/language_evals/final/eval_results.csv) · [summary](llm_runs/20260923T043154_967139Z/language_evals/final/eval_summary.json) · [cases](llm_runs/20260923T043154_967139Z/language_evals/final/eval_cases.json) |
-| Expanded / untrained | 9/48 | 18.75% | 27 | 33.33% | 56.25% | [JSON](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.json) · [CSV](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_results.csv) · [summary](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_summary.json) · [cases](llm_runs/20260923T062639_403952Z/language_evals/untrained/eval_cases.json) |
-| Expanded / final | 24/48 | 50.00% | 27 | 88.89% | 56.25% | [JSON](llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.json) · [CSV](llm_runs/20260923T062639_403952Z/language_evals/final/eval_results.csv) · [summary](llm_runs/20260923T062639_403952Z/language_evals/final/eval_summary.json) · [cases](llm_runs/20260923T062639_403952Z/language_evals/final/eval_cases.json) |
 
 ### Group results
 
@@ -205,11 +211,23 @@ The next step was to load the expanded model into [chat.py](chat.py) and try fou
 
 The familiar customer prompt produced a coherent sentence. The quantum prompt mapped every word to UNK and produced an unrelated continuation. The [recording](evidence/chat_recording.html) and [transcript](evidence/chat_transcript.json) preserve all four interactions.
 
+An independent reviewer launched this interface using only the repository instructions and recorded [eight new interactions](qa/independent_review_20260923/own_chat_recording.html) with [frozen prompts](qa/independent_review_20260923/own_prompts.json) and a [model-identified transcript](qa/independent_review_20260923/own_chat_transcript.json). A [fresh-environment check](qa/independent_review_20260923/clean_uv_setup_checks.json) reproduced three further replies and the complete expanded evaluation.
+
+The same reviewer also recorded [eight interactions with the tuned candidate](qa/independent_review_20260923/selected_chat_recording.html). The [paired comparison](qa/independent_review_20260923/tuning_chat_followup.md) was mixed: the past-tense and opposite-word starts improved, while the doctor/workplace and stone/feather responses regressed. Complete replies still contained malformed clauses and topic drift.
+
 **Launch from the repository root after setup:**
 
 ```sh
 python chat.py --model llm_runs/20260923T062639_403952Z/model.pt --transcript results/new-chat.json
 ```
+
+To try the tuned seed-42 candidate through the same interface:
+
+```sh
+python chat.py --model tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/model.pt --transcript results/tuned-chat.json
+```
+
+Its state hash is `f9adaae02d3d29d3d0a70b572ef6d8a8f7eeff300e87657a0e6a9afeefc68de5`. Both commands save actual replies and model identity. Use a fresh transcript filename for each session.
 
 <details>
 <summary>Environment setup, notebook execution, and evaluation commands</summary>
@@ -220,6 +238,16 @@ Use Python 3.12 and the recorded dependency versions:
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-lock.txt
+python -m ipykernel install --prefix .venv --name python3 --display-name "Custom LLM (Python 3.12)"
+```
+
+For a fresh checkout with `uv` installed, this alternative supplies Python and seeds `pip`. An independent reviewer verified it in an isolated environment:
+
+```sh
+uv venv --python 3.12 --seed .venv
+uv pip install --python .venv/bin/python -r requirements-lock.txt
+source .venv/bin/activate
+python -m pip check
 python -m ipykernel install --prefix .venv --name python3 --display-name "Custom LLM (Python 3.12)"
 ```
 
@@ -237,10 +265,17 @@ Keep a copy of the submitted notebooks before rerunning: these commands replace 
 The saved models are included in the repository and ZIPs. Replay all four evaluations using fresh output directories:
 
 ```sh
-python run_evals.py --model llm_runs/20260923T043154_967139Z/model_untrained.pt --output results/starter-untrained
+python run_evals.py --model llm_runs/20260923T043154_967139Z/model_untrained.pt --stage untrained --output results/starter-untrained
 python run_evals.py --model llm_runs/20260923T043154_967139Z/model.pt --output results/starter-final
-python run_evals.py --model llm_runs/20260923T062639_403952Z/model_untrained.pt --output results/expanded-untrained
+python run_evals.py --model llm_runs/20260923T062639_403952Z/model_untrained.pt --stage untrained --output results/expanded-untrained
 python run_evals.py --model llm_runs/20260923T062639_403952Z/model.pt --output results/expanded-final
+```
+
+Rerun either supplemental tuning protocol with its own launcher. Each creates a fresh timestamped study directory and replaces its corresponding supplemental notebook outputs:
+
+```sh
+python scripts/execute_tuning.py
+python scripts/execute_controlled_tuning.py
 ```
 
 </details>
@@ -256,17 +291,37 @@ python run_evals.py --model llm_runs/20260923T062639_403952Z/model.pt --output r
 | All 24 extension cases failed after training; only 3 were scorable | Vocabulary coverage and learning the tested relationship are separate hurdles |
 | Loss fell while some sentences became malformed | Average next-token fit can improve alongside individual failures |
 | Training and validation share templates and source files | The evidence covers a narrow distribution; transfer needs separate testing |
-| Five teaching examples contain `a artist seems ...` | Generated data needs a grammar review; the saved corpus preserves these errors as trained |
+| Nine teaching examples need proofreading: five `a artist` forms and four uses of `which` for people | Correct these in a new corpus version; the saved corpus preserves the text actually trained |
 
 The contrast examples may have transferred poorly to the test's tense and “opposite of” forms. Confidence in that explanation is **low** because a single run cannot isolate the cause.
 
 ## Next experiment
 
-1. Correct the five article errors and review the teaching sentences for agreement and tense.
+1. Correct the five article errors and four human relative-pronoun examples in a new corpus version; review agreement and tense.
 2. Freeze a new test suite with unseen situations and phrasing before revising the corpus further.
-3. Compare grammar-only and contrasts-only additions across several initialization seeds, reporting vocabulary coverage, case scores, and free continuations separately.
+3. Compare grammar-only and contrasts-only additions across multiple initialization and minibatch-sampling seeds. Report vocabulary coverage, case scores, and free continuations separately; the tuning supplement showed that the seed protocol changes the conclusion.
 
 **Assistance:** Codex helped design the corpus, execute the notebooks and chat demonstration, audit the evidence, and write the report.
+
+## Evidence entry points
+
+This repository contains executed notebooks, saved trained and untrained weights, all 192 original case results, raw samples, and recorded terminal sessions. The original two experiments are preserved; supplemental tuning and independent review are linked separately. Confidence is **high** in the recorded results, **moderate** in the interpretation of learned corpus patterns, and **low** in attributing the original gains solely to the added examples because initialization and split membership also changed.
+
+- [Machine-readable verification report](qa/audit.json) and [audit source](scripts/audit_artifacts.py): reconstruct training-only vocabularies, check splits and source hashes, replay every saved evaluation, verify notebook execution and ZIP contents. The [14 upstream tests](qa/course_tests.log) also passed, and the [documented evaluation CLI](qa/cli_eval_replay.log) reproduced the expanded score.
+
+- **Starter**: [executed notebook](custom_llm.ipynb), [complete run folder](llm_runs/20260923T043154_967139Z/), [results ZIP](llm_runs/20260923T043154_967139Z.zip). Run ID: `20260923T043154_967139Z`.
+
+- **Expanded**: [executed notebook](custom_llm_expanded.ipynb), [complete run folder](llm_runs/20260923T062639_403952Z/), [results ZIP](llm_runs/20260923T062639_403952Z.zip). Run ID: `20260923T062639_403952Z`.
+
+- [Detailed learning evidence](docs/learning_evidence.md): complete 64-coordinate before/after vectors, gradients, probabilities, all timeline and temperature samples, and case-by-case score changes.
+
+- [Actual terminal recording](evidence/chat_recording.html), [recording source](evidence/chat.cast), [terminal text](evidence/chat_terminal.txt), and [chat transcript](evidence/chat_transcript.json). Download/open the HTML locally to play it if GitHub shows its source.
+
+- [Prediction recorded before training](docs/pretraining_plan.md), [corpus rationale and provenance](docs/corpus_design.md), [execution ledger](experiment_runs.json), and [original assignment](ASSIGNMENT.md).
+
+- **Independent review:** [findings](qa/independent_review_20260923/review.md), [machine-readable checks](qa/independent_review_20260923/review_summary.json), and [eight actual new chat interactions](qa/independent_review_20260923/own_chat_recording.html). The reviewer reproduced all 192 cases and both complete training runs.
+
+- **Fixed sources:** [48-case suite](evals/language_evals.json), [evaluation runner](run_evals.py), [starter token/embedding/gradient inspection](llm_runs/20260923T043154_967139Z/inspection.json), and [expanded inspection](llm_runs/20260923T062639_403952Z/inspection.json).
 
 ## Actual embedding viewers
 
@@ -275,3 +330,28 @@ Open the [starter viewer](evidence/embeddings_starter.html) or [expanded viewer]
 ![Expanded customer before training](evidence/embeddings_before.png)
 
 ![Expanded customer after training](evidence/embeddings_after.png)
+
+## Controlled tuning supplement
+
+- Six settings compared peak learning rates **0.0003, 0.001, 0.003** with uniform sampling or batches of **16 starter, eight grammar, eight contrast passages**. Corpus, vocabulary, split and architecture stayed fixed.
+- Validation selected balanced sampling at **0.003**. At seed 42, category-average loss fell **0.906704 → 0.834300** and the benchmark improved **24/48 → 26/48**, with two opposite-word gains and zero regressions. Coverage stayed **27/48**.
+- Confirmation depended on the seed protocol. The candidate remains exploratory; the original baseline remains the default.
+
+| Confirmation protocol | Seed 43: baseline → candidate | Seed 44: baseline → candidate | Category-average validation loss |
+|---|---:|---:|---|
+| Change initialization; retain seed-42 minibatches | 25 → 25 | 26 → 25 | Increased on both confirmation seeds |
+| Change initialization and minibatch sampling | 26 → 26 | 25 → 27 | Decreased on both confirmation seeds |
+
+Both protocols share the seed-42 comparison. Their results are reported separately: [initialization-only findings and recommendations](docs/tuning_findings.md), [full study](tuning_runs/20260923T065432_482471Z/REPORT.md), [executed notebook](custom_llm_tuning.ipynb), [initialization-and-sampling study](docs/tuning_results.md), and [executed notebook](output/jupyter-notebook/custom_llm_tuning.ipynb). Each retains all trials, checkpoints, optimizer states, case results and validation curves.
+
+**One actual update, step 1,000:** the preselected training passage was `a gardener seems calm today .`. AdamW used learning rate `0.00240881256`; the gradient of embedding token `gardener` (ID 101), coordinate 0 was `0.00666711060`.
+
+| Measurement | Before | After |
+|---|---:|---:|
+| Minibatch loss | 0.652824819 | 0.640562475 |
+| P(`calm` after `a gardener seems`) | 21.3535% | 23.4117% |
+| Embedding coordinate | -0.124654554 | -0.124877147 |
+| Category-average validation loss | 0.853395243 | 0.852127512 |
+| Original-panel validation loss | 0.780086398 | 0.781157315 |
+
+The whole network changed during this step. Batch fit and the selected target probability improved; original-panel loss increased. [Saved gradients and AdamW moments](tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/gradient_update.json) reconstruct the coordinate change within `1.5e-9`. An [independent replay audit](tuning_runs/20260923T065357_257422Z/update_replay_audit.json) reproduced all ten recorded updates exactly, including every model weight and optimizer state.

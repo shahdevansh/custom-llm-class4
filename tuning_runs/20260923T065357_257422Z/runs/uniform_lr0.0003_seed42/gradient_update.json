@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 3969,
+    "passage": "the farmers are tired before work .",
+    "prefix": "the farmers are",
+    "target": "tired",
+    "embedding_token": "farmers",
+    "token_id": 88,
+    "coordinate": 0,
+    "batch_document_indices": [
+      1224,
+      3911,
+      868,
+      1090,
+      2582,
+      19,
+      3363,
+      2517,
+      1883,
+      3969,
+      4498,
+      3354,
+      1026,
+      4569,
+      3134,
+      945,
+      2994,
+      3986,
+      1160,
+      4540,
+      2950,
+      3951,
+      3155,
+      4053,
+      1520,
+      909,
+      3595,
+      4720,
+      1545,
+      4054,
+      1602,
+      273
+    ]
+  },
+  "learning_rate": 0.0002408812560100376,
+  "before": {
+    "batch_loss": 1.1287811994552612,
+    "target_probability": 0.1125483512878418,
+    "validation": {
+      "starter": 0.9519252181053162,
+      "grammar": 1.9462143182754517,
+      "contrasts": 1.9301456212997437,
+      "original": 1.1059764623641968,
+      "macro": 1.609428385893504
+    },
+    "parameter": -0.03893697261810303
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.00042874523205682635,
+    "v": 3.891351752827177e-06
+  },
+  "raw_gradient": 0.015170644968748093,
+  "gradient_norm_before_clipping": 1.350050449371338,
+  "clip_multiplier": 0.7407125117088375,
+  "clipped_gradient": 0.011237086728215218,
+  "after": {
+    "batch_loss": 1.1220660209655762,
+    "target_probability": 0.1128222718834877,
+    "validation": {
+      "starter": 0.9521348476409912,
+      "grammar": 1.9329107999801636,
+      "contrasts": 1.9243453741073608,
+      "original": 1.1051572561264038,
+      "macro": 1.6031303405761719
+    },
+    "parameter": -0.039051808416843414
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 0.0015095793642103672,
+    "v": 1.0010389814851806e-05
+  },
+  "weight_decay_delta": 9.379186869477099e-08,
+  "adaptive_delta": -0.00011492965154659533,
+  "predicted_delta_float64": -0.00011483585967790056,
+  "actual_delta": -0.00011483579874038696,
+  "reconstruction_error": 6.093751359363599e-11
+}

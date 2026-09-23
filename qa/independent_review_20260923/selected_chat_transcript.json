@@ -1,0 +1,80 @@
+{
+  "model": "tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/model.pt",
+  "model_sha256": "f9adaae02d3d29d3d0a70b572ef6d8a8f7eeff300e87657a0e6a9afeefc68de5",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the investor reviewed the",
+      "seed": 2026,
+      "response": "bag of rice , while the kitchen , which is bag in the kitchen .",
+      "unknown_prompt_words": [
+        "investor"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the doctor works at the",
+      "seed": 2027,
+      "response": "garden is short .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "yesterday the artist",
+      "seed": 2028,
+      "response": "was empty , which is empty , the rice bowl on the table is full .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the teachers",
+      "seed": 2029,
+      "response": "the box in the hall is empty , traffic , peach near the tree is full .",
+      "unknown_prompt_words": [
+        "teachers"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the stone is heavy but the feather is",
+      "seed": 2030,
+      "response": "heavy , but the stone near the farmer is light .",
+      "unknown_prompt_words": [
+        "feather"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of cold is",
+      "seed": 2031,
+      "response": "hot , but the soup in the pot in the new pot .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "write a story about a dragon",
+      "seed": 2032,
+      "response": "our local customer and service .",
+      "unknown_prompt_words": [
+        "dragon",
+        "story",
+        "write"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "two plus two equals",
+      "seed": 2033,
+      "response": "the important peach was mentioned in the fruit report yesterday .",
+      "unknown_prompt_words": [
+        "equals",
+        "plus",
+        "two"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}

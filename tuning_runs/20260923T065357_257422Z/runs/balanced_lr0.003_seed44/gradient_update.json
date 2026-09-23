@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 362,
+    "passage": "many bakers wait near the gate every day .",
+    "prefix": "many bakers wait",
+    "target": "near",
+    "embedding_token": "many",
+    "token_id": 150,
+    "coordinate": 0,
+    "batch_document_indices": [
+      3181,
+      362,
+      3960,
+      297,
+      1510,
+      3561,
+      1712,
+      2563,
+      3728,
+      522,
+      4359,
+      4816,
+      2878,
+      440,
+      2686,
+      817,
+      4943,
+      4772,
+      4041,
+      601,
+      1834,
+      3906,
+      1174,
+      649,
+      1155,
+      901,
+      1462,
+      1241,
+      3894,
+      367,
+      1411,
+      4522
+    ]
+  },
+  "learning_rate": 0.0024088125601003764,
+  "before": {
+    "batch_loss": 0.7130818367004395,
+    "target_probability": 0.9988607168197632,
+    "validation": {
+      "starter": 0.7854077219963074,
+      "grammar": 1.1995089054107666,
+      "contrasts": 0.7227493524551392,
+      "original": 0.8087984919548035,
+      "macro": 0.9025553266207377
+    },
+    "parameter": 0.07785182446241379
+  },
+  "moments_before": {
+    "step": 999,
+    "m": -0.00040903117042034864,
+    "v": 1.3376497008721344e-05
+  },
+  "raw_gradient": -0.01667274907231331,
+  "gradient_norm_before_clipping": 0.5514112710952759,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": -0.01667274907231331,
+  "after": {
+    "batch_loss": 0.6948657035827637,
+    "target_probability": 0.9990279674530029,
+    "validation": {
+      "starter": 0.7857615351676941,
+      "grammar": 1.184992790222168,
+      "contrasts": 0.7336809039115906,
+      "original": 0.8107253313064575,
+      "macro": 0.9014784097671509
+    },
+    "parameter": 0.07880045473575592
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": -0.002035402925685048,
+    "v": 2.660669997567311e-05
+  },
+  "weight_decay_delta": -1.8753045259179206e-06,
+  "adaptive_delta": 0.0009505107944696079,
+  "predicted_delta_float64": 0.00094863548994369,
+  "actual_delta": 0.0009486302733421326,
+  "reconstruction_error": -5.2166015574069136e-09
+}

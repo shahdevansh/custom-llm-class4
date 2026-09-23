@@ -1,0 +1,29 @@
+{
+  "note": "Exploratory descriptive count only: sampled first token equals benchmark answer. This is NOT the official four-choice metric, not a fluency rating, and one fixed sample per case cannot estimate reliable generative accuracy. OOV cases are retained in all48 denominator.",
+  "runs": {
+    "starter-untrained": {
+      "first_generated_word_matches_expected_count_all48": 0,
+      "empty_free_continuations": 0,
+      "unscorable_count": 24,
+      "scored_wrong_count": 15
+    },
+    "starter-final": {
+      "first_generated_word_matches_expected_count_all48": 14,
+      "empty_free_continuations": 10,
+      "unscorable_count": 24,
+      "scored_wrong_count": 4
+    },
+    "expanded-untrained": {
+      "first_generated_word_matches_expected_count_all48": 0,
+      "empty_free_continuations": 0,
+      "unscorable_count": 21,
+      "scored_wrong_count": 18
+    },
+    "expanded-final": {
+      "first_generated_word_matches_expected_count_all48": 11,
+      "empty_free_continuations": 0,
+      "unscorable_count": 21,
+      "scored_wrong_count": 3
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-23T07:00:00.600625+00:00",
+  "overall_judgment": "mixed",
+  "conclusion": "Local past-tense and opposite-word starts improve, with clear regressions and no established broad improvement in coherent generation.",
+  "confidence_for_these_observed_outputs": "high",
+  "confidence_in_broad_generalization": "low",
+  "grading": "No new grade; original snapshot review remains unchanged.",
+  "method": "Same frozen8prompts and seeds2026\u20132033; qualitative judgments, not a new benchmark percentage. Independent criteria reviewer read only original prompts/responses before selected outputs.",
+  "judgments": [
+    {
+      "id": "review_01",
+      "direction": "Still fails; grammar worse",
+      "grammar": "Original has a clause structure but contradictory brightness attributes; selected has a broken while-clause and missing determiner in which is bag.",
+      "relevance": "Neither demonstrates finance context; investor is unknown in both."
+    },
+    {
+      "id": "review_02",
+      "direction": "Worse local relevance; grammar still fails",
+      "grammar": "Both append a second finite predicate to the doctor works at the ... prefix.",
+      "relevance": "Original at least selects hospital; selected selects garden, losing the intended medical workplace association."
+    },
+    {
+      "id": "review_03",
+      "direction": "Partial local improvement; full response still fails",
+      "grammar": "was improves the past-tense start compared with is; selected then shifts to is, comma-splices clauses and drifts.",
+      "relevance": "Describing an artist as empty and introducing a rice bowl remains unnatural and unrelated."
+    },
+    {
+      "id": "review_04",
+      "direction": "Still fails",
+      "grammar": "Selected contains an internal the box ... is empty clause, but it does not connect to the initial the teachers; later traffic, peach fragment is malformed.",
+      "relevance": "Neither produces a coherent continuation or demonstrates plural agreement; teachers is unknown in both."
+    },
+    {
+      "id": "review_05",
+      "direction": "Worse",
+      "grammar": "Original completes one clean sentence. Selected repeats but and changes the stone-related contrast.",
+      "relevance": "Original heavy stone/light feather becomes heavy feather/light stone; sensible familiar contrast is lost. Feather remains unknown, limiting any knowledge claim in either direction."
+    },
+    {
+      "id": "review_06",
+      "direction": "Partial local improvement; full response still fails",
+      "grammar": "Selected starts with the correct relation but ends in the incomplete clause but the soup in the pot in the new pot.",
+      "relevance": "hot correctly contrasts cold whereas original loud does not; the remaining text is repetitive and incomplete."
+    },
+    {
+      "id": "review_07",
+      "direction": "Still fails",
+      "grammar": "Both return noun phrases rather than a story opening with an event or action.",
+      "relevance": "No dragon-related narrative or instruction response; write, story, dragon remain unknown."
+    },
+    {
+      "id": "review_08",
+      "direction": "Still fails",
+      "grammar": "Selected response alone is a sentence, but combined with two plus two equals it is malformed/semantically incompatible.",
+      "relevance": "Neither supplies a numeric answer; two, plus, equals remain unknown."
+    }
+  ],
+  "independent_second_reader": {
+    "criteria_established_before_selected_output_inspection": true,
+    "judgment": "Mixed, with no clear overall improvement in these eight continuations.",
+    "confidence_for_observed_outputs": "high",
+    "agreed_findings": [
+      "Past-tense was and antonym hot improve locally",
+      "Feather light to heavy regresses",
+      "Doctor hospital to garden weakens expected occupational association",
+      "Finance continuation is more structurally defective",
+      "Plural agreement, story and arithmetic remain unsuccessful",
+      "Coverage unchanged; locally correct starts do not imply coherent full sentences"
+    ]
+  }
+}

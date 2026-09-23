@@ -1,0 +1,224 @@
+{
+  "study": "tuning_runs/20260923T065357_257422Z",
+  "selected_run": "balanced_lr0.003_seed42",
+  "configuration": [
+    "balanced",
+    0.003
+  ],
+  "selection_metric": "final macro category validation NLL",
+  "experimental_runs": 10,
+  "instrumentation_control_runs": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "total_cases": 48,
+  "scorable_cases": 27,
+  "coverage": 0.5625,
+  "original_panel_threshold": 0.7840672194957733,
+  "seed42_baseline": {
+    "run_id": "uniform_lr0.001_seed42",
+    "final": {
+      "step": 3000,
+      "starter": 0.7042302489280701,
+      "grammar": 1.2268199920654297,
+      "contrasts": 0.7890615463256836,
+      "original": 0.7467306852340698,
+      "macro": 0.9067039291063944
+    },
+    "evaluation": {
+      "correct": 24,
+      "total": 48,
+      "scorable": 27,
+      "success_rate_all_cases": 0.5,
+      "accuracy_scorable_cases": 0.8888888888888888,
+      "coverage": 0.5625
+    }
+  },
+  "seed42_selected": {
+    "run_id": "balanced_lr0.003_seed42",
+    "final": {
+      "step": 3000,
+      "starter": 0.7521906495094299,
+      "grammar": 1.0618976354599,
+      "contrasts": 0.688811719417572,
+      "original": 0.7557185292243958,
+      "macro": 0.8343000014623007
+    },
+    "evaluation": {
+      "correct": 26,
+      "total": 48,
+      "scorable": 27,
+      "success_rate_all_cases": 0.5416666666666666,
+      "accuracy_scorable_cases": 0.9629629629629629,
+      "coverage": 0.5625
+    }
+  },
+  "mean_baseline_correct": 25,
+  "mean_selected_correct": 26.333333333333332,
+  "mean_correct_change": 1.3333333333333333,
+  "mean_macro_loss_change": -0.06532296207216048,
+  "mean_original_loss_change": 0.010385592778523764,
+  "paired_correct_change_sample_sd": 1.1547005383792515,
+  "seed42_gained": [
+    "lang_28",
+    "lang_29"
+  ],
+  "seed42_regressed": [],
+  "displayed_case_ids": [
+    "lang_28",
+    "lang_29",
+    "lang_01",
+    "lang_02"
+  ],
+  "update": {
+    "update": 1000,
+    "probe": {
+      "document_index": 1859,
+      "passage": "a gardener seems calm today .",
+      "prefix": "a gardener seems",
+      "target": "calm",
+      "embedding_token": "gardener",
+      "token_id": 101,
+      "coordinate": 0,
+      "batch_document_indices": [
+        4339,
+        52,
+        3073,
+        1982,
+        1510,
+        2455,
+        4047,
+        1859,
+        4939,
+        3090,
+        781,
+        2407,
+        4343,
+        1253,
+        1705,
+        2786,
+        2235,
+        3499,
+        2896,
+        3126,
+        1313,
+        1632,
+        3027,
+        247,
+        1500,
+        4206,
+        4422,
+        2040,
+        307,
+        3664,
+        2326,
+        2733
+      ]
+    },
+    "learning_rate": 0.0024088125601003764,
+    "before": {
+      "batch_loss": 0.6528248190879822,
+      "target_probability": 0.21353507041931152,
+      "validation": {
+        "starter": 0.7884172797203064,
+        "grammar": 1.1039743423461914,
+        "contrasts": 0.6677941083908081,
+        "original": 0.7800863981246948,
+        "macro": 0.8533952434857687
+      },
+      "parameter": -0.12465455383062363
+    },
+    "moments_before": {
+      "step": 999,
+      "m": -0.00037600687937811017,
+      "v": 1.0595807907520793e-05
+    },
+    "raw_gradient": 0.006667110603302717,
+    "gradient_norm_before_clipping": 0.4434078335762024,
+    "clip_multiplier": 1.0,
+    "clipped_gradient": 0.006667110603302717,
+    "after": {
+      "batch_loss": 0.6405624747276306,
+      "target_probability": 0.23411670327186584,
+      "validation": {
+        "starter": 0.7888607978820801,
+        "grammar": 1.101342797279358,
+        "contrasts": 0.6661789417266846,
+        "original": 0.7811573147773743,
+        "macro": 0.8521275122960409
+      },
+      "parameter": -0.12487714737653732
+    },
+    "moments_after": {
+      "step": 1000,
+      "m": 0.00032830488635227084,
+      "v": 1.2288535799598321e-05
+    },
+    "weight_decay_delta": 3.0026945494091467e-06,
+    "adaptive_delta": -0.00022559477942348506,
+    "predicted_delta_float64": -0.00022259208487407592,
+    "actual_delta": -0.0002225935459136963,
+    "reconstruction_error": -1.4610396203691787e-09
+  },
+  "audit_passed": 44,
+  "audit_failed": 0,
+  "sensitivity": {
+    "study": "tuning_runs/20260923T065432_482471Z",
+    "data_rng_seed": 43,
+    "protocol": "Vary initialization only; hold each sampler's seed-42 minibatch schedule fixed.",
+    "shared_seed42_sweep": true,
+    "pooled": false,
+    "paired_results": [
+      {
+        "seed": 42,
+        "baseline": "uniform_lr0.001_seed42",
+        "selected": "balanced_lr0.003_seed42",
+        "baseline_correct": 24,
+        "selected_correct": 26,
+        "macro_loss_change": -0.07240392764409376,
+        "original_loss_change": 0.008987843990325928,
+        "guardrail_met": true,
+        "gains": [
+          "lang_28",
+          "lang_29"
+        ],
+        "regressions": []
+      },
+      {
+        "seed": 43,
+        "baseline": "uniform_lr0.001_seed43",
+        "selected": "balanced_lr0.003_seed43",
+        "baseline_correct": 25,
+        "selected_correct": 25,
+        "macro_loss_change": 0.051777323087056515,
+        "original_loss_change": 0.021595656871795654,
+        "guardrail_met": true,
+        "gains": [
+          "lang_21"
+        ],
+        "regressions": [
+          "lang_22"
+        ]
+      },
+      {
+        "seed": 44,
+        "baseline": "uniform_lr0.001_seed44",
+        "selected": "balanced_lr0.003_seed44",
+        "baseline_correct": 26,
+        "selected_correct": 25,
+        "macro_loss_change": 0.027320722738901737,
+        "original_loss_change": 0.0161626935005188,
+        "guardrail_met": true,
+        "gains": [],
+        "regressions": [
+          "lang_28"
+        ]
+      }
+    ],
+    "audit_passed": 96,
+    "interpretation": "Positive joint-seed findings did not replicate under fixed minibatch schedules. The selected setting remains exploratory; retain baseline pending crossed initialization and sampler seeds plus template-family holdouts."
+  },
+  "recommendation": "Retain baseline; selected setting is exploratory pending crossed-seed and template-holdout confirmation."
+}

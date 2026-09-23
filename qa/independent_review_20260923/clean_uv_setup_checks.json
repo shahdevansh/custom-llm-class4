@@ -1,0 +1,17 @@
+{
+  "route": "Proposed uv setup remedy; not original README instructions",
+  "started_at": "2026-09-23T06:55:20.808268+00:00",
+  "prompts": [
+    "the gardener feels",
+    "the client discussed the",
+    "last week the musicians"
+  ],
+  "chat_transcripts_identical": true,
+  "three_replies_present": true,
+  "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+  "fresh_environment_path": "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv",
+  "clean_eval_identical_to_original": true,
+  "success": true,
+  "temporary_environment_removed": true,
+  "ended_at": "2026-09-23T06:55:37.087426+00:00"
+}

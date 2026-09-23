@@ -1,0 +1,15 @@
+{
+  "selected_config": "balanced_lr0.003",
+  "sampler": "balanced",
+  "learning_rate": 0.003,
+  "baseline_config": "uniform_lr0.001",
+  "original_panel_limit": 0.7840672194957733,
+  "eligible": [
+    "uniform_lr0.001",
+    "uniform_lr0.003",
+    "balanced_lr0.001",
+    "balanced_lr0.003"
+  ],
+  "selected_utc": "2026-09-23T06:56:18.577065+00:00",
+  "basis": "final held-out category-macro loss with original-panel guardrail; no suite scores read"
+}

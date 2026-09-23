@@ -1,0 +1,775 @@
+{
+  "created_at": "2026-09-23T06:52:13.372660+00:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "executable": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.14.0"
+  },
+  "evaluations": {
+    "starter-untrained": {
+      "run_id": "20260923T043154_967139Z",
+      "checkpoint": "model_untrained.pt",
+      "completed_steps": 0,
+      "model_hash": "73fcac5a3daaed81be800a450cc50c3cd932db3b3b1cb79b27401124eeb1f16b",
+      "checkpoint_file_sha256": "6e1c99227a68e1e83cdd58ea28bf1bdddb113f43ba7b6e15cdd80498b3dd685a",
+      "vocabulary_size": 136,
+      "parameter_count": 111872,
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 136,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replay_case_count": 48,
+      "saved_json_case_count": 48,
+      "saved_csv_case_count": 48,
+      "rows_identical_except_stage": true,
+      "row_differences": [],
+      "summary_identical_except_stage": true,
+      "summary_difference_keys": [],
+      "csv_matches_json": true,
+      "csv_differences": [],
+      "suite_matches_current": true,
+      "stage_from_documented_command": "final",
+      "saved_stage": "untrained",
+      "summary": {
+        "suite_id": "synthetic-language-v1",
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "model_sha256": "73fcac5a3daaed81be800a450cc50c3cd932db3b3b1cb79b27401124eeb1f16b",
+        "stage": "final",
+        "settings": {
+          "seed": 2026,
+          "temperature": 0.8,
+          "max_tokens": 24
+        },
+        "metric": "highest-probability answer among four single-word choices; ties get zero",
+        "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+        "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+        "overall": {
+          "correct": 9,
+          "total": 48,
+          "scorable": 24,
+          "success_rate_all_cases": 0.1875,
+          "accuracy_scorable_cases": 0.375,
+          "coverage": 0.5
+        },
+        "by_group": {
+          "extend_corpus": {
+            "correct": 0,
+            "total": 24,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "starter_patterns": {
+            "correct": 6,
+            "total": 16,
+            "scorable": 16,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          },
+          "starter_transfer": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          }
+        },
+        "by_category": {
+          "categories_and_analogies": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "domain_context": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          },
+          "domain_place": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          },
+          "everyday_knowledge": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "grammar": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "negation": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "new_wording": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          },
+          "opposites": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "reference": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "sequence": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "spatial_relations": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          }
+        }
+      }
+    },
+    "starter-final": {
+      "run_id": "20260923T043154_967139Z",
+      "checkpoint": "model.pt",
+      "completed_steps": 3000,
+      "model_hash": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+      "checkpoint_file_sha256": "44f0f67db8622a4c7dad0636bd18ef9a95f1f466a95c58e7059076ad38932ace",
+      "vocabulary_size": 136,
+      "parameter_count": 111872,
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 136,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replay_case_count": 48,
+      "saved_json_case_count": 48,
+      "saved_csv_case_count": 48,
+      "rows_identical_except_stage": true,
+      "row_differences": [],
+      "summary_identical_except_stage": true,
+      "summary_difference_keys": [],
+      "csv_matches_json": true,
+      "csv_differences": [],
+      "suite_matches_current": true,
+      "stage_from_documented_command": "final",
+      "saved_stage": "final",
+      "summary": {
+        "suite_id": "synthetic-language-v1",
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "model_sha256": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+        "stage": "final",
+        "settings": {
+          "seed": 2026,
+          "temperature": 0.8,
+          "max_tokens": 24
+        },
+        "metric": "highest-probability answer among four single-word choices; ties get zero",
+        "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+        "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+        "overall": {
+          "correct": 20,
+          "total": 48,
+          "scorable": 24,
+          "success_rate_all_cases": 0.4166666666666667,
+          "accuracy_scorable_cases": 0.8333333333333334,
+          "coverage": 0.5
+        },
+        "by_group": {
+          "extend_corpus": {
+            "correct": 0,
+            "total": 24,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "starter_patterns": {
+            "correct": 16,
+            "total": 16,
+            "scorable": 16,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "starter_transfer": {
+            "correct": 4,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.5,
+            "accuracy_scorable_cases": 0.5,
+            "coverage": 1.0
+          }
+        },
+        "by_category": {
+          "categories_and_analogies": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "domain_context": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "domain_place": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "everyday_knowledge": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "grammar": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "negation": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "new_wording": {
+            "correct": 4,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.5,
+            "accuracy_scorable_cases": 0.5,
+            "coverage": 1.0
+          },
+          "opposites": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "reference": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "sequence": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "spatial_relations": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          }
+        }
+      }
+    },
+    "expanded-untrained": {
+      "run_id": "20260923T062639_403952Z",
+      "checkpoint": "model_untrained.pt",
+      "completed_steps": 0,
+      "model_hash": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+      "checkpoint_file_sha256": "66ea025ed8c4c644c94ac0e1114f82a300f0d0aa0d35738cb6d414f6fd71d300",
+      "vocabulary_size": 319,
+      "parameter_count": 123584,
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 319,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replay_case_count": 48,
+      "saved_json_case_count": 48,
+      "saved_csv_case_count": 48,
+      "rows_identical_except_stage": true,
+      "row_differences": [],
+      "summary_identical_except_stage": true,
+      "summary_difference_keys": [],
+      "csv_matches_json": true,
+      "csv_differences": [],
+      "suite_matches_current": true,
+      "stage_from_documented_command": "final",
+      "saved_stage": "untrained",
+      "summary": {
+        "suite_id": "synthetic-language-v1",
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "model_sha256": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+        "stage": "final",
+        "settings": {
+          "seed": 2026,
+          "temperature": 0.8,
+          "max_tokens": 24
+        },
+        "metric": "highest-probability answer among four single-word choices; ties get zero",
+        "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+        "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+        "overall": {
+          "correct": 9,
+          "total": 48,
+          "scorable": 27,
+          "success_rate_all_cases": 0.1875,
+          "accuracy_scorable_cases": 0.3333333333333333,
+          "coverage": 0.5625
+        },
+        "by_group": {
+          "extend_corpus": {
+            "correct": 2,
+            "total": 24,
+            "scorable": 3,
+            "success_rate_all_cases": 0.08333333333333333,
+            "accuracy_scorable_cases": 0.6666666666666666,
+            "coverage": 0.125
+          },
+          "starter_patterns": {
+            "correct": 4,
+            "total": 16,
+            "scorable": 16,
+            "success_rate_all_cases": 0.25,
+            "accuracy_scorable_cases": 0.25,
+            "coverage": 1.0
+          },
+          "starter_transfer": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          }
+        },
+        "by_category": {
+          "categories_and_analogies": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "domain_context": {
+            "correct": 2,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.25,
+            "accuracy_scorable_cases": 0.25,
+            "coverage": 1.0
+          },
+          "domain_place": {
+            "correct": 2,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.25,
+            "accuracy_scorable_cases": 0.25,
+            "coverage": 1.0
+          },
+          "everyday_knowledge": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "grammar": {
+            "correct": 1,
+            "total": 3,
+            "scorable": 1,
+            "success_rate_all_cases": 0.3333333333333333,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 0.3333333333333333
+          },
+          "negation": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "new_wording": {
+            "correct": 3,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 0.375,
+            "accuracy_scorable_cases": 0.375,
+            "coverage": 1.0
+          },
+          "opposites": {
+            "correct": 1,
+            "total": 3,
+            "scorable": 2,
+            "success_rate_all_cases": 0.3333333333333333,
+            "accuracy_scorable_cases": 0.5,
+            "coverage": 0.6666666666666666
+          },
+          "reference": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "sequence": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "spatial_relations": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          }
+        }
+      }
+    },
+    "expanded-final": {
+      "run_id": "20260923T062639_403952Z",
+      "checkpoint": "model.pt",
+      "completed_steps": 3000,
+      "model_hash": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+      "checkpoint_file_sha256": "5e1b65ea8baf306af94cbfc05afaa72e811dd97175468825ee50d4e955666890",
+      "vocabulary_size": 319,
+      "parameter_count": 123584,
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 319,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replay_case_count": 48,
+      "saved_json_case_count": 48,
+      "saved_csv_case_count": 48,
+      "rows_identical_except_stage": true,
+      "row_differences": [],
+      "summary_identical_except_stage": true,
+      "summary_difference_keys": [],
+      "csv_matches_json": true,
+      "csv_differences": [],
+      "suite_matches_current": true,
+      "stage_from_documented_command": "final",
+      "saved_stage": "final",
+      "summary": {
+        "suite_id": "synthetic-language-v1",
+        "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+        "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+        "stage": "final",
+        "settings": {
+          "seed": 2026,
+          "temperature": 0.8,
+          "max_tokens": 24
+        },
+        "metric": "highest-probability answer among four single-word choices; ties get zero",
+        "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+        "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+        "overall": {
+          "correct": 24,
+          "total": 48,
+          "scorable": 27,
+          "success_rate_all_cases": 0.5,
+          "accuracy_scorable_cases": 0.8888888888888888,
+          "coverage": 0.5625
+        },
+        "by_group": {
+          "extend_corpus": {
+            "correct": 0,
+            "total": 24,
+            "scorable": 3,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": 0.0,
+            "coverage": 0.125
+          },
+          "starter_patterns": {
+            "correct": 16,
+            "total": 16,
+            "scorable": 16,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "starter_transfer": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          }
+        },
+        "by_category": {
+          "categories_and_analogies": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "domain_context": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "domain_place": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "everyday_knowledge": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "grammar": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 1,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": 0.0,
+            "coverage": 0.3333333333333333
+          },
+          "negation": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "new_wording": {
+            "correct": 8,
+            "total": 8,
+            "scorable": 8,
+            "success_rate_all_cases": 1.0,
+            "accuracy_scorable_cases": 1.0,
+            "coverage": 1.0
+          },
+          "opposites": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 2,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": 0.0,
+            "coverage": 0.6666666666666666
+          },
+          "reference": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "sequence": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          },
+          "spatial_relations": {
+            "correct": 0,
+            "total": 3,
+            "scorable": 0,
+            "success_rate_all_cases": 0.0,
+            "accuracy_scorable_cases": null,
+            "coverage": 0.0
+          }
+        }
+      }
+    }
+  },
+  "chat": {
+    "command_exit_code": 0,
+    "turn_count": 8,
+    "prompts_match_frozen_plan": true,
+    "model_hash_matches_replayed_expanded_final": true,
+    "transcript": {
+      "model": "llm_runs/20260923T062639_403952Z/model.pt",
+      "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+      "completed_steps": 3000,
+      "fresh_context_per_prompt": true,
+      "temperature": 0.8,
+      "max_tokens": 24,
+      "turns": [
+        {
+          "prompt": "the investor reviewed the",
+          "seed": 2026,
+          "response": "wall in the sun , which is bright , which is dark .",
+          "unknown_prompt_words": [
+            "investor"
+          ],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "the doctor works at the",
+          "seed": 2027,
+          "response": "hospital is short , but the hospital is long .",
+          "unknown_prompt_words": [],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "yesterday the artist",
+          "seed": 2028,
+          "response": "is empty , while the visitor is soft .",
+          "unknown_prompt_words": [],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "the teachers",
+          "seed": 2029,
+          "response": "the box in the hall , which is empty , with the office is full .",
+          "unknown_prompt_words": [
+            "teachers"
+          ],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "the stone is heavy but the feather is",
+          "seed": 2030,
+          "response": "light .",
+          "unknown_prompt_words": [
+            "feather"
+          ],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "the opposite of cold is",
+          "seed": 2031,
+          "response": "loud and the new instructor was loud and the lesson at the school was short .",
+          "unknown_prompt_words": [],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "write a story about a dragon",
+          "seed": 2032,
+          "response": "the local customer .",
+          "unknown_prompt_words": [
+            "dragon",
+            "story",
+            "write"
+          ],
+          "prompt_truncated": false
+        },
+        {
+          "prompt": "two plus two equals",
+          "seed": 2033,
+          "response": "the course and the local instructor .",
+          "unknown_prompt_words": [
+            "equals",
+            "plus",
+            "two"
+          ],
+          "prompt_truncated": false
+        }
+      ]
+    },
+    "recording_files": [
+      "own_chat_terminal.txt",
+      "own_chat.cast",
+      "own_chat_recording.html"
+    ]
+  },
+  "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d"
+}

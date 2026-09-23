@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-09-23T06:54:32.625642+00:00",
+  "base_run": "llm_runs/20260923T062639_403952Z",
+  "input_hashes": {
+    "llm_runs/20260923T062639_403952Z/corpus.txt": "8442979a14945380975d21a96fb9266a0eed74a1e76270d7c14957366061def6",
+    "llm_runs/20260923T062639_403952Z/split.json": "11ea8b470c19060964505032088570bd320fb99982d0f05daad234e4a7ae088d",
+    "llm_runs/20260923T062639_403952Z/tokenization.json": "438c82412bbbb0138b40efce9e8ceebccb2aabf60534d03eab636d5bb6ed7662",
+    "llm_runs/20260923T062639_403952Z/model_untrained.pt": "66ea025ed8c4c644c94ac0e1114f82a300f0d0aa0d35738cb6d414f6fd71d300",
+    "nanogpt_model.py": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c",
+    "run_evals.py": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0",
+    "evals/language_evals.json": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+    "corpus/expanded/grammar_practice.txt": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8",
+    "corpus/expanded/contextual_contrasts.txt": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710"
+  },
+  "training_script_sha256": "d3a1917018385ffd2482776c1c8b22987cb8481fc02f2e1a1b22cdcc76314884",
+  "vocabulary_sha256": "d771cbb2ad85fe43763dea6ce1cf178a9c779483c4227a782dda0c3a0e19a5d2",
+  "model_args": {
+    "block_size": 48,
+    "vocab_size": 319,
+    "n_layer": 2,
+    "n_head": 4,
+    "n_embd": 64,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "panels": {
+    "original": [
+      "the local shopper was mentioned in the service report yesterday .",
+      "the new website was mentioned in the update report yesterday .",
+      "we learned about the new buyer during a discussion of service .",
+      "the different investment was mentioned in the return report yesterday .",
+      "they compared the new investment with another investment at the bank .",
+      "the bakers are tired before work .",
+      "our kitchen has a question about the new pear and harvest .",
+      "a review of purchase helped us understand the new consumer .",
+      "a review of student helped us understand the local professor .",
+      "today the bank focused on risk and the different deposit .",
+      "today the school focused on course and the local instructor .",
+      "we learned about the new truck during a discussion of route .",
+      "the report about the product explains the price in detail .",
+      "today the hospital focused on care and the local therapist .",
+      "today the bank focused on payment and the important credit .",
+      "unlike the bowl on the table , which is big , the bowl on the shelf is small .",
+      "our office has a question about the local application and update .",
+      "today the station focused on traffic and the local bus .",
+      "our helper feels busy this morning .",
+      "today the office focused on security and the important website ."
+    ],
+    "starter": [
+      "the customer ordered the package after checking the price .",
+      "our school has a question about the important instructor and learning .",
+      "our store has a question about the important client and purchase .",
+      "the different mango was mentioned in the taste report yesterday .",
+      "we learned about the important nurse during a discussion of patient .",
+      "our school has a question about the important instructor and course .",
+      "the local banana was mentioned in the harvest report yesterday .",
+      "the report about the dentist explains the treatment in detail .",
+      "our kitchen has a question about the new orange and fruit .",
+      "a review of harvest helped us understand the important apple ."
+    ],
+    "grammar": [
+      "a musician seems calm today .",
+      "our artist feels calm this morning .",
+      "a visitor seems ready today .",
+      "we were happy after work .",
+      "each musician works in the garden every day ."
+    ],
+    "contrasts": [
+      "the coat near the door is wet , while the coat near the fire is dry .",
+      "unlike the street near the school , which is noisy , the path near the pond is quiet .",
+      "the small stone is light , but the large stone is heavy .",
+      "the chair in the garden is light , but the chair in the hall is heavy .",
+      "we described the cloth on the floor as thick and the cloth on the chair as thin ."
+    ]
+  },
+  "training_group_counts": {
+    "starter": 4148,
+    "grammar": 464,
+    "contrasts": 341
+  },
+  "validation_group_counts": {
+    "starter": 444,
+    "grammar": 64,
+    "contrasts": 43
+  },
+  "schedules": {
+    "uniform": {
+      "sha256": "399abf8ba2e5afdaffa646ac8e13fbc3ed73dd7c5dee464a083be6b03628ae6b",
+      "probe": {
+        "update": 1000,
+        "train_index": 3969,
+        "passage": "the farmers are tired before work .",
+        "prefix": "the farmers",
+        "target": "are",
+        "token_id": 14,
+        "coordinate": 0,
+        "parameter": "transformer.wte.weight (tied to lm_head.weight)",
+        "rule": "first grammar passage in the predetermined update-1000 batch; third token; coordinate 0"
+      }
+    },
+    "balanced": {
+      "sha256": "1328239e2941dad20ca7d85caaaf90acd8bf1a817cafbf98b5023f0b7f154db3",
+      "probe": {
+        "update": 1000,
+        "train_index": 1859,
+        "passage": "a gardener seems calm today .",
+        "prefix": "a gardener",
+        "target": "seems",
+        "token_id": 225,
+        "coordinate": 0,
+        "parameter": "transformer.wte.weight (tied to lm_head.weight)",
+        "rule": "first grammar passage in the predetermined update-1000 batch; third token; coordinate 0"
+      }
+    }
+  },
+  "steps": 3000,
+  "batch_size": 32,
+  "learning_rates": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "samplers": [
+    "uniform",
+    "balanced"
+  ],
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.01,
+    "eps": 1e-08,
+    "clip_norm": 1.0,
+    "warmup_steps": 100,
+    "minimum_lr_fraction": 0.1
+  },
+  "selection": "final category-macro validation NLL, original-panel NLL <= 1.05 times matched baseline; ties favor baseline then lower LR then uniform",
+  "confirmation_seeds": [
+    43,
+    44
+  ],
+  "data_rng_seed": 43,
+  "evaluation_policy": "language suite is loaded only after selection and confirmation",
+  "hypothesis": "balanced exposure and learning-rate tuning may improve category loss; benchmark gains are uncertain"
+}

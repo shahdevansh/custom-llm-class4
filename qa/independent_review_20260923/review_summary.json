@@ -1,0 +1,25 @@
+{
+  "finished_at": "2026-09-23T06:56:42.933166+00:00",
+  "snapshot_commit": "56f610f7e4ae183db78bf9201cf9d543dfde654a",
+  "tracked_files_changed_since_snapshot": [],
+  "score": {
+    "deliverable_quality": 3.8,
+    "testing_evaluation": 2.9,
+    "working_result": 2.9,
+    "total": 9.6,
+    "official_grade": false
+  },
+  "checks": {
+    "four_original_48_case_replays_exact": true,
+    "eight_actual_pty_chat_turns": true,
+    "notebook_learning_passed": 116,
+    "corpus_passed": 42,
+    "clean_uv_remedy_passed": true
+  },
+  "limitations": [
+    "README samples were seen before independent prompts were frozen",
+    "Browser blocked local replay page; no new screenshot or visual playback verification",
+    "Later tuning outside scope",
+    "Personal understanding cannot be established from assisted artifact"
+  ]
+}

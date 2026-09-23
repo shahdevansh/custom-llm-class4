@@ -1,0 +1,25 @@
+{
+  "run_id": "balanced_lr0.003_seed44",
+  "config_id": "balanced_lr0.003",
+  "sampler": "balanced",
+  "learning_rate": 0.003,
+  "seed": 44,
+  "purpose": "confirmation",
+  "instrumented": true,
+  "completed_steps": 3000,
+  "elapsed_seconds": 14.253010750002431,
+  "initial_model_sha256": "0a1804e89d8d40179bc0160ec8e1bde164804a24f0eb7222d308e3c87d5b0b47",
+  "final_model_sha256": "b811a65af72295306b52acf1727c518cab89fcf02f2dc71045ec7d168797577d",
+  "schedule_sha256": "1328239e2941dad20ca7d85caaaf90acd8bf1a817cafbf98b5023f0b7f154db3",
+  "protocol_sha256": "00cad439ace95c423fb4d94e21cc6902acd7af945e1c3ec6490d604a6604ee56",
+  "peak_gradient_norm": 2.8249869346618652,
+  "final": {
+    "step": 3000,
+    "original": 0.7492943406105042,
+    "starter": 0.756011962890625,
+    "grammar": 1.0545488595962524,
+    "contrasts": 0.9624626040458679,
+    "macro": 0.9243411421775818
+  },
+  "all_loss_and_gradient_norm_checks_finite": true
+}

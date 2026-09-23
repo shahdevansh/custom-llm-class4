@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 312,
+    "passage": "our gardener feels tired this morning .",
+    "prefix": "our gardener feels",
+    "target": "tired",
+    "embedding_token": "gardener",
+    "token_id": 101,
+    "coordinate": 0,
+    "batch_document_indices": [
+      46,
+      2911,
+      2131,
+      1209,
+      3627,
+      3371,
+      4219,
+      312,
+      1118,
+      4849,
+      2015,
+      3854,
+      2493,
+      859,
+      2426,
+      4861,
+      3078,
+      1674,
+      3463,
+      2834,
+      3499,
+      4591,
+      4077,
+      824,
+      3700,
+      3775,
+      1283,
+      736,
+      2358,
+      4365,
+      2184,
+      2417
+    ]
+  },
+  "learning_rate": 0.0024088125601003764,
+  "before": {
+    "batch_loss": 0.7018976211547852,
+    "target_probability": 0.352042555809021,
+    "validation": {
+      "starter": 0.7745252251625061,
+      "grammar": 1.071013331413269,
+      "contrasts": 0.7846505045890808,
+      "original": 0.7780022621154785,
+      "macro": 0.876729687054952
+    },
+    "parameter": 0.12525315582752228
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.0004885991802439094,
+    "v": 4.8791325752972625e-06
+  },
+  "raw_gradient": -0.003976806066930294,
+  "gradient_norm_before_clipping": 0.5099327564239502,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": -0.003976806066930294,
+  "after": {
+    "batch_loss": 0.6840198636054993,
+    "target_probability": 0.351188600063324,
+    "validation": {
+      "starter": 0.7718312740325928,
+      "grammar": 1.0965423583984375,
+      "contrasts": 0.7748985886573792,
+      "original": 0.7807003259658813,
+      "macro": 0.8810907403628031
+    },
+    "parameter": 0.12520664930343628
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 4.205863660899922e-05,
+    "v": 5.425925337476656e-06
+  },
+  "weight_decay_delta": -3.017113749495453e-06,
+  "adaptive_delta": -4.3493006140151964e-05,
+  "predicted_delta_float64": -4.651011988964742e-05,
+  "actual_delta": -4.6506524085998535e-05,
+  "reconstruction_error": 3.595803648882693e-09
+}

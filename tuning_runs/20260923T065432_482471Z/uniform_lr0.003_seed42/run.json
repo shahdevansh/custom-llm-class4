@@ -1,0 +1,25 @@
+{
+  "run_id": "uniform_lr0.003_seed42",
+  "config_id": "uniform_lr0.003",
+  "sampler": "uniform",
+  "learning_rate": 0.003,
+  "seed": 42,
+  "purpose": "screen",
+  "instrumented": true,
+  "completed_steps": 3000,
+  "elapsed_seconds": 16.502496000000974,
+  "initial_model_sha256": "0ab05abeeb38401a79e3207360bade6d336ea590bfd0cbc33c9e1015e79fa11c",
+  "final_model_sha256": "7ee2a264e7b7f4533ade69f673ff7643dc13db1c0113ffa60aa7f6106c03909d",
+  "schedule_sha256": "399abf8ba2e5afdaffa646ac8e13fbc3ed73dd7c5dee464a083be6b03628ae6b",
+  "protocol_sha256": "00cad439ace95c423fb4d94e21cc6902acd7af945e1c3ec6490d604a6604ee56",
+  "peak_gradient_norm": 3.0419700145721436,
+  "final": {
+    "step": 3000,
+    "original": 0.7265655398368835,
+    "starter": 0.7059783935546875,
+    "grammar": 1.2106482982635498,
+    "contrasts": 0.8228021860122681,
+    "macro": 0.9131429592768351
+  },
+  "all_loss_and_gradient_norm_checks_finite": true
+}

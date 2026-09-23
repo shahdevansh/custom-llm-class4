@@ -1,0 +1,80 @@
+{
+  "model": "llm_runs/20260923T062639_403952Z/model.pt",
+  "model_sha256": "759c8b1e9c073f74b820d3c962fa108b5793a5b9c67ee263328e01ee6fe9cbd8",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the investor reviewed the",
+      "seed": 2026,
+      "response": "wall in the sun , which is bright , which is dark .",
+      "unknown_prompt_words": [
+        "investor"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the doctor works at the",
+      "seed": 2027,
+      "response": "hospital is short , but the hospital is long .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "yesterday the artist",
+      "seed": 2028,
+      "response": "is empty , while the visitor is soft .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the teachers",
+      "seed": 2029,
+      "response": "the box in the hall , which is empty , with the office is full .",
+      "unknown_prompt_words": [
+        "teachers"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the stone is heavy but the feather is",
+      "seed": 2030,
+      "response": "light .",
+      "unknown_prompt_words": [
+        "feather"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of cold is",
+      "seed": 2031,
+      "response": "loud and the new instructor was loud and the lesson at the school was short .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "write a story about a dragon",
+      "seed": 2032,
+      "response": "the local customer .",
+      "unknown_prompt_words": [
+        "dragon",
+        "story",
+        "write"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "two plus two equals",
+      "seed": 2033,
+      "response": "the course and the local instructor .",
+      "unknown_prompt_words": [
+        "equals",
+        "plus",
+        "two"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}

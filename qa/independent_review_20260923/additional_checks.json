@@ -1,0 +1,445 @@
+{
+  "upstream_commit": "9e04ddb6aacb8efcb790e70c62550ca55e0f2a75",
+  "upstream_integrity": {
+    "evals/language_evals.json": {
+      "upstream_exists": true,
+      "bytes_identical": true,
+      "current_sha256": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7",
+      "upstream_sha256": "e8affcd72841e3ed7da5c0b6b116327fe9f69c9abd66a1180d1d88ceaa3e17f7"
+    },
+    "run_evals.py": {
+      "upstream_exists": true,
+      "bytes_identical": true,
+      "current_sha256": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0",
+      "upstream_sha256": "da87f28d128344807512e2bac1cfc662b37ac2c7e4a32b84c09f1950e92d67a0"
+    },
+    "chat.py": {
+      "upstream_exists": true,
+      "bytes_identical": true,
+      "current_sha256": "6152c8b7780f3b46fef5de38461adfc4b1a55df70ed106ca73ec5e9aded86d25",
+      "upstream_sha256": "6152c8b7780f3b46fef5de38461adfc4b1a55df70ed106ca73ec5e9aded86d25"
+    },
+    "nanogpt_model.py": {
+      "upstream_exists": true,
+      "bytes_identical": true,
+      "current_sha256": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c",
+      "upstream_sha256": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c"
+    },
+    "test_language_evals.py": {
+      "upstream_exists": true,
+      "bytes_identical": true,
+      "current_sha256": "66bfde605469c73e9623f4e474a72082039c3f08ae5134814f671e91cb34a81a",
+      "upstream_sha256": "66bfde605469c73e9623f4e474a72082039c3f08ae5134814f671e91cb34a81a"
+    }
+  },
+  "setup": {
+    "literal_python312_command_exit_code": 127,
+    "literal_command_stderr": "zsh:1: command not found: python3.12\n",
+    "existing_environment_pip_check_exit_code": 1,
+    "existing_environment_pip_check_stderr": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python: No module named pip\n",
+    "boundary": "Fresh dependency installation not attempted because documented Python3.12 launcher is absent; saved-model inference tested with pre-existing .venv."
+  },
+  "locked_environment_matches": true,
+  "locked_environment_versions": [
+    {
+      "package": "appnope",
+      "locked": "1.0.0",
+      "installed": "1.0.0",
+      "matches": true
+    },
+    {
+      "package": "asttokens",
+      "locked": "3.0.2",
+      "installed": "3.0.2",
+      "matches": true
+    },
+    {
+      "package": "attrs",
+      "locked": "26.1.0",
+      "installed": "26.1.0",
+      "matches": true
+    },
+    {
+      "package": "beautifulsoup4",
+      "locked": "4.15.0",
+      "installed": "4.15.0",
+      "matches": true
+    },
+    {
+      "package": "bleach",
+      "locked": "6.4.0",
+      "installed": "6.4.0",
+      "matches": true
+    },
+    {
+      "package": "comm",
+      "locked": "0.2.3",
+      "installed": "0.2.3",
+      "matches": true
+    },
+    {
+      "package": "debugpy",
+      "locked": "1.8.22",
+      "installed": "1.8.22",
+      "matches": true
+    },
+    {
+      "package": "defusedxml",
+      "locked": "0.7.1",
+      "installed": "0.7.1",
+      "matches": true
+    },
+    {
+      "package": "executing",
+      "locked": "2.2.1",
+      "installed": "2.2.1",
+      "matches": true
+    },
+    {
+      "package": "fastjsonschema",
+      "locked": "2.22.2",
+      "installed": "2.22.2",
+      "matches": true
+    },
+    {
+      "package": "filelock",
+      "locked": "4.0.1",
+      "installed": "4.0.1",
+      "matches": true
+    },
+    {
+      "package": "fsspec",
+      "locked": "2026.9.0",
+      "installed": "2026.9.0",
+      "matches": true
+    },
+    {
+      "package": "ipykernel",
+      "locked": "7.3.0",
+      "installed": "7.3.0",
+      "matches": true
+    },
+    {
+      "package": "ipython",
+      "locked": "9.17.1",
+      "installed": "9.17.1",
+      "matches": true
+    },
+    {
+      "package": "ipython-pygments-lexers",
+      "locked": "1.1.1",
+      "installed": "1.1.1",
+      "matches": true
+    },
+    {
+      "package": "jedi",
+      "locked": "0.20.0",
+      "installed": "0.20.0",
+      "matches": true
+    },
+    {
+      "package": "jinja2",
+      "locked": "3.1.6",
+      "installed": "3.1.6",
+      "matches": true
+    },
+    {
+      "package": "jsonschema",
+      "locked": "4.26.0",
+      "installed": "4.26.0",
+      "matches": true
+    },
+    {
+      "package": "jsonschema-specifications",
+      "locked": "2025.9.1",
+      "installed": "2025.9.1",
+      "matches": true
+    },
+    {
+      "package": "jupyter-client",
+      "locked": "8.10.0",
+      "installed": "8.10.0",
+      "matches": true
+    },
+    {
+      "package": "jupyter-core",
+      "locked": "5.9.1",
+      "installed": "5.9.1",
+      "matches": true
+    },
+    {
+      "package": "jupyterlab-pygments",
+      "locked": "0.3.0",
+      "installed": "0.3.0",
+      "matches": true
+    },
+    {
+      "package": "markupsafe",
+      "locked": "3.0.3",
+      "installed": "3.0.3",
+      "matches": true
+    },
+    {
+      "package": "matplotlib-inline",
+      "locked": "0.2.2",
+      "installed": "0.2.2",
+      "matches": true
+    },
+    {
+      "package": "mistune",
+      "locked": "3.3.4",
+      "installed": "3.3.4",
+      "matches": true
+    },
+    {
+      "package": "mpmath",
+      "locked": "1.3.0",
+      "installed": "1.3.0",
+      "matches": true
+    },
+    {
+      "package": "nbclient",
+      "locked": "0.11.0",
+      "installed": "0.11.0",
+      "matches": true
+    },
+    {
+      "package": "nbconvert",
+      "locked": "7.17.1",
+      "installed": "7.17.1",
+      "matches": true
+    },
+    {
+      "package": "nbformat",
+      "locked": "5.11.1",
+      "installed": "5.11.1",
+      "matches": true
+    },
+    {
+      "package": "nest-asyncio2",
+      "locked": "1.7.3",
+      "installed": "1.7.3",
+      "matches": true
+    },
+    {
+      "package": "networkx",
+      "locked": "3.7",
+      "installed": "3.7",
+      "matches": true
+    },
+    {
+      "package": "numpy",
+      "locked": "2.5.3",
+      "installed": "2.5.3",
+      "matches": true
+    },
+    {
+      "package": "packaging",
+      "locked": "26.3",
+      "installed": "26.3",
+      "matches": true
+    },
+    {
+      "package": "pandocfilters",
+      "locked": "1.5.1",
+      "installed": "1.5.1",
+      "matches": true
+    },
+    {
+      "package": "parso",
+      "locked": "0.8.7",
+      "installed": "0.8.7",
+      "matches": true
+    },
+    {
+      "package": "pexpect",
+      "locked": "4.9.0",
+      "installed": "4.9.0",
+      "matches": true
+    },
+    {
+      "package": "platformdirs",
+      "locked": "4.11.12",
+      "installed": "4.11.12",
+      "matches": true
+    },
+    {
+      "package": "prompt-toolkit",
+      "locked": "3.0.53",
+      "installed": "3.0.53",
+      "matches": true
+    },
+    {
+      "package": "psutil",
+      "locked": "7.2.2",
+      "installed": "7.2.2",
+      "matches": true
+    },
+    {
+      "package": "ptyprocess",
+      "locked": "0.7.0",
+      "installed": "0.7.0",
+      "matches": true
+    },
+    {
+      "package": "pure-eval",
+      "locked": "0.2.4",
+      "installed": "0.2.4",
+      "matches": true
+    },
+    {
+      "package": "pygments",
+      "locked": "2.21.0",
+      "installed": "2.21.0",
+      "matches": true
+    },
+    {
+      "package": "pypdf",
+      "locked": "6.19.0",
+      "installed": "6.19.0",
+      "matches": true
+    },
+    {
+      "package": "python-dateutil",
+      "locked": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "matches": true
+    },
+    {
+      "package": "pyzmq",
+      "locked": "27.2.0",
+      "installed": "27.2.0",
+      "matches": true
+    },
+    {
+      "package": "referencing",
+      "locked": "0.37.0",
+      "installed": "0.37.0",
+      "matches": true
+    },
+    {
+      "package": "rpds-py",
+      "locked": "2026.6.3",
+      "installed": "2026.6.3",
+      "matches": true
+    },
+    {
+      "package": "setuptools",
+      "locked": "84.0.0",
+      "installed": "84.0.0",
+      "matches": true
+    },
+    {
+      "package": "six",
+      "locked": "1.17.0",
+      "installed": "1.17.0",
+      "matches": true
+    },
+    {
+      "package": "soupsieve",
+      "locked": "2.9.2",
+      "installed": "2.9.2",
+      "matches": true
+    },
+    {
+      "package": "stack-data",
+      "locked": "0.6.3",
+      "installed": "0.6.3",
+      "matches": true
+    },
+    {
+      "package": "sympy",
+      "locked": "1.14.0",
+      "installed": "1.14.0",
+      "matches": true
+    },
+    {
+      "package": "tinycss2",
+      "locked": "1.5.1",
+      "installed": "1.5.1",
+      "matches": true
+    },
+    {
+      "package": "torch",
+      "locked": "2.14.0",
+      "installed": "2.14.0",
+      "matches": true
+    },
+    {
+      "package": "tornado",
+      "locked": "6.5.10",
+      "installed": "6.5.10",
+      "matches": true
+    },
+    {
+      "package": "traitlets",
+      "locked": "5.16.1",
+      "installed": "5.16.1",
+      "matches": true
+    },
+    {
+      "package": "typing-extensions",
+      "locked": "4.16.0",
+      "installed": "4.16.0",
+      "matches": true
+    },
+    {
+      "package": "wcwidth",
+      "locked": "0.8.4",
+      "installed": "0.8.4",
+      "matches": true
+    },
+    {
+      "package": "webencodings",
+      "locked": "0.6.1",
+      "installed": "0.6.1",
+      "matches": true
+    }
+  ],
+  "zip_archives": {
+    "20260923T043154_967139Z": {
+      "entry_count": 33,
+      "testzip": null,
+      "not_found_at_expected_relative_path": [],
+      "content_mismatches": []
+    },
+    "20260923T062639_403952Z": {
+      "entry_count": 33,
+      "testzip": null,
+      "not_found_at_expected_relative_path": [],
+      "content_mismatches": []
+    }
+  },
+  "existing_chat_evidence": {
+    "run_completed_steps": 3000,
+    "model_hash_matches": true,
+    "turn_count": 4,
+    "replayed_turns": [
+      {
+        "prompt": "the customer",
+        "exact_response_match": true,
+        "unknown_words_match": true
+      },
+      {
+        "prompt": "the nurse",
+        "exact_response_match": true,
+        "unknown_words_match": true
+      },
+      {
+        "prompt": "the small cups",
+        "exact_response_match": true,
+        "unknown_words_match": true
+      },
+      {
+        "prompt": "explain quantum teleportation",
+        "exact_response_match": true,
+        "unknown_words_match": true
+      }
+    ]
+  },
+  "readme_local_links": {
+    "checked": 81,
+    "missing": []
+  },
+  "timestamp": "2026-09-23T06:53:12.047819+00:00"
+}

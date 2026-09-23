@@ -1,0 +1,7 @@
+{
+  "command": "source .venv/bin/activate\npython chat.py --model tuning_runs/20260923T065357_257422Z/runs/balanced_lr0.003_seed42/model.pt --transcript qa/independent_review_20260923/selected_chat_transcript.json",
+  "exit_code": 0,
+  "pty": true,
+  "duration_seconds": 1.6927354170002218,
+  "stdout_captured": "number of parameters: 0.12M\r\nTiny language model: short continuations, not a general assistant.\r\nEach prompt starts fresh. Context: 48 tokens. Type /quit to exit.\r\nYou: the investor reviewed the\r\nModel: bag of rice , while the kitchen , which is bag in the kitchen .\r\nUnknown words: investor\r\nYou: the doctor works at the\r\nModel: garden is short .\r\nYou: yesterday the artist\r\nModel: was empty , which is empty , the rice bowl on the table is full .\r\nYou: the teachers\r\nModel: the box in the hall is empty , traffic , peach near the tree is full .\r\nUnknown words: teachers\r\nYou: the stone is heavy but the feather is\r\nModel: heavy , but the stone near the farmer is light .\r\nUnknown words: feather\r\nYou: the opposite of cold is\r\nModel: hot , but the soup in the pot in the new pot .\r\nYou: write a story about a dragon\r\nModel: our local customer and service .\r\nUnknown words: dragon, story, write\r\nYou: two plus two equals\r\nModel: the important peach was mentioned in the fruit report yesterday .\r\nUnknown words: equals, plus, two\r\nYou: /quit\r\nSaved transcript: qa/independent_review_20260923/selected_chat_transcript.json\r\n"
+}

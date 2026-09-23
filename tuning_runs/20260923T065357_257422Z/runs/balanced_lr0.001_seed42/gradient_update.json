@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 1859,
+    "passage": "a gardener seems calm today .",
+    "prefix": "a gardener seems",
+    "target": "calm",
+    "embedding_token": "gardener",
+    "token_id": 101,
+    "coordinate": 0,
+    "batch_document_indices": [
+      4339,
+      52,
+      3073,
+      1982,
+      1510,
+      2455,
+      4047,
+      1859,
+      4939,
+      3090,
+      781,
+      2407,
+      4343,
+      1253,
+      1705,
+      2786,
+      2235,
+      3499,
+      2896,
+      3126,
+      1313,
+      1632,
+      3027,
+      247,
+      1500,
+      4206,
+      4422,
+      2040,
+      307,
+      3664,
+      2326,
+      2733
+    ]
+  },
+  "learning_rate": 0.0008029375200334588,
+  "before": {
+    "batch_loss": 0.6741217374801636,
+    "target_probability": 0.21166899800300598,
+    "validation": {
+      "starter": 0.7762126922607422,
+      "grammar": 1.1534812450408936,
+      "contrasts": 0.868661105632782,
+      "original": 0.7992874383926392,
+      "macro": 0.9327850143114725
+    },
+    "parameter": -0.12301287055015564
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.0008159688441082835,
+    "v": 2.7887168471352197e-05
+  },
+  "raw_gradient": 0.006313574034720659,
+  "gradient_norm_before_clipping": 0.7722257375717163,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": 0.006313574034720659,
+  "after": {
+    "batch_loss": 0.66307133436203,
+    "target_probability": 0.21920423209667206,
+    "validation": {
+      "starter": 0.7752457857131958,
+      "grammar": 1.1567144393920898,
+      "contrasts": 0.86066734790802,
+      "original": 0.8029426336288452,
+      "macro": 0.9308758576711019
+    },
+    "parameter": -0.12321734428405762
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 0.0013657293748110533,
+    "v": 2.848587064363528e-05
+  },
+  "weight_decay_delta": 9.877164921173886e-07,
+  "adaptive_delta": -0.0002054616825275698,
+  "predicted_delta_float64": -0.00020447396603545242,
+  "actual_delta": -0.00020447373390197754,
+  "reconstruction_error": 2.321334748771678e-10
+}

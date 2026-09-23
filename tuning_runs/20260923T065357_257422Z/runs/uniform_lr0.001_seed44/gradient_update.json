@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 1550,
+    "passage": "a artist seems calm today .",
+    "prefix": "a artist seems",
+    "target": "calm",
+    "embedding_token": "artist",
+    "token_id": 15,
+    "coordinate": 0,
+    "batch_document_indices": [
+      745,
+      1550,
+      916,
+      3187,
+      3408,
+      4874,
+      1740,
+      762,
+      1177,
+      1787,
+      1005,
+      1084,
+      259,
+      2993,
+      733,
+      1090,
+      4283,
+      455,
+      74,
+      4789,
+      2529,
+      4608,
+      654,
+      4163,
+      1556,
+      4127,
+      3830,
+      3997,
+      189,
+      1536,
+      4175,
+      1995
+    ]
+  },
+  "learning_rate": 0.0008029375200334588,
+  "before": {
+    "batch_loss": 0.7980201244354248,
+    "target_probability": 0.1621413677930832,
+    "validation": {
+      "starter": 0.733167290687561,
+      "grammar": 1.2998104095458984,
+      "contrasts": 1.436542272567749,
+      "original": 0.7944799661636353,
+      "macro": 1.1565066576004028
+    },
+    "parameter": -0.021396631374955177
+  },
+  "moments_before": {
+    "step": 999,
+    "m": 0.00018007341714110225,
+    "v": 1.5970896356520825e-06
+  },
+  "raw_gradient": -0.0023018443025648594,
+  "gradient_norm_before_clipping": 0.558660626411438,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": -0.0023018443025648594,
+  "after": {
+    "batch_loss": 0.7897562384605408,
+    "target_probability": 0.16484013199806213,
+    "validation": {
+      "starter": 0.7345854043960571,
+      "grammar": 1.2728219032287598,
+      "contrasts": 1.4236931800842285,
+      "original": 0.7956186532974243,
+      "macro": 1.1437001625696819
+    },
+    "parameter": -0.021355489268898964
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": -6.811835191911086e-05,
+    "v": 1.7821594155975617e-06
+  },
+  "weight_decay_delta": 1.7180158133276606e-07,
+  "adaptive_delta": 4.097032002773335e-05,
+  "predicted_delta_float64": 4.114212160906611e-05,
+  "actual_delta": 4.114210605621338e-05,
+  "reconstruction_error": -1.5552852733989597e-11
+}

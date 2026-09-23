@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680">
+<rect width="1000" height="680" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="40" y="30" font-size="22">Fixed validation panels: six controlled configurations</text>
+<text x="70" y="65" font-size="17">Category-macro loss</text>
+<line x1="70" y1="475.0" x2="460" y2="475.0" stroke="#e2e8f0"/>
+<text x="62" y="479.0" text-anchor="end" font-size="11">0.628</text>
+<line x1="70" y1="377.5" x2="460" y2="377.5" stroke="#e2e8f0"/>
+<text x="62" y="381.5" text-anchor="end" font-size="11">1.314</text>
+<line x1="70" y1="280.0" x2="460" y2="280.0" stroke="#e2e8f0"/>
+<text x="62" y="284.0" text-anchor="end" font-size="11">2.001</text>
+<line x1="70" y1="182.5" x2="460" y2="182.5" stroke="#e2e8f0"/>
+<text x="62" y="186.5" text-anchor="end" font-size="11">2.688</text>
+<line x1="70" y1="85.0" x2="460" y2="85.0" stroke="#e2e8f0"/>
+<text x="62" y="89.0" text-anchor="end" font-size="11">3.374</text>
+<text x="70.0" y="497" text-anchor="middle" font-size="11">250</text>
+<text x="176.36363636363637" y="497" text-anchor="middle" font-size="11">1000</text>
+<text x="318.1818181818182" y="497" text-anchor="middle" font-size="11">2000</text>
+<text x="460.0" y="497" text-anchor="middle" font-size="11">3000</text>
+<polyline points="70.00,111.90 105.45,246.20 140.91,308.67 176.36,336.49 211.82,355.66 247.27,373.23 282.73,380.42 318.18,386.45 353.64,383.62 389.09,390.78 424.55,391.85 460.00,391.33" fill="none" stroke="#2563eb" stroke-width="2"/>
+<polyline points="70.00,290.44 105.45,369.15 140.91,397.09 176.36,405.22 211.82,418.72 247.27,424.36 282.73,435.05 318.18,431.81 353.64,428.86 389.09,435.51 424.55,436.58 460.00,435.38" fill="none" stroke="#0891b2" stroke-width="2"/>
+<polyline points="70.00,359.01 105.45,402.57 140.91,417.75 176.36,420.33 211.82,427.89 247.27,430.15 282.73,437.79 318.18,433.23 353.64,425.23 389.09,435.53 424.55,433.96 460.00,434.47" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<polyline points="70.00,145.58 105.45,305.89 140.91,357.66 176.36,380.07 211.82,395.58 247.27,404.30 282.73,416.05 318.18,414.46 353.64,421.55 389.09,423.76 424.55,422.06 460.00,424.80" fill="none" stroke="#dc2626" stroke-width="2"/>
+<polyline points="70.00,345.58 105.45,399.98 140.91,427.50 176.36,431.95 211.82,438.20 247.27,434.65 282.73,443.00 318.18,434.12 353.64,435.79 389.09,439.81 424.55,435.77 460.00,437.23" fill="none" stroke="#ea580c" stroke-width="2"/>
+<polyline points="70.00,392.31 105.45,423.25 140.91,436.63 176.36,443.13 211.82,438.41 247.27,442.13 282.73,448.10 318.18,444.04 353.64,447.85 389.09,446.62 424.55,444.71 460.00,445.66" fill="none" stroke="#16a34a" stroke-width="2"/>
+<text x="265.0" y="520" text-anchor="middle" font-size="13">Optimizer updates</text>
+<text x="560" y="65" font-size="17">Original-panel loss</text>
+<line x1="560" y1="475.0" x2="950" y2="475.0" stroke="#e2e8f0"/>
+<text x="552" y="479.0" text-anchor="end" font-size="11">0.568</text>
+<line x1="560" y1="377.5" x2="950" y2="377.5" stroke="#e2e8f0"/>
+<text x="552" y="381.5" text-anchor="end" font-size="11">1.137</text>
+<line x1="560" y1="280.0" x2="950" y2="280.0" stroke="#e2e8f0"/>
+<text x="552" y="284.0" text-anchor="end" font-size="11">1.706</text>
+<line x1="560" y1="182.5" x2="950" y2="182.5" stroke="#e2e8f0"/>
+<text x="552" y="186.5" text-anchor="end" font-size="11">2.276</text>
+<line x1="560" y1="85.0" x2="950" y2="85.0" stroke="#e2e8f0"/>
+<text x="552" y="89.0" text-anchor="end" font-size="11">2.845</text>
+<text x="560.0" y="497" text-anchor="middle" font-size="11">250</text>
+<text x="666.3636363636364" y="497" text-anchor="middle" font-size="11">1000</text>
+<text x="808.1818181818182" y="497" text-anchor="middle" font-size="11">2000</text>
+<text x="950.0" y="497" text-anchor="middle" font-size="11">3000</text>
+<polyline points="560.00,156.04 595.45,332.68 630.91,369.05 666.36,382.99 701.82,394.79 737.27,404.45 772.73,413.79 808.18,419.28 843.64,424.04 879.09,424.59 914.55,426.64 950.00,428.63" fill="none" stroke="#2563eb" stroke-width="2"/>
+<polyline points="560.00,368.08 595.45,402.67 630.91,428.37 666.36,431.25 701.82,435.56 737.27,436.81 772.73,437.63 808.18,443.64 843.64,444.35 879.09,442.86 914.55,444.53 950.00,444.38" fill="none" stroke="#0891b2" stroke-width="2"/>
+<polyline points="560.00,401.46 595.45,432.77 630.91,431.49 666.36,435.64 701.82,441.82 737.27,438.76 772.73,441.65 808.18,446.90 843.64,446.67 879.09,445.60 914.55,448.10 950.00,447.84" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<polyline points="560.00,111.90 595.45,321.50 630.91,369.21 666.36,386.17 701.82,393.71 737.27,401.30 772.73,406.02 808.18,412.58 843.64,416.81 879.09,419.25 914.55,419.98 950.00,422.54" fill="none" stroke="#dc2626" stroke-width="2"/>
+<polyline points="560.00,361.01 595.45,395.68 630.91,424.71 666.36,434.75 701.82,438.82 737.27,442.47 772.73,443.56 808.18,444.11 843.64,442.92 879.09,442.96 914.55,441.90 950.00,443.95" fill="none" stroke="#ea580c" stroke-width="2"/>
+<polyline points="560.00,386.12 595.45,425.53 630.91,437.80 666.36,438.49 701.82,441.97 737.27,441.21 772.73,442.16 808.18,443.01 843.64,440.91 879.09,442.59 914.55,441.33 950.00,442.84" fill="none" stroke="#16a34a" stroke-width="2"/>
+<text x="755.0" y="520" text-anchor="middle" font-size="13">Optimizer updates</text>
+<line x1="70" y1="571" x2="94" y2="571" stroke="#2563eb" stroke-width="3"/>
+<text x="102" y="575" font-size="13">uniform, LR 0.0003</text>
+<line x1="380" y1="571" x2="404" y2="571" stroke="#0891b2" stroke-width="3"/>
+<text x="412" y="575" font-size="13">uniform, LR 0.001</text>
+<line x1="690" y1="571" x2="714" y2="571" stroke="#7c3aed" stroke-width="3"/>
+<text x="722" y="575" font-size="13">uniform, LR 0.003</text>
+<line x1="70" y1="601" x2="94" y2="601" stroke="#dc2626" stroke-width="3"/>
+<text x="102" y="605" font-size="13">balanced, LR 0.0003</text>
+<line x1="380" y1="601" x2="404" y2="601" stroke="#ea580c" stroke-width="3"/>
+<text x="412" y="605" font-size="13">balanced, LR 0.001</text>
+<line x1="690" y1="601" x2="714" y2="601" stroke="#16a34a" stroke-width="3"/>
+<text x="722" y="605" font-size="13">balanced, LR 0.003</text>
+<text x="70" y="650" font-size="12">Seed 42. Curves start at step 250; complete histories include step 0. Lower loss indicates better fit.</text>
+</g></svg>

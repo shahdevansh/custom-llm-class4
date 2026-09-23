@@ -1,0 +1,23 @@
+[
+  {
+    "command": [
+      "/bin/zsh",
+      "-c",
+      "python3.12 -m venv qa/independent_review_20260923/clean_setup_venv"
+    ],
+    "returncode": 127,
+    "stdout": "",
+    "stderr": "zsh:1: command not found: python3.12\n"
+  },
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python: No module named pip\n"
+  }
+]

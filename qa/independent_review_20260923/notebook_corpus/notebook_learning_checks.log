@@ -1,0 +1,9 @@
+number of parameters: 0.11M
+starter verified {'step': 0, 'training_loss': 4.926252365112305, 'validation_loss': 4.927547931671143} target_counts {'training': 253, 'validation': 243}
+starter verified {'step': 1500, 'training_loss': 0.6821381449699402, 'validation_loss': 0.7182430624961853} target_counts {'training': 253, 'validation': 243}
+starter verified {'step': 3000, 'training_loss': 0.6783124208450317, 'validation_loss': 0.7061358690261841} target_counts {'training': 253, 'validation': 243}
+number of parameters: 0.12M
+expanded verified {'step': 0, 'training_loss': 5.781627655029297, 'validation_loss': 5.803586006164551} target_counts {'training': 239, 'validation': 245}
+expanded verified {'step': 1500, 'training_loss': 0.7778765559196472, 'validation_loss': 0.7909225821495056} target_counts {'training': 239, 'validation': 245}
+expanded verified {'step': 3000, 'training_loss': 0.7322326302528381, 'validation_loss': 0.7467306852340698} target_counts {'training': 239, 'validation': 245}
+{"total_checks": 116, "passed": 116, "failed": 0}

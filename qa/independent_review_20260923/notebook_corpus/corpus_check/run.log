@@ -1,0 +1,69 @@
+{
+  "checks": 42,
+  "all_checks_passed": true,
+  "failures": [],
+  "sources": {
+    "contextual_contrasts.txt": {
+      "file": "contextual_contrasts.txt",
+      "bytes": 31220,
+      "sha256": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710",
+      "warnings": [],
+      "characters": 31220,
+      "passages": 384,
+      "unique_passages": 384,
+      "preview": "the soup in the pot is hot, while the soup in the bowl is cold.\nthe soup in the bowl is cold, but the soup in the pot is hot.\nwe described the soup in the pot as hot and the soup in the bowl as cold.\nwe compared the soup in the pot, which was hot, with the soup in the bowl, which was cold.\nwe notice",
+      "min_tokens": 13,
+      "max_tokens": 24,
+      "token_types": 147
+    },
+    "grammar_practice.txt": {
+      "file": "grammar_practice.txt",
+      "bytes": 19340,
+      "sha256": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8",
+      "warnings": [],
+      "characters": 19340,
+      "passages": 528,
+      "unique_passages": 528,
+      "preview": "the baker is ready before work.\nthe bakers are ready before work.\nthis baker was ready after lunch.\nthese bakers were ready after lunch.\nour baker feels ready this morning.\nour bakers feel ready this morning.\na baker seems ready today.\nseveral bakers seem ready today.\nthe baker is tired before work.",
+      "min_tokens": 6,
+      "max_tokens": 9,
+      "token_types": 80
+    }
+  },
+  "base": {
+    "raw_passages": 6360,
+    "excluded_passages": 160,
+    "excluded_unique_passages": 40,
+    "retained_passages": 6200,
+    "retained_unique_passages": 4592,
+    "excluded_case_counts": {
+      "lang_09": 4,
+      "lang_01": 16,
+      "lang_02": 16,
+      "lang_10": 4,
+      "lang_03": 16,
+      "lang_11": 4,
+      "lang_04": 16,
+      "lang_12": 4,
+      "lang_05": 16,
+      "lang_13": 4,
+      "lang_06": 16,
+      "lang_14": 4,
+      "lang_15": 4,
+      "lang_07": 16,
+      "lang_08": 16,
+      "lang_16": 4
+    }
+  },
+  "extension": {
+    "unique_passages": 912,
+    "overlap_with_base": 0,
+    "token_types": 212,
+    "new_token_types": 183,
+    "combined_token_types": 316
+  },
+  "cross_run": {
+    "starter_train_to_expanded_validation": 401,
+    "starter_validation_to_expanded_train": 417
+  }
+}

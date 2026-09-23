@@ -1,0 +1,6 @@
+{
+  "instrumented_run": "balanced_lr0.003_seed42",
+  "control_run": "balanced_lr0.003_seed42_no_instrumentation",
+  "identical_final_weights": true,
+  "identical_history": true
+}

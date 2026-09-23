@@ -1,0 +1,5 @@
+number of parameters: 0.11M
+Language evals (final): 20/48; 24/48 cases have usable vocabulary/context.
+  extend_corpus: 0/24 correct; 0 scorable
+  starter_patterns: 16/16 correct; 16 scorable
+  starter_transfer: 4/8 correct; 8 scorable

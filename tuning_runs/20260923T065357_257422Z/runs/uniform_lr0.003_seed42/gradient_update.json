@@ -1,0 +1,90 @@
+{
+  "update": 1000,
+  "probe": {
+    "document_index": 3969,
+    "passage": "the farmers are tired before work .",
+    "prefix": "the farmers are",
+    "target": "tired",
+    "embedding_token": "farmers",
+    "token_id": 88,
+    "coordinate": 0,
+    "batch_document_indices": [
+      1224,
+      3911,
+      868,
+      1090,
+      2582,
+      19,
+      3363,
+      2517,
+      1883,
+      3969,
+      4498,
+      3354,
+      1026,
+      4569,
+      3134,
+      945,
+      2994,
+      3986,
+      1160,
+      4540,
+      2950,
+      3951,
+      3155,
+      4053,
+      1520,
+      909,
+      3595,
+      4720,
+      1545,
+      4054,
+      1602,
+      273
+    ]
+  },
+  "learning_rate": 0.0024088125601003764,
+  "before": {
+    "batch_loss": 0.787595272064209,
+    "target_probability": 0.2110363245010376,
+    "validation": {
+      "starter": 0.6658885478973389,
+      "grammar": 1.33962881565094,
+      "contrasts": 1.0414427518844604,
+      "original": 0.7980518341064453,
+      "macro": 1.015653371810913
+    },
+    "parameter": -0.12066225707530975
+  },
+  "moments_before": {
+    "step": 999,
+    "m": -7.520685176132247e-05,
+    "v": 5.872497240488883e-06
+  },
+  "raw_gradient": 0.010295839048922062,
+  "gradient_norm_before_clipping": 0.609122097492218,
+  "clip_multiplier": 1.0,
+  "clipped_gradient": 0.010295839048922062,
+  "after": {
+    "batch_loss": 0.7682234644889832,
+    "target_probability": 0.2276453822851181,
+    "validation": {
+      "starter": 0.6730172634124756,
+      "grammar": 1.3123657703399658,
+      "contrasts": 1.0526788234710693,
+      "original": 0.7977860569953918,
+      "macro": 1.0126872857411702
+    },
+    "parameter": -0.12136182934045792
+  },
+  "moments_after": {
+    "step": 1000,
+    "m": 0.0009618977783247828,
+    "v": 1.0879088222282007e-05
+  },
+  "weight_decay_delta": 2.906527603730666e-06,
+  "adaptive_delta": -0.0007024806446184978,
+  "predicted_delta_float64": -0.0006995741170147671,
+  "actual_delta": -0.0006995722651481628,
+  "reconstruction_error": 1.8518666042906945e-09
+}

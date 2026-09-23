@@ -1,0 +1,1542 @@
+{
+  "commit": "56f610f7e4ae183db78bf9201cf9d543dfde654a",
+  "checks": [
+    {
+      "name": "custom_llm.ipynb identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "custom_llm_expanded.ipynb identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "source/course_starter.ipynb identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "nanogpt_model.py identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "custom_llm.py identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "docs/learning_evidence.md identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "README.md identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "experiment_runs.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "starter code execution counts",
+      "pass": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "name": "starter stored notebook errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "starter original cells changed only title/settings/prediction",
+      "pass": true,
+      "actual": [
+        0,
+        1,
+        2
+      ],
+      "expected": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "starter additional chat cells source",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "expanded code execution counts",
+      "pass": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "name": "expanded stored notebook errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "expanded original cells changed only title/settings/prediction",
+      "pass": true,
+      "actual": [
+        0,
+        1,
+        2
+      ],
+      "expected": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "expanded additional chat cells source",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/config.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/split.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/tokenization.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/inspection.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/history.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/checkpoint.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/model.pt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/model_untrained.pt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/training.csv identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/temperature_comparison.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/training_summary.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/samples/step_0000.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/samples/step_1500.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T043154_967139Z/samples/step_3000.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "starter initial model vocabulary",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "1f075e2a8588ea863ebf0c6a31308a52ef82a5ca4f18198637981cfad9abcf19",
+        "serialized_characters": 1382
+      },
+      "expected": {
+        "serialized_sha256": "1f075e2a8588ea863ebf0c6a31308a52ef82a5ca4f18198637981cfad9abcf19",
+        "serialized_characters": 1382
+      }
+    },
+    {
+      "name": "starter final model vocabulary",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "1f075e2a8588ea863ebf0c6a31308a52ef82a5ca4f18198637981cfad9abcf19",
+        "serialized_characters": 1382
+      },
+      "expected": {
+        "serialized_sha256": "1f075e2a8588ea863ebf0c6a31308a52ef82a5ca4f18198637981cfad9abcf19",
+        "serialized_characters": 1382
+      }
+    },
+    {
+      "name": "starter initial completed_steps",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "starter final completed_steps",
+      "pass": true,
+      "actual": 3000,
+      "expected": 3000
+    },
+    {
+      "name": "starter tokenization example",
+      "pass": true,
+      "actual": "today the school focused on lesson and the local professor .",
+      "expected": "today the school focused on lesson and the local professor ."
+    },
+    {
+      "name": "starter tokenization IDs",
+      "pass": true,
+      "actual": [
+        1,
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3,
+        2
+      ],
+      "expected": [
+        1,
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "starter shifted inputs",
+      "pass": true,
+      "actual": [
+        1,
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3
+      ],
+      "expected": [
+        1,
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3
+      ]
+    },
+    {
+      "name": "starter shifted targets",
+      "pass": true,
+      "actual": [
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3,
+        2
+      ],
+      "expected": [
+        121,
+        118,
+        101,
+        42,
+        74,
+        61,
+        7,
+        118,
+        63,
+        88,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "starter customer ID",
+      "pass": true,
+      "actual": 28,
+      "expected": 28
+    },
+    {
+      "name": "starter checkpoint initial table",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "2182d7a3aa55970e79e620b078f6db52d954efd3352fa4de99979d6e98841854",
+        "serialized_characters": 194905
+      },
+      "expected": {
+        "serialized_sha256": "2182d7a3aa55970e79e620b078f6db52d954efd3352fa4de99979d6e98841854",
+        "serialized_characters": 194905
+      }
+    },
+    {
+      "name": "starter checkpoint final table",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "2e43913bee7801c7877cd5a669d22723506f1c5869940bb79431c94ced4c8c3f",
+        "serialized_characters": 187389
+      },
+      "expected": {
+        "serialized_sha256": "2e43913bee7801c7877cd5a669d22723506f1c5869940bb79431c94ced4c8c3f",
+        "serialized_characters": 187389
+      }
+    },
+    {
+      "name": "starter before embedding",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "abddced7b4064a74d87d17f709a46d1e190a39bf66884ddb858b0c924c7d1ac3",
+        "serialized_characters": 1434
+      },
+      "expected": {
+        "serialized_sha256": "abddced7b4064a74d87d17f709a46d1e190a39bf66884ddb858b0c924c7d1ac3",
+        "serialized_characters": 1434
+      }
+    },
+    {
+      "name": "starter after embedding",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "33140adb742e03e3bb7e273423a19b9964430db9ae0820798b72c56a1227dbc3",
+        "serialized_characters": 1382
+      },
+      "expected": {
+        "serialized_sha256": "33140adb742e03e3bb7e273423a19b9964430db9ae0820798b72c56a1227dbc3",
+        "serialized_characters": 1382
+      }
+    },
+    {
+      "name": "starter saved initial tensors equal fresh seed42 model",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "starter parameter count",
+      "pass": true,
+      "actual": 111872,
+      "expected": 111872
+    },
+    {
+      "name": "starter CSV/history equal",
+      "pass": true,
+      "actual": [
+        {
+          "step": 0,
+          "training_loss": 4.926252365112305,
+          "validation_loss": 4.927547931671143
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.6821381449699402,
+          "validation_loss": 0.7182430624961853
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.6783124208450317,
+          "validation_loss": 0.7061358690261841
+        }
+      ],
+      "expected": [
+        {
+          "step": 0,
+          "training_loss": 4.926252365112305,
+          "validation_loss": 4.927547931671143
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.6821381449699402,
+          "validation_loss": 0.7182430624961853
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.6783124208450317,
+          "validation_loss": 0.7061358690261841
+        }
+      ]
+    },
+    {
+      "name": "starter baseline probabilities",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "c0a70decf4b3102976f2f6b4c97f0e414d9aaa3cf4bf0bf67850346d88c1eb92",
+        "serialized_characters": 2991
+      },
+      "expected": {
+        "serialized_sha256": "c0a70decf4b3102976f2f6b4c97f0e414d9aaa3cf4bf0bf67850346d88c1eb92",
+        "serialized_characters": 2991
+      }
+    },
+    {
+      "name": "starter step0 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 4.926252365112305,
+      "expected": 4.926252365112305
+    },
+    {
+      "name": "starter step0 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 4.927547931671143,
+      "expected": 4.927548408508301
+    },
+    {
+      "name": "starter step0 loss history",
+      "pass": true,
+      "actual": {
+        "step": 0,
+        "training_loss": 4.926252365112305,
+        "validation_loss": 4.927547931671143
+      },
+      "expected": {
+        "step": 0,
+        "training_loss": 4.926252365112305,
+        "validation_loss": 4.927547931671143
+      }
+    },
+    {
+      "name": "starter step0 all four generation samples",
+      "pass": true,
+      "actual": [
+        "pear professor bond doctor course harvest team physician journey checking buyer delivery traffic report the lecturer item offering and system <UNK> taste recommended mentioned bus question customer at mortgage nurse in instructor",
+        "kitchen purchase journey product question discussion journey service . nurse local",
+        "compared and purchase update mortgage question loan taste in market treatment learned another item bicycle product bicycle focused data and dentist recommended mango apple taxi bicycle delivery peach quality update student lesson",
+        "important hospital juice patient return recommended deposit tutor returned understand kitchen student design ordered hospital treatment important package traffic with yesterday investment important of mentioned store ordered mortgage nurse shopper the station"
+      ],
+      "expected": [
+        "pear professor bond doctor course harvest team physician journey checking buyer delivery traffic report the lecturer item offering and system <UNK> taste recommended mentioned bus question customer at mortgage nurse in instructor",
+        "kitchen purchase journey product question discussion journey service . nurse local",
+        "compared and purchase update mortgage question loan taste in market treatment learned another item bicycle product bicycle focused data and dentist recommended mango apple taxi bicycle delivery peach quality update student lesson",
+        "important hospital juice patient return recommended deposit tutor returned understand kitchen student design ordered hospital treatment important package traffic with yesterday investment important of mentioned store ordered mortgage nurse shopper the station"
+      ]
+    },
+    {
+      "name": "starter actual first gradient/update replay",
+      "pass": true,
+      "actual": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": -0.057591915130615234,
+        "gradient": 0.000692586530931294,
+        "learning_rate": 1e-05,
+        "after": -0.05760190635919571
+      },
+      "expected": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": -0.057591915130615234,
+        "gradient": 0.000692586530931294,
+        "learning_rate": 1e-05,
+        "after": -0.05760190635919571
+      }
+    },
+    {
+      "name": "starter step1500 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.6821381449699402,
+      "expected": 0.6821381449699402
+    },
+    {
+      "name": "starter step1500 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7182430624961853,
+      "expected": 0.7182431221008301
+    },
+    {
+      "name": "starter step1500 loss history",
+      "pass": true,
+      "actual": {
+        "step": 1500,
+        "training_loss": 0.6821381449699402,
+        "validation_loss": 0.7182430624961853
+      },
+      "expected": {
+        "step": 1500,
+        "training_loss": 0.6821381449699402,
+        "validation_loss": 0.7182430624961853
+      }
+    },
+    {
+      "name": "starter step1500 all four generation samples",
+      "pass": true,
+      "actual": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "we learned about the important website during a discussion of data .",
+        "our school has a question about the different instructor and course ."
+      ],
+      "expected": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "we learned about the important website during a discussion of data .",
+        "our school has a question about the different instructor and course ."
+      ]
+    },
+    {
+      "name": "starter step3000 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.6783124208450317,
+      "expected": 0.6783124208450317
+    },
+    {
+      "name": "starter step3000 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7061358690261841,
+      "expected": 0.7061358094215393
+    },
+    {
+      "name": "starter step3000 loss history",
+      "pass": true,
+      "actual": {
+        "step": 3000,
+        "training_loss": 0.6783124208450317,
+        "validation_loss": 0.7061358690261841
+      },
+      "expected": {
+        "step": 3000,
+        "training_loss": 0.6783124208450317,
+        "validation_loss": 0.7061358690261841
+      }
+    },
+    {
+      "name": "starter step3000 all four generation samples",
+      "pass": true,
+      "actual": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ],
+      "expected": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ]
+    },
+    {
+      "name": "starter all final tensors equal complete independent training replay",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "starter final probabilities",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "4687bb5f98260f55b6fbc94d56f72ba1cf9cb6968de72d780a165dfed4455205",
+        "serialized_characters": 3167
+      },
+      "expected": {
+        "serialized_sha256": "4687bb5f98260f55b6fbc94d56f72ba1cf9cb6968de72d780a165dfed4455205",
+        "serialized_characters": 3167
+      }
+    },
+    {
+      "name": "starter first-head causal attention",
+      "pass": true,
+      "actual": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6059569716453552,
+          0.39404305815696716,
+          0.0
+        ],
+        [
+          0.4851553738117218,
+          0.42300382256507874,
+          0.09184082597494125
+        ]
+      ],
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6059569716453552,
+          0.39404305815696716,
+          0.0
+        ],
+        [
+          0.4851553738117218,
+          0.42300382256507874,
+          0.09184082597494125
+        ]
+      ]
+    },
+    {
+      "name": "starter all temperature 0.3 samples",
+      "pass": true,
+      "actual": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different investment .",
+        "the report about the nurse explains the health in detail .",
+        "the local consumer was mentioned in the purchase report yesterday ."
+      ],
+      "expected": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different investment .",
+        "the report about the nurse explains the health in detail .",
+        "the local consumer was mentioned in the purchase report yesterday ."
+      ]
+    },
+    {
+      "name": "starter all temperature 0.8 samples",
+      "pass": true,
+      "actual": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ],
+      "expected": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ]
+    },
+    {
+      "name": "starter all temperature 1.2 samples",
+      "pass": true,
+      "actual": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ],
+      "expected": [
+        "our school has a question about the new educator and lesson .",
+        "a review of risk helped us understand the different deposit .",
+        "the report about the nurse explains the health in detail .",
+        "the consumer compared the offering after checking the price ."
+      ]
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/config.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/split.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/tokenization.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/inspection.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/history.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/checkpoint.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/model.pt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/model_untrained.pt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/training.csv identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/temperature_comparison.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/training_summary.json identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/samples/step_0000.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/samples/step_1500.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "llm_runs/20260923T062639_403952Z/samples/step_3000.txt identical to original commit",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "expanded initial model vocabulary",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "d771cbb2ad85fe43763dea6ce1cf178a9c779483c4227a782dda0c3a0e19a5d2",
+        "serialized_characters": 2984
+      },
+      "expected": {
+        "serialized_sha256": "d771cbb2ad85fe43763dea6ce1cf178a9c779483c4227a782dda0c3a0e19a5d2",
+        "serialized_characters": 2984
+      }
+    },
+    {
+      "name": "expanded final model vocabulary",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "d771cbb2ad85fe43763dea6ce1cf178a9c779483c4227a782dda0c3a0e19a5d2",
+        "serialized_characters": 2984
+      },
+      "expected": {
+        "serialized_sha256": "d771cbb2ad85fe43763dea6ce1cf178a9c779483c4227a782dda0c3a0e19a5d2",
+        "serialized_characters": 2984
+      }
+    },
+    {
+      "name": "expanded initial completed_steps",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "expanded final completed_steps",
+      "pass": true,
+      "actual": 3000,
+      "expected": 3000
+    },
+    {
+      "name": "expanded tokenization example",
+      "pass": true,
+      "actual": "our bank has a question about the new investment and return .",
+      "expected": "our bank has a question about the new investment and return ."
+    },
+    {
+      "name": "expanded tokenization IDs",
+      "pass": true,
+      "actual": [
+        1,
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4,
+        2
+      ],
+      "expected": [
+        1,
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "expanded shifted inputs",
+      "pass": true,
+      "actual": [
+        1,
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4
+      ],
+      "expected": [
+        1,
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4
+      ]
+    },
+    {
+      "name": "expanded shifted targets",
+      "pass": true,
+      "actual": [
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4,
+        2
+      ],
+      "expected": [
+        175,
+        23,
+        110,
+        5,
+        196,
+        6,
+        266,
+        161,
+        128,
+        10,
+        205,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "expanded customer ID",
+      "pass": true,
+      "actual": 62,
+      "expected": 62
+    },
+    {
+      "name": "expanded checkpoint initial table",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "4edccbf6f4099292d204cb72d93be3961b18063aaafccc43edeba25836195866",
+        "serialized_characters": 457098
+      },
+      "expected": {
+        "serialized_sha256": "4edccbf6f4099292d204cb72d93be3961b18063aaafccc43edeba25836195866",
+        "serialized_characters": 457098
+      }
+    },
+    {
+      "name": "expanded checkpoint final table",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "4cef734bca8e53e5a714c50ee3887dbfa319e8b2cbd677184a418e728ec7a9f1",
+        "serialized_characters": 441556
+      },
+      "expected": {
+        "serialized_sha256": "4cef734bca8e53e5a714c50ee3887dbfa319e8b2cbd677184a418e728ec7a9f1",
+        "serialized_characters": 441556
+      }
+    },
+    {
+      "name": "expanded before embedding",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "81db4ed0784b1a1ac62878c1d2f2aaa5854a18e8fbc241a9712b4caafc2720be",
+        "serialized_characters": 1427
+      },
+      "expected": {
+        "serialized_sha256": "81db4ed0784b1a1ac62878c1d2f2aaa5854a18e8fbc241a9712b4caafc2720be",
+        "serialized_characters": 1427
+      }
+    },
+    {
+      "name": "expanded after embedding",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "8282177523a58ad0c24787ec38ae04c5c192bfb6436d1f0ce7c2138060026085",
+        "serialized_characters": 1382
+      },
+      "expected": {
+        "serialized_sha256": "8282177523a58ad0c24787ec38ae04c5c192bfb6436d1f0ce7c2138060026085",
+        "serialized_characters": 1382
+      }
+    },
+    {
+      "name": "expanded saved initial tensors equal fresh seed42 model",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "expanded parameter count",
+      "pass": true,
+      "actual": 123584,
+      "expected": 123584
+    },
+    {
+      "name": "expanded CSV/history equal",
+      "pass": true,
+      "actual": [
+        {
+          "step": 0,
+          "training_loss": 5.781627655029297,
+          "validation_loss": 5.803586006164551
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.7778765559196472,
+          "validation_loss": 0.7909225821495056
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.7322326302528381,
+          "validation_loss": 0.7467306852340698
+        }
+      ],
+      "expected": [
+        {
+          "step": 0,
+          "training_loss": 5.781627655029297,
+          "validation_loss": 5.803586006164551
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.7778765559196472,
+          "validation_loss": 0.7909225821495056
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.7322326302528381,
+          "validation_loss": 0.7467306852340698
+        }
+      ]
+    },
+    {
+      "name": "expanded baseline probabilities",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "e970f5ab56ea2a8ea74a1599c89be3eceae149ff274ab3517e355fd85ad41901",
+        "serialized_characters": 7178
+      },
+      "expected": {
+        "serialized_sha256": "e970f5ab56ea2a8ea74a1599c89be3eceae149ff274ab3517e355fd85ad41901",
+        "serialized_characters": 7178
+      }
+    },
+    {
+      "name": "expanded step0 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 5.781627655029297,
+      "expected": 5.781627655029297
+    },
+    {
+      "name": "expanded step0 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 5.803586006164551,
+      "expected": 5.803586483001709
+    },
+    {
+      "name": "expanded step0 loss history",
+      "pass": true,
+      "actual": {
+        "step": 0,
+        "training_loss": 5.781627655029297,
+        "validation_loss": 5.803586006164551
+      },
+      "expected": {
+        "step": 0,
+        "training_loss": 5.781627655029297,
+        "validation_loss": 5.803586006164551
+      }
+    },
+    {
+      "name": "expanded step0 all four generation samples",
+      "pass": true,
+      "actual": [
+        "end after explains each gardeners therapist hard seat artist rope feels ordered platform taxi health customer website from bottle unlike wet consumer grass noticed soup last offering client hard health i understand",
+        "wood table is stone they learned of update loud of bakers shopper brush website hill at bakers field travel every shopper merchandise loan qualities merchandise big pond walked new harvest detail musicians",
+        "week physician with ground sky payment hard and quality dentist pear was path bus many discussed window he first bright us walk car big therapist are was focused therapist walks bank light",
+        "street code student bond baker a train dry car helpers sun work waits works understand by working warm wall baker interest journey taste street by loan loan walks hospital professor end journey"
+      ],
+      "expected": [
+        "end after explains each gardeners therapist hard seat artist rope feels ordered platform taxi health customer website from bottle unlike wet consumer grass noticed soup last offering client hard health i understand",
+        "wood table is stone they learned of update loud of bakers shopper brush website hill at bakers field travel every shopper merchandise loan qualities merchandise big pond walked new harvest detail musicians",
+        "week physician with ground sky payment hard and quality dentist pear was path bus many discussed window he first bright us walk car big therapist are was focused therapist walks bank light",
+        "street code student bond baker a train dry car helpers sun work waits works understand by working warm wall baker interest journey taste street by loan loan walks hospital professor end journey"
+      ]
+    },
+    {
+      "name": "expanded actual first gradient/update replay",
+      "pass": true,
+      "actual": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": 0.022058632224798203,
+        "gradient": 9.003780724015087e-05,
+        "learning_rate": 1e-05,
+        "after": 0.02204863354563713
+      },
+      "expected": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": 0.022058632224798203,
+        "gradient": 9.003780724015087e-05,
+        "learning_rate": 1e-05,
+        "after": 0.02204863354563713
+      }
+    },
+    {
+      "name": "expanded step1500 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7778765559196472,
+      "expected": 0.777876615524292
+    },
+    {
+      "name": "expanded step1500 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7909225821495056,
+      "expected": 0.7909225821495056
+    },
+    {
+      "name": "expanded step1500 loss history",
+      "pass": true,
+      "actual": {
+        "step": 1500,
+        "training_loss": 0.7778765559196472,
+        "validation_loss": 0.7909225821495056
+      },
+      "expected": {
+        "step": 1500,
+        "training_loss": 0.7778765559196472,
+        "validation_loss": 0.7909225821495056
+      }
+    },
+    {
+      "name": "expanded step1500 all four generation samples",
+      "pass": true,
+      "actual": [
+        "today the kitchen focused on juice and the new apple .",
+        "our bank has a question about the local bond and interest .",
+        "last week the musicians walked through the park .",
+        "today the bank focused on return and the important mortgage ."
+      ],
+      "expected": [
+        "today the kitchen focused on juice and the new apple .",
+        "our bank has a question about the local bond and interest .",
+        "last week the musicians walked through the park .",
+        "today the bank focused on return and the important mortgage ."
+      ]
+    },
+    {
+      "name": "expanded step3000 training loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7322326302528381,
+      "expected": 0.7322326302528381
+    },
+    {
+      "name": "expanded step3000 validation loss equals manual nonpadding target mean",
+      "pass": true,
+      "actual": 0.7467306852340698,
+      "expected": 0.7467307448387146
+    },
+    {
+      "name": "expanded step3000 loss history",
+      "pass": true,
+      "actual": {
+        "step": 3000,
+        "training_loss": 0.7322326302528381,
+        "validation_loss": 0.7467306852340698
+      },
+      "expected": {
+        "step": 3000,
+        "training_loss": 0.7322326302528381,
+        "validation_loss": 0.7467306852340698
+      }
+    },
+    {
+      "name": "expanded step3000 all four generation samples",
+      "pass": true,
+      "actual": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and interest .",
+        "last week the musicians low .",
+        "the different brand was mentioned in the price report yesterday ."
+      ],
+      "expected": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and interest .",
+        "last week the musicians low .",
+        "the different brand was mentioned in the price report yesterday ."
+      ]
+    },
+    {
+      "name": "expanded all final tensors equal complete independent training replay",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "expanded final probabilities",
+      "pass": true,
+      "actual": {
+        "serialized_sha256": "f067a2b4f3c470ae38e10e40539153432c9c2f7a09c6e97291b72e00d525d05a",
+        "serialized_characters": 7431
+      },
+      "expected": {
+        "serialized_sha256": "f067a2b4f3c470ae38e10e40539153432c9c2f7a09c6e97291b72e00d525d05a",
+        "serialized_characters": 7431
+      }
+    },
+    {
+      "name": "expanded first-head causal attention",
+      "pass": true,
+      "actual": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.19783346354961395,
+          0.8021665215492249,
+          0.0
+        ],
+        [
+          0.7005338072776794,
+          0.2351919412612915,
+          0.06427423655986786
+        ]
+      ],
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.19783346354961395,
+          0.8021665215492249,
+          0.0
+        ],
+        [
+          0.7005338072776794,
+          0.2351919412612915,
+          0.06427423655986786
+        ]
+      ]
+    },
+    {
+      "name": "expanded all temperature 0.3 samples",
+      "pass": true,
+      "actual": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and return .",
+        "we learned about the important nurse during a discussion of health .",
+        "we learned about the different shopper during a discussion of support ."
+      ],
+      "expected": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and return .",
+        "we learned about the important nurse during a discussion of health .",
+        "we learned about the different shopper during a discussion of support ."
+      ]
+    },
+    {
+      "name": "expanded all temperature 0.8 samples",
+      "pass": true,
+      "actual": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and interest .",
+        "last week the musicians low .",
+        "the different brand was mentioned in the price report yesterday ."
+      ],
+      "expected": [
+        "today the station focused on journey and the new taxi .",
+        "our bank has a question about the important bond and interest .",
+        "last week the musicians low .",
+        "the different brand was mentioned in the price report yesterday ."
+      ]
+    },
+    {
+      "name": "expanded all temperature 1.2 samples",
+      "pass": true,
+      "actual": [
+        "today the station focused on journey and the new taxi .",
+        "several artists seem calm today .",
+        "they compared the new doctor with another physician at the hospital .",
+        "the different brand was mentioned in the price report yesterday ."
+      ],
+      "expected": [
+        "today the station focused on journey and the new taxi .",
+        "several artists seem calm today .",
+        "they compared the new doctor with another physician at the hospital .",
+        "the different brand was mentioned in the price report yesterday ."
+      ]
+    }
+  ],
+  "runs": {
+    "starter": {
+      "run_dir": "llm_runs/20260923T043154_967139Z",
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 136,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replayed_loss_history": [
+        {
+          "step": 0,
+          "training_loss": 4.926252365112305,
+          "validation_loss": 4.927547931671143
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.6821381449699402,
+          "validation_loss": 0.7182430624961853
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.6783124208450317,
+          "validation_loss": 0.7061358690261841
+        }
+      ],
+      "nonpadding_panel_targets": {
+        "training": 253,
+        "validation": 243
+      },
+      "first_update": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": -0.057591915130615234,
+        "gradient": 0.000692586530931294,
+        "learning_rate": 1e-05,
+        "after": -0.05760190635919571
+      },
+      "first_global_gradient_norm": 3.2434444427490234,
+      "parameter_count": 111872,
+      "final_tensor_comparison": "exact equality",
+      "before_embedding_shape": [
+        136,
+        64
+      ],
+      "after_embedding_shape": [
+        136,
+        64
+      ]
+    },
+    "expanded": {
+      "run_dir": "llm_runs/20260923T062639_403952Z",
+      "model_args": {
+        "block_size": 48,
+        "vocab_size": 319,
+        "n_layer": 2,
+        "n_head": 4,
+        "n_embd": 64,
+        "dropout": 0.0,
+        "bias": true
+      },
+      "replayed_loss_history": [
+        {
+          "step": 0,
+          "training_loss": 5.781627655029297,
+          "validation_loss": 5.803586006164551
+        },
+        {
+          "step": 1500,
+          "training_loss": 0.7778765559196472,
+          "validation_loss": 0.7909225821495056
+        },
+        {
+          "step": 3000,
+          "training_loss": 0.7322326302528381,
+          "validation_loss": 0.7467306852340698
+        }
+      ],
+      "nonpadding_panel_targets": {
+        "training": 239,
+        "validation": 245
+      },
+      "first_update": {
+        "token": "customer",
+        "coordinate": 0,
+        "before": 0.022058632224798203,
+        "gradient": 9.003780724015087e-05,
+        "learning_rate": 1e-05,
+        "after": 0.02204863354563713
+      },
+      "first_global_gradient_norm": 2.817028284072876,
+      "parameter_count": 123584,
+      "final_tensor_comparison": "exact equality",
+      "before_embedding_shape": [
+        319,
+        64
+      ],
+      "after_embedding_shape": [
+        319,
+        64
+      ]
+    }
+  },
+  "notebooks": {
+    "starter": {
+      "total_cells": 28,
+      "code_cells": 15,
+      "all_sources_syntax_valid": true,
+      "stored_error_count": 0,
+      "original_cell_changes": [
+        0,
+        1,
+        2
+      ],
+      "final_reflection_cell": "## 11. Explain in your own words\n1. What can your corpus teach? What does this particular held-out split test?\n2. Trace one word through token, ID and 64-number embedding.\n3. Connect a prediction, loss, gradient and the saved parameter update.\n4. Which neighbors changed? Why is 3D proximity imperfect?\n5. What changed in samples and validation loss? What remains unconvincing?\n6. Explain attention, temperature and one next experiment. More training is not\n   automatically better; a synthetic corpus does not demonstrate general knowledge.\n7. Which eval skills improved? Which lacked vocabulary or examples? Compare the\n   starter run with your corpus-extension run using the same 48 tests.\n8. Show actual chat interactions and explain one failure or limitation.\nSave the executed notebook, evidence and README in your own public repository.\nSubmit its URL through the course portal. Keep both experiment results.\n\n### Submission check\n- Four complete 48-case result sets: starter untrained/trained and expanded untrained/trained.\n- A four-row README comparison, category scores, coverage, and linked per-case outputs.\n- At least two extension categories, new teaching data, and corpus-separation evidence.\n- Actual free continuations, a concrete failure/limitation, and an explanation of the outcomes.\n- Both executed notebooks, model evidence, launch instructions, and at least three real chat interactions.\nApply the 4/3/3 grading guidance near the top. No accuracy threshold or guaranteed improvement is required."
+    },
+    "expanded": {
+      "total_cells": 28,
+      "code_cells": 15,
+      "all_sources_syntax_valid": true,
+      "stored_error_count": 0,
+      "original_cell_changes": [
+        0,
+        1,
+        2
+      ],
+      "final_reflection_cell": "## 11. Explain in your own words\n1. What can your corpus teach? What does this particular held-out split test?\n2. Trace one word through token, ID and 64-number embedding.\n3. Connect a prediction, loss, gradient and the saved parameter update.\n4. Which neighbors changed? Why is 3D proximity imperfect?\n5. What changed in samples and validation loss? What remains unconvincing?\n6. Explain attention, temperature and one next experiment. More training is not\n   automatically better; a synthetic corpus does not demonstrate general knowledge.\n7. Which eval skills improved? Which lacked vocabulary or examples? Compare the\n   starter run with your corpus-extension run using the same 48 tests.\n8. Show actual chat interactions and explain one failure or limitation.\nSave the executed notebook, evidence and README in your own public repository.\nSubmit its URL through the course portal. Keep both experiment results.\n\n### Submission check\n- Four complete 48-case result sets: starter untrained/trained and expanded untrained/trained.\n- A four-row README comparison, category scores, coverage, and linked per-case outputs.\n- At least two extension categories, new teaching data, and corpus-separation evidence.\n- Actual free continuations, a concrete failure/limitation, and an explanation of the outcomes.\n- Both executed notebooks, model evidence, launch instructions, and at least three real chat interactions.\nApply the 4/3/3 grading guidance near the top. No accuracy threshold or guaranteed improvement is required."
+    }
+  },
+  "file_hashes": {
+    "custom_llm.ipynb": "9e871eb0ceb930f42477ea375326882143f6bf5aebd7c49ab90bdf6350f0b43b",
+    "custom_llm_expanded.ipynb": "129a51df4f65e89346523f63ffff2573683a13989735a9247fe93aca05fe2186",
+    "source/course_starter.ipynb": "6ed0f3b45cce7d85cc951ea9bf48a33be01c834ad5dfadd8a15604b37b903683",
+    "nanogpt_model.py": "7c01703240dbec5d554527dc666e35b3df8391d0b117fddc07afcf325a21d11c",
+    "custom_llm.py": "4717e5433b853b2beb8a85b0c22915ca3b7a81ac7088e84fdd2b02d8cd1d884d",
+    "docs/learning_evidence.md": "33fe45379cb8e31e1eb07522af043169d89f0ea0e85c10623c4aaa951ec92114",
+    "README.md": "e43ec18292616b2dc7ca43b496eceeb28875ea8e531e82775db78a33c98329fa",
+    "experiment_runs.json": "67cefcb1815d8bd4548ee1bfa3aaacb06956874fabd09e0013d9ac3711190e3c",
+    "llm_runs/20260923T043154_967139Z/config.json": "4a226741b1da078e3ede9522075f75fa66b67c18ab2adfa604b7e1d6ca672cbb",
+    "llm_runs/20260923T043154_967139Z/split.json": "d17f4dcc442fe10967980808d9ea750289ccf73754a8734f627a7c4a9d836e8b",
+    "llm_runs/20260923T043154_967139Z/tokenization.json": "3d66748844e546d5993414973917f04cf2d4a900b5e0bc2516d567f3eb878334",
+    "llm_runs/20260923T043154_967139Z/inspection.json": "b9ad5a2de5ffe319feadade329d7f4ba5cf133ba18be7ef1447e9eaa1228a98c",
+    "llm_runs/20260923T043154_967139Z/history.json": "5384328669ffd377c3af6c831a6919ab58de3f73e6d284e394a81216901b1e08",
+    "llm_runs/20260923T043154_967139Z/checkpoint.json": "5b4ff4d60b8389e715ff084f6fde0e41d909b1c43e9090160fe2f855a481cd6e",
+    "llm_runs/20260923T043154_967139Z/model.pt": "44f0f67db8622a4c7dad0636bd18ef9a95f1f466a95c58e7059076ad38932ace",
+    "llm_runs/20260923T043154_967139Z/model_untrained.pt": "6e1c99227a68e1e83cdd58ea28bf1bdddb113f43ba7b6e15cdd80498b3dd685a",
+    "llm_runs/20260923T043154_967139Z/training.csv": "513cde9ae39272ffab922505535807c24ab1a79526539554ea3d0a4facd0ac8f",
+    "llm_runs/20260923T043154_967139Z/temperature_comparison.json": "8886aff79fa98b39403007396417e7eb25f5143d3f6de069439af3ffb838fff0",
+    "llm_runs/20260923T043154_967139Z/training_summary.json": "efc0e8bd8ff6423617fd397c4a5bb58b5bd37d27329dc9217b9540140a6904ed",
+    "llm_runs/20260923T043154_967139Z/samples/step_0000.txt": "c22a24c511ff843bd1383104a5c25cf9667e5dfa74d340caede0d5c9fdd71e4c",
+    "llm_runs/20260923T043154_967139Z/samples/step_1500.txt": "537b0418020be41c152bf996ed474ea13f2e41b80baf0cdd7e3e49a51d5d6742",
+    "llm_runs/20260923T043154_967139Z/samples/step_3000.txt": "01a7bee42e6ded5ce995385790e6b52391d4434fb463eba122f1810c20f97ba2",
+    "llm_runs/20260923T062639_403952Z/config.json": "f7f90729c80cb4c6cb8f7e2becd5ea2f83338d1b470203c123371a7d6cad4128",
+    "llm_runs/20260923T062639_403952Z/split.json": "11ea8b470c19060964505032088570bd320fb99982d0f05daad234e4a7ae088d",
+    "llm_runs/20260923T062639_403952Z/tokenization.json": "438c82412bbbb0138b40efce9e8ceebccb2aabf60534d03eab636d5bb6ed7662",
+    "llm_runs/20260923T062639_403952Z/inspection.json": "010b4c71e769ff591c69eb34d7e267b841a0dbe77dd0fdeb3159f599829fc9ae",
+    "llm_runs/20260923T062639_403952Z/history.json": "71e2cf9aa7bda233f02848f2249e98aaae0e5b838f1be10b235a8bfb11c0b8a2",
+    "llm_runs/20260923T062639_403952Z/checkpoint.json": "25ae75ef486e84813b2ffc57c11ae3674db39951dc788799d0bd45176e802bcf",
+    "llm_runs/20260923T062639_403952Z/model.pt": "5e1b65ea8baf306af94cbfc05afaa72e811dd97175468825ee50d4e955666890",
+    "llm_runs/20260923T062639_403952Z/model_untrained.pt": "66ea025ed8c4c644c94ac0e1114f82a300f0d0aa0d35738cb6d414f6fd71d300",
+    "llm_runs/20260923T062639_403952Z/training.csv": "a2a4cda0e4ed9f8a1ca3a3dbc3a60906a5778ee26d8e7b3bb6f19108a122c2e4",
+    "llm_runs/20260923T062639_403952Z/temperature_comparison.json": "79fc26062aebde37478246982ba842960446087af4423cd596fc20db85903f03",
+    "llm_runs/20260923T062639_403952Z/training_summary.json": "5a64467dd49eb8adb3d817d4e42f06a4d9eea6ff8c7043b10991a73f51664d9e",
+    "llm_runs/20260923T062639_403952Z/samples/step_0000.txt": "a9dcbbc60d5d3c0dcb0fd417174cbe9fd91e640525d54688417de7888380e331",
+    "llm_runs/20260923T062639_403952Z/samples/step_1500.txt": "a5b0d3a7bfa9b00cf4fea43d95e3e23b71534d68fc9b15b77ee8dae58b1953cc",
+    "llm_runs/20260923T062639_403952Z/samples/step_3000.txt": "a8a43c202d81c86d9c3725a2de7c0e58da5617ad36d06b92ba0cb47ccac2af24"
+  },
+  "summary": {
+    "total_checks": 116,
+    "passed": 116,
+    "failed": 0
+  }
+}

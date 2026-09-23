@@ -1,0 +1,96 @@
+[
+  {
+    "command": [
+      "/opt/homebrew/bin/uv",
+      "venv",
+      "--python",
+      "3.12",
+      "--seed",
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.9822014999990643,
+    "stdout": "",
+    "stderr": "Using CPython 3.12.12\nCreating virtual environment with seed packages at: /var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv\n + pip==26.2.1\nActivate with: source /var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/activate\n"
+  },
+  {
+    "command": [
+      "/opt/homebrew/bin/uv",
+      "pip",
+      "install",
+      "--python",
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/python",
+      "-r",
+      "requirements-lock.txt"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.7904357500010519,
+    "stdout": "",
+    "stderr": "Using Python 3.12.12 environment at: /var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv\nResolved 59 packages in 137ms\nInstalled 59 packages in 550ms\n + appnope==1.0.0\n + asttokens==3.0.2\n + attrs==26.1.0\n + beautifulsoup4==4.15.0\n + bleach==6.4.0\n + comm==0.2.3\n + debugpy==1.8.22\n + defusedxml==0.7.1\n + executing==2.2.1\n + fastjsonschema==2.22.2\n + filelock==4.0.1\n + fsspec==2026.9.0\n + ipykernel==7.3.0\n + ipython==9.17.1\n + ipython-pygments-lexers==1.1.1\n + jedi==0.20.0\n + jinja2==3.1.6\n + jsonschema==4.26.0\n + jsonschema-specifications==2025.9.1\n + jupyter-client==8.10.0\n + jupyter-core==5.9.1\n + jupyterlab-pygments==0.3.0\n + markupsafe==3.0.3\n + matplotlib-inline==0.2.2\n + mistune==3.3.4\n + mpmath==1.3.0\n + nbclient==0.11.0\n + nbconvert==7.17.1\n + nbformat==5.11.1\n + nest-asyncio2==1.7.3\n + networkx==3.7\n + numpy==2.5.3\n + packaging==26.3\n + pandocfilters==1.5.1\n + parso==0.8.7\n + pexpect==4.9.0\n + platformdirs==4.11.12\n + prompt-toolkit==3.0.53\n + psutil==7.2.2\n + ptyprocess==0.7.0\n + pure-eval==0.2.4\n + pygments==2.21.0\n + pypdf==6.19.0\n + python-dateutil==2.9.0.post0\n + pyzmq==27.2.0\n + referencing==0.37.0\n + rpds-py==2026.6.3\n + setuptools==84.0.0\n + six==1.17.0\n + soupsieve==2.9.2\n + stack-data==0.6.3\n + sympy==1.14.0\n + tinycss2==1.5.1\n + torch==2.14.0\n + tornado==6.5.10\n + traitlets==5.16.1\n + typing-extensions==4.16.0\n + wcwidth==0.8.4\n + webencodings==0.6.1\n"
+  },
+  {
+    "command": [
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/python",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.590707499999553,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/python",
+      "-c",
+      "import sys,torch,numpy,pypdf;print(sys.version);print(\"torch\",torch.__version__,\"numpy\",numpy.__version__,\"pypdf\",pypdf.__version__)"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 8.983567540999502,
+    "stdout": "3.12.12 (main, Jan 27 2026, 23:41:44) [Clang 21.1.4 ]\ntorch 2.14.0 numpy 2.5.3 pypdf 6.19.0\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/python",
+      "chat.py",
+      "--model",
+      "llm_runs/20260923T062639_403952Z/model.pt",
+      "--transcript",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/clean_setup_clean_chat.json"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.0199419170021429,
+    "stdout": "number of parameters: 0.12M\nTiny language model: short continuations, not a general assistant.\nEach prompt starts fresh. Context: 48 tokens. Type /quit to exit.\nYou: Model: tired before work .\nYou: Model: brand after checking the price .\nYou: Model: walked through the park .\nYou: Saved transcript: /Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/clean_setup_clean_chat.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python",
+      "chat.py",
+      "--model",
+      "llm_runs/20260923T062639_403952Z/model.pt",
+      "--transcript",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/clean_setup_existing_chat.json"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.1049819170002593,
+    "stdout": "number of parameters: 0.12M\nTiny language model: short continuations, not a general assistant.\nEach prompt starts fresh. Context: 48 tokens. Type /quit to exit.\nYou: Model: tired before work .\nYou: Model: brand after checking the price .\nYou: Model: walked through the park .\nYou: Saved transcript: /Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/clean_setup_existing_chat.json\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/var/folders/m8/8j8twk813rl2_tc42lcv9d0r0000gn/T/independent_custom_llm_nrqjdrio/venv/bin/python",
+      "run_evals.py",
+      "--model",
+      "llm_runs/20260923T062639_403952Z/model.pt",
+      "--output",
+      "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/qa/independent_review_20260923/clean_setup_eval"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.1481360829966434,
+    "stdout": "number of parameters: 0.12M\nLanguage evals (final): 24/48; 27/48 cases have usable vocabulary/context.\n  extend_corpus: 0/24 correct; 3 scorable\n  starter_patterns: 16/16 correct; 16 scorable\n  starter_transfer: 8/8 correct; 8 scorable\n",
+    "stderr": ""
+  }
+]

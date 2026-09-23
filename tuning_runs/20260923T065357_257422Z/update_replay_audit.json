@@ -1,0 +1,1001 @@
+{
+  "created_utc": "2026-09-23T06:57:37.418865+00:00",
+  "study": "tuning_runs/20260923T065357_257422Z",
+  "scope": "Independent one-update replay for every instrumented run; exact selected-control final model, optimizer and RNG equality plus all 13 recorded validation points. Intermediate weights at every training step were not saved or compared.",
+  "update_replays": 10,
+  "untrained_evaluation_replays": 3,
+  "passed": 192,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "input_files_match_frozen_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_frozen_panels_are_validation_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "uniform_lr0.001_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 2.328306427865079e-11,
+        "v_error": 3.793236561579769e-13
+      }
+    },
+    {
+      "check": "uniform_lr0.001_seed42_adamw_equation",
+      "passed": true,
+      "details": 5.7595789921226215e-09
+    },
+    {
+      "check": "uniform_lr0.001_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_clipping_equation",
+      "passed": true,
+      "details": 1.891707797352371e-10
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": -1.746229831740831e-11,
+        "v_error": -2.5720554226488397e-13
+      }
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_adamw_equation",
+      "passed": true,
+      "details": 6.093751359363599e-11
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.0003_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "uniform_lr0.003_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 4.001776687800884e-11,
+        "v_error": 7.577521509566365e-13
+      }
+    },
+    {
+      "check": "uniform_lr0.003_seed42_adamw_equation",
+      "passed": true,
+      "details": 1.8518666042906945e-09
+    },
+    {
+      "check": "uniform_lr0.003_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.003_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_clipping_equation",
+      "passed": true,
+      "details": -3.036793386201886e-11
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": -2.9103830456733704e-11,
+        "v_error": -1.888996009174462e-13
+      }
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_adamw_equation",
+      "passed": true,
+      "details": -3.1381363563910995e-09
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.0003_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "balanced_lr0.001_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 1.164153192248496e-11,
+        "v_error": -2.5874425215247077e-13
+      }
+    },
+    {
+      "check": "balanced_lr0.001_seed42_adamw_equation",
+      "passed": true,
+      "details": 2.321334748771678e-10
+    },
+    {
+      "check": "balanced_lr0.001_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.001_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "balanced_lr0.003_seed42_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 1.74622982631982e-11,
+        "v_error": 9.761999151744472e-14
+      }
+    },
+    {
+      "check": "balanced_lr0.003_seed42_adamw_equation",
+      "passed": true,
+      "details": -1.4610396203691787e-09
+    },
+    {
+      "check": "balanced_lr0.003_seed42_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed42_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "uniform_lr0.001_seed43_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": -5.820766123872806e-12,
+        "v_error": 1.1925849847591041e-13
+      }
+    },
+    {
+      "check": "uniform_lr0.001_seed43_adamw_equation",
+      "passed": true,
+      "details": 2.2355407257898356e-10
+    },
+    {
+      "check": "uniform_lr0.001_seed43_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed43_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "balanced_lr0.003_seed43_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": -1.891748975350882e-11,
+        "v_error": 6.6245576901922e-14
+      }
+    },
+    {
+      "check": "balanced_lr0.003_seed43_adamw_equation",
+      "passed": true,
+      "details": 3.595803648882693e-09
+    },
+    {
+      "check": "balanced_lr0.003_seed43_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed43_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "uniform_lr0.001_seed44_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 2.910383061936403e-12,
+        "v_error": -9.793443174680567e-14
+      }
+    },
+    {
+      "check": "uniform_lr0.001_seed44_adamw_equation",
+      "passed": true,
+      "details": -1.5552852733989597e-11
+    },
+    {
+      "check": "uniform_lr0.001_seed44_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "uniform_lr0.001_seed44_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_frozen_probe_and_batch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_checkpoint_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_before_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_before_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_gradient_and_clipping_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_clipping_equation",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "balanced_lr0.003_seed44_after_observation_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_after_moments_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_entire_model_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_entire_optimizer_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_rng_exact_update_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_update_learning_rate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_moment_equations",
+      "passed": true,
+      "details": {
+        "m_error": 3.492459663481662e-11,
+        "v_error": -2.64028382490622e-13
+      }
+    },
+    {
+      "check": "balanced_lr0.003_seed44_adamw_equation",
+      "passed": true,
+      "details": -5.2166015574069136e-09
+    },
+    {
+      "check": "balanced_lr0.003_seed44_logged_adamw_components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_final_model_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "balanced_lr0.003_seed44_final_optimizer_steps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_control_all_13_recorded_validation_points_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_control_final_model_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_control_final_optimizer_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_control_final_torch_rng_state_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_control_optimizer_finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed42_saved_initial_matches_seed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed42_untrained_rows_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed42_untrained_csv_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed42_untrained_summary_exact_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed42_untrained_identity_and_settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed43_saved_initial_matches_seed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed43_untrained_rows_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed43_untrained_csv_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed43_untrained_summary_exact_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed43_untrained_identity_and_settings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed44_saved_initial_matches_seed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed44_untrained_rows_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed44_untrained_csv_exact_replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed44_untrained_summary_exact_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seed44_untrained_identity_and_settings",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

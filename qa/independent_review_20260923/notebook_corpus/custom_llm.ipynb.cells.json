@@ -1,0 +1,398 @@
+[
+  {
+    "cell": 0,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 4484,
+    "source_preview": "# Starter corpus experiment \u2014 executed evidence\n\n# Building a Custom LLM with nanoGPT\n**Class 4 | Fr",
+    "outputs": []
+  },
+  {
+    "cell": 1,
+    "type": "code",
+    "execution_count": 1,
+    "source_chars": 98,
+    "source_preview": "CORPUS = \"classroom\"\nCORPUS_FOLDER = \"corpus/starter\"\nTRAINING_STEPS = 3000\nLEARNING_RATE = 0.001\n",
+    "outputs": []
+  },
+  {
+    "cell": 2,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 2603,
+    "source_preview": "## Prediction recorded before training\n\nThis plan was prepared with Codex before either 3,000-step t",
+    "outputs": []
+  },
+  {
+    "cell": 3,
+    "type": "code",
+    "execution_count": 2,
+    "source_chars": 3717,
+    "source_preview": "import csv\nimport hashlib\nimport importlib.util\nimport json\nimport math\nimport platform\nimport rando",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 30
+      }
+    ]
+  },
+  {
+    "cell": 4,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 1600,
+    "source_preview": "## 3. Meet the corpus\nA **corpus** is a collection of examples. The default generator creates senten",
+    "outputs": []
+  },
+  {
+    "cell": 5,
+    "type": "code",
+    "execution_count": 3,
+    "source_chars": 9395,
+    "source_preview": "def word_tokens(text):\n    return re.findall(r\"\\w+(?:['\u2019]\\w+)*|[^\\w\\s]\", text.lower(), flags=re.UNIC",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 564
+      }
+    ]
+  },
+  {
+    "cell": 6,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 719,
+    "source_preview": "## 4. Words \u2192 tokens \u2192 IDs\nA token is a unit of text: here a word or punctuation mark. IDs are arbit",
+    "outputs": []
+  },
+  {
+    "cell": 7,
+    "type": "code",
+    "execution_count": 4,
+    "source_chars": 2000,
+    "source_preview": "counts = Counter(token for doc in train_docs for token in word_tokens(doc))\nretained = sorted((t for",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 584
+      }
+    ]
+  },
+  {
+    "cell": 8,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 521,
+    "source_preview": "## 5. Neural network and embedding table\nThe upstream nanoGPT GPT uses 2 blocks, 4 heads, 64-number ",
+    "outputs": []
+  },
+  {
+    "cell": 9,
+    "type": "code",
+    "execution_count": 5,
+    "source_chars": 693,
+    "source_preview": "model_config = nanogpt.GPTConfig(vocab_size=len(vocabulary), block_size=BLOCK_SIZE,\n    n_layer=N_LA",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 1599
+      }
+    ]
+  },
+  {
+    "cell": 10,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 525,
+    "source_preview": "## 6. Predictions, loss, and a fair baseline\nLoss penalizes low probability on the observed next tok",
+    "outputs": []
+  },
+  {
+    "cell": 11,
+    "type": "code",
+    "execution_count": 6,
+    "source_chars": 1791,
+    "source_preview": "def batch(documents):\n    sequences = [tokenize(doc) for doc in documents]\n    length = max(len(seq)",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 899
+      }
+    ]
+  },
+  {
+    "cell": 12,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 759,
+    "source_preview": "### 6b. Run the 48 fixed language evals before training\nThese are public synthetic tests kept in eva",
+    "outputs": []
+  },
+  {
+    "cell": 13,
+    "type": "code",
+    "execution_count": 7,
+    "source_chars": 336,
+    "source_preview": "baseline_language_summary = evaluate_suite(model, vocabulary, language_suite,\n    run_dir/\"language_",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 210
+      }
+    ]
+  },
+  {
+    "cell": 14,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 462,
+    "source_preview": "## 7. Train: examples \u2192 predictions \u2192 loss \u2192 gradients \u2192 updates\nOnly training documents enter these",
+    "outputs": []
+  },
+  {
+    "cell": 15,
+    "type": "code",
+    "execution_count": 8,
+    "source_chars": 1940,
+    "source_preview": "optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE, betas=(.9, .95), weight_decay=.0",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 28
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 30
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 364
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 30
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 30
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 554
+      }
+    ]
+  },
+  {
+    "cell": 16,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 480,
+    "source_preview": "## 8. Inspect changed vectors, predictions and attention\nCompare the same word/prefix before and aft",
+    "outputs": []
+  },
+  {
+    "cell": 17,
+    "type": "code",
+    "execution_count": 9,
+    "source_chars": 1748,
+    "source_preview": "@torch.no_grad()\ndef inspect_attention(text):\n    model.eval()\n    ids = torch.tensor([[BOS]+encode(",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 2721
+      }
+    ]
+  },
+  {
+    "cell": 18,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 551,
+    "source_preview": "### 8b. Repeat the same language evals after training\nKeep all 48 cases, including failures. Compare",
+    "outputs": []
+  },
+  {
+    "cell": 19,
+    "type": "code",
+    "execution_count": 10,
+    "source_chars": 248,
+    "source_preview": "final_language_summary = evaluate_suite(model, vocabulary, language_suite,\n    run_dir/\"language_eva",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 208
+      }
+    ]
+  },
+  {
+    "cell": 20,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 538,
+    "source_preview": "## 9. Save evidence and open the viewer\nDownload the results ZIP AND the executed notebook separatel",
+    "outputs": []
+  },
+  {
+    "cell": 21,
+    "type": "code",
+    "execution_count": 11,
+    "source_chars": 3329,
+    "source_preview": "config = {\"model\":\"nanoGPT\", \"upstream_commit\":UPSTREAM_COMMIT, \"tokenizer\":\"word\", \"corpus_source\":",
+    "outputs": [
+      {
+        "type": "display_data",
+        "mimes": [
+          "image/svg+xml",
+          "text/plain"
+        ],
+        "chars": 854
+      },
+      {
+        "type": "display_data",
+        "mimes": [
+          "text/html",
+          "text/plain"
+        ],
+        "chars": 370
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 159
+      }
+    ]
+  },
+  {
+    "cell": 22,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 426,
+    "source_preview": "## 10. Chat with your trained model\nEdit CHAT_PROMPT and rerun the next cell for each new message. E",
+    "outputs": []
+  },
+  {
+    "cell": 23,
+    "type": "code",
+    "execution_count": 12,
+    "source_chars": 1132,
+    "source_preview": "CHAT_PROMPT = \"the customer\"\nchat_file = run_dir/\"chat_transcript.json\"\nchat_record = json.loads(cha",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 71
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 135
+      },
+      {
+        "type": "display_data",
+        "mimes": [
+          "text/html",
+          "text/plain"
+        ],
+        "chars": 370
+      }
+    ]
+  },
+  {
+    "cell": 24,
+    "type": "code",
+    "execution_count": 13,
+    "source_chars": 1129,
+    "source_preview": "CHAT_PROMPT = \"the nurse\"\nchat_file = run_dir/\"chat_transcript.json\"\nchat_record = json.loads(chat_f",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 219
+      },
+      {
+        "type": "display_data",
+        "mimes": [
+          "text/html",
+          "text/plain"
+        ],
+        "chars": 370
+      }
+    ]
+  },
+  {
+    "cell": 25,
+    "type": "code",
+    "execution_count": 14,
+    "source_chars": 1134,
+    "source_preview": "CHAT_PROMPT = \"the small cups\"\nchat_file = run_dir/\"chat_transcript.json\"\nchat_record = json.loads(c",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 115
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 135
+      },
+      {
+        "type": "display_data",
+        "mimes": [
+          "text/html",
+          "text/plain"
+        ],
+        "chars": 370
+      }
+    ]
+  },
+  {
+    "cell": 26,
+    "type": "code",
+    "execution_count": 15,
+    "source_chars": 1149,
+    "source_preview": "CHAT_PROMPT = \"explain quantum teleportation\"\nchat_file = run_dir/\"chat_transcript.json\"\nchat_record",
+    "outputs": [
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 149
+      },
+      {
+        "type": "stream",
+        "mimes": [],
+        "chars": 135
+      },
+      {
+        "type": "display_data",
+        "mimes": [
+          "text/html",
+          "text/plain"
+        ],
+        "chars": 370
+      }
+    ]
+  },
+  {
+    "cell": 27,
+    "type": "markdown",
+    "execution_count": null,
+    "source_chars": 1519,
+    "source_preview": "## 11. Explain in your own words\n1. What can your corpus teach? What does this particular held-out s",
+    "outputs": []
+  }
+]

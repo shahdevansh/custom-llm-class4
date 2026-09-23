@@ -1,0 +1,29 @@
+# Independent corpus review
+
+Reviewed commit `56f610f7e4ae183db78bf9201cf9d543dfde654a`. No existing QA conclusions or memory were used as evidence. `check_corpus.py` independently reconstructs the corpus from source, rather than calling the repository audit. All **42 integrity checks passed**; detailed evidence is in `results.json` and `run.log`. No tracked files changed.
+
+## Findings
+
+1. **Minor teaching-text defects, high confidence.** Five grammar examples say `a artist seems ...` at `corpus/expanded/grammar_practice.txt:127,135,143,151,159`, caused by the generic article frame at `scripts/build_extension_corpus.py:42`. Three are in training and two in validation. This is already disclosed at `README.md:259` and `docs/reproduction_notes.md:9`.
+2. **Additional minor teaching-text defect, high confidence.** Four contrast passages use nonrestrictive `which` for human subjects, where ordinary teaching English should use `who`: runners at `corpus/expanded/contextual_contrasts.txt:154,156`, and visitors at `:172,174`. All four enter training. The generic frames at `scripts/build_extension_corpus.py:168,170` combine with the human scenes at `:105,110`. This issue is not in the current limitations. Across these two issues, 9/912 passages (0.99%) contain an identified language defect. These are data-quality limitations, not integrity failures; changing submitted source text without a new run would break source/run consistency.
+
+## Verified integrity and provenance
+
+- `custom_llm.py` is byte-identical to baseline commit `9e04ddb6aacb8efcb790e70c62550ca55e0f2a75`; `source/course_starter.ipynb` is byte-identical to that commit's `custom_llm.ipynb`. The evaluation suite also byte-matches baseline. This verifies local Git provenance; it does not independently establish historical human authorship of the new templates.
+- The original classroom function creates 6,360 passages. Exact reserved-prefix exclusion removes 160 occurrences (40 unique passages), leaving 6,200 occurrences / 4,592 distinct passages. Deduplication removes 1,608 repeated occurrences.
+- The deterministic generator reproduces both submitted TXT files byte-for-byte: 528 grammar passages and 384 contrasts, all unique and with no overlap with retained starter passages. Grammar sentences have 6–9 tokens; contrasts have 13–24, safely below 47. There are exactly 912 new distinct passages.
+- Grammar file SHA-256: `67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8`; contrast file SHA-256: `997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710`. Both match the expanded manifest, including all counts, byte lengths, previews, and zero warnings/ignored files (`llm_runs/20260923T062639_403952Z/corpus_manifest.json:4–32`).
+- Reconstructed `corpus.txt` bytes and config hashes match both runs. Starter: 4,592 unique / 4,132 train / 460 validation. Expanded: 5,504 unique / 4,953 train / 551 validation. Saved ordering equals independently reconstructed sorted-deduplicated seed-42 shuffle and 90/10 cut; both fixed 20-document panels also match.
+- Training and validation have no exact normalized document overlap or internal duplicates; their union is exactly the intended unique source set. Every document is a complete, bounded sentence. Expanded grammar split: 464 train / 64 validation; contrasts: 341 train / 43 validation. All 912 additions are accounted for.
+- Training-only vocabulary reconstruction matches both saved vocabularies/reports: 133 and 316 ordinary types (136 and 319 including special tokens), no discarded types, and zero train/validation UNK rates. ZIP corpus/split/config/vocabulary/separation evidence matches each corresponding run directory.
+- No complete normalized eval prompt or concatenated four-choice sequence occurs in the additions, and no complete eval prompt remains in either final corpus or split. This supports literal separation only. Code inspection shows the generator reads the isolated classroom function solely for lexical accounting and does not read evals/results.
+
+## Gap coverage and interpretation
+
+The two-category choice is justified. Starter frames teach recurring domain associations; added grammar frames systematically vary singular/plural agreement, pronouns, and tense (`scripts/build_extension_corpus.py:24–60,178–197`), while 16 contrast families supply both qualities in 64 scenes and six frames (`:66–170`). `docs/corpus_design.md:15–25,27–66` accurately explains the intended gaps and transfer limitations.
+
+This is a development corpus with constrained templates, not 912 independent situations. Related templates and sources occur on both sides of the within-run split, correctly disclosed at `docs/corpus_design.md:117–123`. Across runs, 401 starter-training passages move to expanded validation and 417 starter-validation passages move to expanded training; that is consistent with reshuffling the enlarged set and limits causal between-run comparisons, not within-run leakage.
+
+Three of the six targeted grammar/opposites cases remain lexically unavailable after expansion: `one bird` lacks `one`/`bird`; `the dogs` lacks `dogs`; the noisy-opposite case lacks distractor `round`. The other three target cases have complete vocabulary. Results and the documented gap rationale should therefore distinguish vocabulary access from learned transfer. The assignment permits remaining OOV and failed transfer; these are not corpus-deliverable failures when reported accurately.
+
+**Grading implication:** no material corpus integrity, source-consistency, separation, two-category coverage, or rationale failure found. At most a small teaching-material quality deduction is supported by the nine language defects. Confidence is high for reproducibility and literal separation, moderate for pedagogical usefulness, and limited for unverifiable historical authorship or exhaustive semantic separation.

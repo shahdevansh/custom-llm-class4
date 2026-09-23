@@ -1,0 +1,26 @@
+number of parameters: 0.12M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: the investor reviewed the
+Model: bag of rice , while the kitchen , which is bag in the kitchen .
+Unknown words: investor
+You: the doctor works at the
+Model: garden is short .
+You: yesterday the artist
+Model: was empty , which is empty , the rice bowl on the table is full .
+You: the teachers
+Model: the box in the hall is empty , traffic , peach near the tree is full .
+Unknown words: teachers
+You: the stone is heavy but the feather is
+Model: heavy , but the stone near the farmer is light .
+Unknown words: feather
+You: the opposite of cold is
+Model: hot , but the soup in the pot in the new pot .
+You: write a story about a dragon
+Model: our local customer and service .
+Unknown words: dragon, story, write
+You: two plus two equals
+Model: the important peach was mentioned in the fruit report yesterday .
+Unknown words: equals, plus, two
+You: /quit
+Saved transcript: qa/independent_review_20260923/selected_chat_transcript.json

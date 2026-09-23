@@ -1,0 +1,17 @@
+{
+  "selected_utc": "2026-09-23T06:55:41.782029+00:00",
+  "selected_run": "balanced_lr0.003_seed42",
+  "configuration": [
+    "balanced",
+    0.003
+  ],
+  "original_panel_threshold": 0.7840672194957733,
+  "eligible": [
+    "uniform_lr0.001_seed42",
+    "uniform_lr0.003_seed42",
+    "balanced_lr0.001_seed42",
+    "balanced_lr0.003_seed42"
+  ],
+  "language_evaluation_used": false,
+  "selection_metric": "final macro category validation NLL"
+}
