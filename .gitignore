@@ -1,11 +1,15 @@
 __pycache__/
 .ipynb_checkpoints/
 .venv/
-/llm_runs/
+# Saved assignment evidence is intentionally versioned.
 names.txt
 .DS_Store
+# Only the original, shareable synthetic teaching files are included.
 /corpus/*
 !/corpus/README.md
+!/corpus/starter/
+!/corpus/expanded/
 
 /results/
 /chat_transcript.json
+/qa/*.html

@@ -1,0 +1,14 @@
+{
+  "starter": {
+    "notebook": "custom_llm.ipynb",
+    "run_dir": "llm_runs/20260923T043154_967139Z",
+    "wall_seconds": 20.24884009361267,
+    "python_executable": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python"
+  },
+  "expanded": {
+    "notebook": "custom_llm_expanded.ipynb",
+    "run_dir": "llm_runs/20260923T062639_403952Z",
+    "wall_seconds": 18.271615982055664,
+    "python_executable": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python"
+  }
+}

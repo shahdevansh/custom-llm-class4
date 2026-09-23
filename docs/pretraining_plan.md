@@ -1,0 +1,12 @@
+This plan was prepared with Codex before either 3,000-step training run. It is an assistant-proposed experimental prediction, not a claim that the student independently wrote or already understands it.
+
+- **Starter:** the supplied classroom corpus, without external teaching files.
+- **Expanded:** the same classroom generator plus original synthetic teaching text for **grammar and opposites**. The source generator and rationale are included. No private documents or scraped material are used.
+- **Budget:** 3,000 optimizer steps per fresh model, batch size 32. This is the course's suggested starting budget; a step is a minibatch update, not one pass through all documents.
+- **Learning rate:** initial setting 0.001 with the supplied warmup and cosine decay. Large updates can destabilize training; very small updates can make little progress within the budget. The first actual step is smaller because of warmup.
+- **Controls:** seed 42; 2 layers, 4 heads, 64-dimensional embeddings, 48-token context; CPU; the unchanged 48-case suite; the supplied sampling seeds and temperatures. Each run starts from fresh random weights. The same split and fixed 20-document panels are used before/after within each run. Adding passages changes the across-experiment split membership under the supplied algorithm, so this is not a paired experiment with identical documents in the loss panels.
+- **Prediction (moderate confidence):** training and held-out panel losses will fall within each run, and generated text will become more like the teaching sentences. The token `customer` may acquire more similar embeddings to other buyer-related nouns because of shared contexts, but the exact nearest-neighbor ordering is uncertain.
+- **Extension prediction (low to moderate confidence):** the new material will expand vocabulary and may improve grammar and opposite-word choices. It need not improve every category, and a vocabulary gain is not evidence of learning the tested relation. Unchanged failures and regressions will be reported.
+- **Limits:** the suite is a public development benchmark. The held-out split shares templates and source files with training. Neither a low loss nor a correct four-choice answer establishes broad language understanding.
+
+The user was asked for their preferred training budget, learning rate, extension categories, and prediction before training. If no different preference arrives, these recommended settings are the working assumptions; this document does not invent a personal student response.

@@ -1,0 +1,528 @@
+the baker is ready before work.
+the bakers are ready before work.
+this baker was ready after lunch.
+these bakers were ready after lunch.
+our baker feels ready this morning.
+our bakers feel ready this morning.
+a baker seems ready today.
+several bakers seem ready today.
+the baker is tired before work.
+the bakers are tired before work.
+this baker was tired after lunch.
+these bakers were tired after lunch.
+our baker feels tired this morning.
+our bakers feel tired this morning.
+a baker seems tired today.
+several bakers seem tired today.
+the baker is happy before work.
+the bakers are happy before work.
+this baker was happy after lunch.
+these bakers were happy after lunch.
+our baker feels happy this morning.
+our bakers feel happy this morning.
+a baker seems happy today.
+several bakers seem happy today.
+the baker is calm before work.
+the bakers are calm before work.
+this baker was calm after lunch.
+these bakers were calm after lunch.
+our baker feels calm this morning.
+our bakers feel calm this morning.
+a baker seems calm today.
+several bakers seem calm today.
+the baker is busy before work.
+the bakers are busy before work.
+this baker was busy after lunch.
+these bakers were busy after lunch.
+our baker feels busy this morning.
+our bakers feel busy this morning.
+a baker seems busy today.
+several bakers seem busy today.
+each baker walks through the park every day.
+many bakers walk through the park every day.
+last week the bakers walked through the park.
+our baker is walking through the park today.
+each baker works in the garden every day.
+many bakers work in the garden every day.
+last week the bakers worked in the garden.
+our baker is working in the garden today.
+each baker waits near the gate every day.
+many bakers wait near the gate every day.
+last week the bakers waited near the gate.
+our baker is waiting near the gate today.
+each baker sings after lunch every day.
+many bakers sing after lunch every day.
+last week the bakers sang after lunch.
+our baker is singing after lunch today.
+each baker reads before lunch every day.
+many bakers read before lunch every day.
+last week the bakers read before lunch.
+our baker is reading before lunch today.
+the gardener is ready before work.
+the gardeners are ready before work.
+this gardener was ready after lunch.
+these gardeners were ready after lunch.
+our gardener feels ready this morning.
+our gardeners feel ready this morning.
+a gardener seems ready today.
+several gardeners seem ready today.
+the gardener is tired before work.
+the gardeners are tired before work.
+this gardener was tired after lunch.
+these gardeners were tired after lunch.
+our gardener feels tired this morning.
+our gardeners feel tired this morning.
+a gardener seems tired today.
+several gardeners seem tired today.
+the gardener is happy before work.
+the gardeners are happy before work.
+this gardener was happy after lunch.
+these gardeners were happy after lunch.
+our gardener feels happy this morning.
+our gardeners feel happy this morning.
+a gardener seems happy today.
+several gardeners seem happy today.
+the gardener is calm before work.
+the gardeners are calm before work.
+this gardener was calm after lunch.
+these gardeners were calm after lunch.
+our gardener feels calm this morning.
+our gardeners feel calm this morning.
+a gardener seems calm today.
+several gardeners seem calm today.
+the gardener is busy before work.
+the gardeners are busy before work.
+this gardener was busy after lunch.
+these gardeners were busy after lunch.
+our gardener feels busy this morning.
+our gardeners feel busy this morning.
+a gardener seems busy today.
+several gardeners seem busy today.
+each gardener walks through the park every day.
+many gardeners walk through the park every day.
+last week the gardeners walked through the park.
+our gardener is walking through the park today.
+each gardener works in the garden every day.
+many gardeners work in the garden every day.
+last week the gardeners worked in the garden.
+our gardener is working in the garden today.
+each gardener waits near the gate every day.
+many gardeners wait near the gate every day.
+last week the gardeners waited near the gate.
+our gardener is waiting near the gate today.
+each gardener sings after lunch every day.
+many gardeners sing after lunch every day.
+last week the gardeners sang after lunch.
+our gardener is singing after lunch today.
+each gardener reads before lunch every day.
+many gardeners read before lunch every day.
+last week the gardeners read before lunch.
+our gardener is reading before lunch today.
+the artist is ready before work.
+the artists are ready before work.
+this artist was ready after lunch.
+these artists were ready after lunch.
+our artist feels ready this morning.
+our artists feel ready this morning.
+a artist seems ready today.
+several artists seem ready today.
+the artist is tired before work.
+the artists are tired before work.
+this artist was tired after lunch.
+these artists were tired after lunch.
+our artist feels tired this morning.
+our artists feel tired this morning.
+a artist seems tired today.
+several artists seem tired today.
+the artist is happy before work.
+the artists are happy before work.
+this artist was happy after lunch.
+these artists were happy after lunch.
+our artist feels happy this morning.
+our artists feel happy this morning.
+a artist seems happy today.
+several artists seem happy today.
+the artist is calm before work.
+the artists are calm before work.
+this artist was calm after lunch.
+these artists were calm after lunch.
+our artist feels calm this morning.
+our artists feel calm this morning.
+a artist seems calm today.
+several artists seem calm today.
+the artist is busy before work.
+the artists are busy before work.
+this artist was busy after lunch.
+these artists were busy after lunch.
+our artist feels busy this morning.
+our artists feel busy this morning.
+a artist seems busy today.
+several artists seem busy today.
+each artist walks through the park every day.
+many artists walk through the park every day.
+last week the artists walked through the park.
+our artist is walking through the park today.
+each artist works in the garden every day.
+many artists work in the garden every day.
+last week the artists worked in the garden.
+our artist is working in the garden today.
+each artist waits near the gate every day.
+many artists wait near the gate every day.
+last week the artists waited near the gate.
+our artist is waiting near the gate today.
+each artist sings after lunch every day.
+many artists sing after lunch every day.
+last week the artists sang after lunch.
+our artist is singing after lunch today.
+each artist reads before lunch every day.
+many artists read before lunch every day.
+last week the artists read before lunch.
+our artist is reading before lunch today.
+the runner is ready before work.
+the runners are ready before work.
+this runner was ready after lunch.
+these runners were ready after lunch.
+our runner feels ready this morning.
+our runners feel ready this morning.
+a runner seems ready today.
+several runners seem ready today.
+the runner is tired before work.
+the runners are tired before work.
+this runner was tired after lunch.
+these runners were tired after lunch.
+our runner feels tired this morning.
+our runners feel tired this morning.
+a runner seems tired today.
+several runners seem tired today.
+the runner is happy before work.
+the runners are happy before work.
+this runner was happy after lunch.
+these runners were happy after lunch.
+our runner feels happy this morning.
+our runners feel happy this morning.
+a runner seems happy today.
+several runners seem happy today.
+the runner is calm before work.
+the runners are calm before work.
+this runner was calm after lunch.
+these runners were calm after lunch.
+our runner feels calm this morning.
+our runners feel calm this morning.
+a runner seems calm today.
+several runners seem calm today.
+the runner is busy before work.
+the runners are busy before work.
+this runner was busy after lunch.
+these runners were busy after lunch.
+our runner feels busy this morning.
+our runners feel busy this morning.
+a runner seems busy today.
+several runners seem busy today.
+each runner walks through the park every day.
+many runners walk through the park every day.
+last week the runners walked through the park.
+our runner is walking through the park today.
+each runner works in the garden every day.
+many runners work in the garden every day.
+last week the runners worked in the garden.
+our runner is working in the garden today.
+each runner waits near the gate every day.
+many runners wait near the gate every day.
+last week the runners waited near the gate.
+our runner is waiting near the gate today.
+each runner sings after lunch every day.
+many runners sing after lunch every day.
+last week the runners sang after lunch.
+our runner is singing after lunch today.
+each runner reads before lunch every day.
+many runners read before lunch every day.
+last week the runners read before lunch.
+our runner is reading before lunch today.
+the helper is ready before work.
+the helpers are ready before work.
+this helper was ready after lunch.
+these helpers were ready after lunch.
+our helper feels ready this morning.
+our helpers feel ready this morning.
+a helper seems ready today.
+several helpers seem ready today.
+the helper is tired before work.
+the helpers are tired before work.
+this helper was tired after lunch.
+these helpers were tired after lunch.
+our helper feels tired this morning.
+our helpers feel tired this morning.
+a helper seems tired today.
+several helpers seem tired today.
+the helper is happy before work.
+the helpers are happy before work.
+this helper was happy after lunch.
+these helpers were happy after lunch.
+our helper feels happy this morning.
+our helpers feel happy this morning.
+a helper seems happy today.
+several helpers seem happy today.
+the helper is calm before work.
+the helpers are calm before work.
+this helper was calm after lunch.
+these helpers were calm after lunch.
+our helper feels calm this morning.
+our helpers feel calm this morning.
+a helper seems calm today.
+several helpers seem calm today.
+the helper is busy before work.
+the helpers are busy before work.
+this helper was busy after lunch.
+these helpers were busy after lunch.
+our helper feels busy this morning.
+our helpers feel busy this morning.
+a helper seems busy today.
+several helpers seem busy today.
+each helper walks through the park every day.
+many helpers walk through the park every day.
+last week the helpers walked through the park.
+our helper is walking through the park today.
+each helper works in the garden every day.
+many helpers work in the garden every day.
+last week the helpers worked in the garden.
+our helper is working in the garden today.
+each helper waits near the gate every day.
+many helpers wait near the gate every day.
+last week the helpers waited near the gate.
+our helper is waiting near the gate today.
+each helper sings after lunch every day.
+many helpers sing after lunch every day.
+last week the helpers sang after lunch.
+our helper is singing after lunch today.
+each helper reads before lunch every day.
+many helpers read before lunch every day.
+last week the helpers read before lunch.
+our helper is reading before lunch today.
+the visitor is ready before work.
+the visitors are ready before work.
+this visitor was ready after lunch.
+these visitors were ready after lunch.
+our visitor feels ready this morning.
+our visitors feel ready this morning.
+a visitor seems ready today.
+several visitors seem ready today.
+the visitor is tired before work.
+the visitors are tired before work.
+this visitor was tired after lunch.
+these visitors were tired after lunch.
+our visitor feels tired this morning.
+our visitors feel tired this morning.
+a visitor seems tired today.
+several visitors seem tired today.
+the visitor is happy before work.
+the visitors are happy before work.
+this visitor was happy after lunch.
+these visitors were happy after lunch.
+our visitor feels happy this morning.
+our visitors feel happy this morning.
+a visitor seems happy today.
+several visitors seem happy today.
+the visitor is calm before work.
+the visitors are calm before work.
+this visitor was calm after lunch.
+these visitors were calm after lunch.
+our visitor feels calm this morning.
+our visitors feel calm this morning.
+a visitor seems calm today.
+several visitors seem calm today.
+the visitor is busy before work.
+the visitors are busy before work.
+this visitor was busy after lunch.
+these visitors were busy after lunch.
+our visitor feels busy this morning.
+our visitors feel busy this morning.
+a visitor seems busy today.
+several visitors seem busy today.
+each visitor walks through the park every day.
+many visitors walk through the park every day.
+last week the visitors walked through the park.
+our visitor is walking through the park today.
+each visitor works in the garden every day.
+many visitors work in the garden every day.
+last week the visitors worked in the garden.
+our visitor is working in the garden today.
+each visitor waits near the gate every day.
+many visitors wait near the gate every day.
+last week the visitors waited near the gate.
+our visitor is waiting near the gate today.
+each visitor sings after lunch every day.
+many visitors sing after lunch every day.
+last week the visitors sang after lunch.
+our visitor is singing after lunch today.
+each visitor reads before lunch every day.
+many visitors read before lunch every day.
+last week the visitors read before lunch.
+our visitor is reading before lunch today.
+the musician is ready before work.
+the musicians are ready before work.
+this musician was ready after lunch.
+these musicians were ready after lunch.
+our musician feels ready this morning.
+our musicians feel ready this morning.
+a musician seems ready today.
+several musicians seem ready today.
+the musician is tired before work.
+the musicians are tired before work.
+this musician was tired after lunch.
+these musicians were tired after lunch.
+our musician feels tired this morning.
+our musicians feel tired this morning.
+a musician seems tired today.
+several musicians seem tired today.
+the musician is happy before work.
+the musicians are happy before work.
+this musician was happy after lunch.
+these musicians were happy after lunch.
+our musician feels happy this morning.
+our musicians feel happy this morning.
+a musician seems happy today.
+several musicians seem happy today.
+the musician is calm before work.
+the musicians are calm before work.
+this musician was calm after lunch.
+these musicians were calm after lunch.
+our musician feels calm this morning.
+our musicians feel calm this morning.
+a musician seems calm today.
+several musicians seem calm today.
+the musician is busy before work.
+the musicians are busy before work.
+this musician was busy after lunch.
+these musicians were busy after lunch.
+our musician feels busy this morning.
+our musicians feel busy this morning.
+a musician seems busy today.
+several musicians seem busy today.
+each musician walks through the park every day.
+many musicians walk through the park every day.
+last week the musicians walked through the park.
+our musician is walking through the park today.
+each musician works in the garden every day.
+many musicians work in the garden every day.
+last week the musicians worked in the garden.
+our musician is working in the garden today.
+each musician waits near the gate every day.
+many musicians wait near the gate every day.
+last week the musicians waited near the gate.
+our musician is waiting near the gate today.
+each musician sings after lunch every day.
+many musicians sing after lunch every day.
+last week the musicians sang after lunch.
+our musician is singing after lunch today.
+each musician reads before lunch every day.
+many musicians read before lunch every day.
+last week the musicians read before lunch.
+our musician is reading before lunch today.
+the farmer is ready before work.
+the farmers are ready before work.
+this farmer was ready after lunch.
+these farmers were ready after lunch.
+our farmer feels ready this morning.
+our farmers feel ready this morning.
+a farmer seems ready today.
+several farmers seem ready today.
+the farmer is tired before work.
+the farmers are tired before work.
+this farmer was tired after lunch.
+these farmers were tired after lunch.
+our farmer feels tired this morning.
+our farmers feel tired this morning.
+a farmer seems tired today.
+several farmers seem tired today.
+the farmer is happy before work.
+the farmers are happy before work.
+this farmer was happy after lunch.
+these farmers were happy after lunch.
+our farmer feels happy this morning.
+our farmers feel happy this morning.
+a farmer seems happy today.
+several farmers seem happy today.
+the farmer is calm before work.
+the farmers are calm before work.
+this farmer was calm after lunch.
+these farmers were calm after lunch.
+our farmer feels calm this morning.
+our farmers feel calm this morning.
+a farmer seems calm today.
+several farmers seem calm today.
+the farmer is busy before work.
+the farmers are busy before work.
+this farmer was busy after lunch.
+these farmers were busy after lunch.
+our farmer feels busy this morning.
+our farmers feel busy this morning.
+a farmer seems busy today.
+several farmers seem busy today.
+each farmer walks through the park every day.
+many farmers walk through the park every day.
+last week the farmers walked through the park.
+our farmer is walking through the park today.
+each farmer works in the garden every day.
+many farmers work in the garden every day.
+last week the farmers worked in the garden.
+our farmer is working in the garden today.
+each farmer waits near the gate every day.
+many farmers wait near the gate every day.
+last week the farmers waited near the gate.
+our farmer is waiting near the gate today.
+each farmer sings after lunch every day.
+many farmers sing after lunch every day.
+last week the farmers sang after lunch.
+our farmer is singing after lunch today.
+each farmer reads before lunch every day.
+many farmers read before lunch every day.
+last week the farmers read before lunch.
+our farmer is reading before lunch today.
+i am ready before work.
+i was ready after work.
+i am tired before work.
+i was tired after work.
+i am hungry before work.
+i was hungry after work.
+i am happy before work.
+i was happy after work.
+we are ready before work.
+we were ready after work.
+we are tired before work.
+we were tired after work.
+we are hungry before work.
+we were hungry after work.
+we are happy before work.
+we were happy after work.
+you are ready before work.
+you were ready after work.
+you are tired before work.
+you were tired after work.
+you are hungry before work.
+you were hungry after work.
+you are happy before work.
+you were happy after work.
+he is ready before work.
+he was ready after work.
+he is tired before work.
+he was tired after work.
+he is hungry before work.
+he was hungry after work.
+he is happy before work.
+he was happy after work.
+she is ready before work.
+she was ready after work.
+she is tired before work.
+she was tired after work.
+she is hungry before work.
+she was hungry after work.
+she is happy before work.
+she was happy after work.
+they are ready before work.
+they were ready after work.
+they are tired before work.
+they were tired after work.
+they are hungry before work.
+they were hungry after work.
+they are happy before work.
+they were happy after work.

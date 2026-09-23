@@ -1,0 +1,23 @@
+{
+  "mode": "write",
+  "provenance": "original, AI-assisted, deterministic synthetic teaching text",
+  "unique_extension_passages": 912,
+  "extension_token_types": 212,
+  "starter_plus_extension_token_types_before_split": 316,
+  "max_passage_tokens": 24,
+  "files": [
+    {
+      "path": "corpus/expanded/grammar_practice.txt",
+      "passages": 528,
+      "bytes": 19340,
+      "sha256": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8"
+    },
+    {
+      "path": "corpus/expanded/contextual_contrasts.txt",
+      "passages": 384,
+      "bytes": 31220,
+      "sha256": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710"
+    }
+  ],
+  "note": "Lexical counts are audits, not the learned vocabulary; the notebook uses its training split only."
+}

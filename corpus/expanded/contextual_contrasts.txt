@@ -1,0 +1,384 @@
+the soup in the pot is hot, while the soup in the bowl is cold.
+the soup in the bowl is cold, but the soup in the pot is hot.
+we described the soup in the pot as hot and the soup in the bowl as cold.
+we compared the soup in the pot, which was hot, with the soup in the bowl, which was cold.
+we noticed opposite qualities because the soup in the pot was hot and the soup in the bowl was cold.
+unlike the soup in the pot, which is hot, the soup in the bowl is cold.
+the tea by the fire is hot, while the tea by the window is cold.
+the tea by the window is cold, but the tea by the fire is hot.
+we described the tea by the fire as hot and the tea by the window as cold.
+we compared the tea by the fire, which was hot, with the tea by the window, which was cold.
+we noticed opposite qualities because the tea by the fire was hot and the tea by the window was cold.
+unlike the tea by the fire, which is hot, the tea by the window is cold.
+the water in the pan is hot, while the water in the jug is cold.
+the water in the jug is cold, but the water in the pan is hot.
+we described the water in the pan as hot and the water in the jug as cold.
+we compared the water in the pan, which was hot, with the water in the jug, which was cold.
+we noticed opposite qualities because the water in the pan was hot and the water in the jug was cold.
+unlike the water in the pan, which is hot, the water in the jug is cold.
+the sand in the sun is hot, while the sand in the shade is cold.
+the sand in the shade is cold, but the sand in the sun is hot.
+we described the sand in the sun as hot and the sand in the shade as cold.
+we compared the sand in the sun, which was hot, with the sand in the shade, which was cold.
+we noticed opposite qualities because the sand in the sun was hot and the sand in the shade was cold.
+unlike the sand in the sun, which is hot, the sand in the shade is cold.
+the room near the kitchen is warm, while the room near the garden is cool.
+the room near the garden is cool, but the room near the kitchen is warm.
+we described the room near the kitchen as warm and the room near the garden as cool.
+we compared the room near the kitchen, which was warm, with the room near the garden, which was cool.
+we noticed opposite qualities because the room near the kitchen was warm and the room near the garden was cool.
+unlike the room near the kitchen, which is warm, the room near the garden is cool.
+the cloth on the chair is warm, while the cloth on the floor is cool.
+the cloth on the floor is cool, but the cloth on the chair is warm.
+we described the cloth on the chair as warm and the cloth on the floor as cool.
+we compared the cloth on the chair, which was warm, with the cloth on the floor, which was cool.
+we noticed opposite qualities because the cloth on the chair was warm and the cloth on the floor was cool.
+unlike the cloth on the chair, which is warm, the cloth on the floor is cool.
+the air near the fire is warm, while the air near the door is cool.
+the air near the door is cool, but the air near the fire is warm.
+we described the air near the fire as warm and the air near the door as cool.
+we compared the air near the fire, which was warm, with the air near the door, which was cool.
+we noticed opposite qualities because the air near the fire was warm and the air near the door was cool.
+unlike the air near the fire, which is warm, the air near the door is cool.
+the milk in the cup is warm, while the milk in the bottle is cool.
+the milk in the bottle is cool, but the milk in the cup is warm.
+we described the milk in the cup as warm and the milk in the bottle as cool.
+we compared the milk in the cup, which was warm, with the milk in the bottle, which was cool.
+we noticed opposite qualities because the milk in the cup was warm and the milk in the bottle was cool.
+unlike the milk in the cup, which is warm, the milk in the bottle is cool.
+the soup bowl is empty, while the rice bowl is full.
+the rice bowl is full, but the soup bowl is empty.
+we described the soup bowl as empty and the rice bowl as full.
+we compared the soup bowl, which was empty, with the rice bowl, which was full.
+we noticed opposite qualities because the soup bowl was empty and the rice bowl was full.
+unlike the soup bowl, which is empty, the rice bowl is full.
+the basket near the gate is empty, while the basket near the tree is full.
+the basket near the tree is full, but the basket near the gate is empty.
+we described the basket near the gate as empty and the basket near the tree as full.
+we compared the basket near the gate, which was empty, with the basket near the tree, which was full.
+we noticed opposite qualities because the basket near the gate was empty and the basket near the tree was full.
+unlike the basket near the gate, which is empty, the basket near the tree is full.
+the cup on the shelf is empty, while the cup on the table is full.
+the cup on the table is full, but the cup on the shelf is empty.
+we described the cup on the shelf as empty and the cup on the table as full.
+we compared the cup on the shelf, which was empty, with the cup on the table, which was full.
+we noticed opposite qualities because the cup on the shelf was empty and the cup on the table was full.
+unlike the cup on the shelf, which is empty, the cup on the table is full.
+the box in the hall is empty, while the box in the office is full.
+the box in the office is full, but the box in the hall is empty.
+we described the box in the hall as empty and the box in the office as full.
+we compared the box in the hall, which was empty, with the box in the office, which was full.
+we noticed opposite qualities because the box in the hall was empty and the box in the office was full.
+unlike the box in the hall, which is empty, the box in the office is full.
+the busy kitchen is noisy, while the small garden is quiet.
+the small garden is quiet, but the busy kitchen is noisy.
+we described the busy kitchen as noisy and the small garden as quiet.
+we compared the busy kitchen, which was noisy, with the small garden, which was quiet.
+we noticed opposite qualities because the busy kitchen was noisy and the small garden was quiet.
+unlike the busy kitchen, which is noisy, the small garden is quiet.
+the street near the school is noisy, while the path near the pond is quiet.
+the path near the pond is quiet, but the street near the school is noisy.
+we described the street near the school as noisy and the path near the pond as quiet.
+we compared the street near the school, which was noisy, with the path near the pond, which was quiet.
+we noticed opposite qualities because the street near the school was noisy and the path near the pond was quiet.
+unlike the street near the school, which is noisy, the path near the pond is quiet.
+the room near the market is noisy, while the room near the field is quiet.
+the room near the field is quiet, but the room near the market is noisy.
+we described the room near the market as noisy and the room near the field as quiet.
+we compared the room near the market, which was noisy, with the room near the field, which was quiet.
+we noticed opposite qualities because the room near the market was noisy and the room near the field was quiet.
+unlike the room near the market, which is noisy, the room near the field is quiet.
+the large bus is noisy, while the small car is quiet.
+the small car is quiet, but the large bus is noisy.
+we described the large bus as noisy and the small car as quiet.
+we compared the large bus, which was noisy, with the small car, which was quiet.
+we noticed opposite qualities because the large bus was noisy and the small car was quiet.
+unlike the large bus, which is noisy, the small car is quiet.
+the sound of the bell is loud, while the sound of the rain is soft.
+the sound of the rain is soft, but the sound of the bell is loud.
+we described the sound of the bell as loud and the sound of the rain as soft.
+we compared the sound of the bell, which was loud, with the sound of the rain, which was soft.
+we noticed opposite qualities because the sound of the bell was loud and the sound of the rain was soft.
+unlike the sound of the bell, which is loud, the sound of the rain is soft.
+the music in the hall is loud, while the music in the room is soft.
+the music in the room is soft, but the music in the hall is loud.
+we described the music in the hall as loud and the music in the room as soft.
+we compared the music in the hall, which was loud, with the music in the room, which was soft.
+we noticed opposite qualities because the music in the hall was loud and the music in the room was soft.
+unlike the music in the hall, which is loud, the music in the room is soft.
+the voice of the runner is loud, while the voice of the visitor is soft.
+the voice of the visitor is soft, but the voice of the runner is loud.
+we described the voice of the runner as loud and the voice of the visitor as soft.
+we compared the voice of the runner, which was loud, with the voice of the visitor, which was soft.
+we noticed opposite qualities because the voice of the runner was loud and the voice of the visitor was soft.
+unlike the voice of the runner, which is loud, the voice of the visitor is soft.
+the song near the stage is loud, while the song near the gate is soft.
+the song near the gate is soft, but the song near the stage is loud.
+we described the song near the stage as loud and the song near the gate as soft.
+we compared the song near the stage, which was loud, with the song near the gate, which was soft.
+we noticed opposite qualities because the song near the stage was loud and the song near the gate was soft.
+unlike the song near the stage, which is loud, the song near the gate is soft.
+the bag of rice is heavy, while the bag of cloth is light.
+the bag of cloth is light, but the bag of rice is heavy.
+we described the bag of rice as heavy and the bag of cloth as light.
+we compared the bag of rice, which was heavy, with the bag of cloth, which was light.
+we noticed opposite qualities because the bag of rice was heavy and the bag of cloth was light.
+unlike the bag of rice, which is heavy, the bag of cloth is light.
+the large stone is heavy, while the small stone is light.
+the small stone is light, but the large stone is heavy.
+we described the large stone as heavy and the small stone as light.
+we compared the large stone, which was heavy, with the small stone, which was light.
+we noticed opposite qualities because the large stone was heavy and the small stone was light.
+unlike the large stone, which is heavy, the small stone is light.
+the chair in the hall is heavy, while the chair in the garden is light.
+the chair in the garden is light, but the chair in the hall is heavy.
+we described the chair in the hall as heavy and the chair in the garden as light.
+we compared the chair in the hall, which was heavy, with the chair in the garden, which was light.
+we noticed opposite qualities because the chair in the hall was heavy and the chair in the garden was light.
+unlike the chair in the hall, which is heavy, the chair in the garden is light.
+the box of books is heavy, while the box of paper is light.
+the box of paper is light, but the box of books is heavy.
+we described the box of books as heavy and the box of paper as light.
+we compared the box of books, which was heavy, with the box of paper, which was light.
+we noticed opposite qualities because the box of books was heavy and the box of paper was light.
+unlike the box of books, which is heavy, the box of paper is light.
+the new train is fast, while the old bus is slow.
+the old bus is slow, but the new train is fast.
+we described the new train as fast and the old bus as slow.
+we compared the new train, which was fast, with the old bus, which was slow.
+we noticed opposite qualities because the new train was fast and the old bus was slow.
+unlike the new train, which is fast, the old bus is slow.
+the runner near the gate is fast, while the runner near the pond is slow.
+the runner near the pond is slow, but the runner near the gate is fast.
+we described the runner near the gate as fast and the runner near the pond as slow.
+we compared the runner near the gate, which was fast, with the runner near the pond, which was slow.
+we noticed opposite qualities because the runner near the gate was fast and the runner near the pond was slow.
+unlike the runner near the gate, which is fast, the runner near the pond is slow.
+the car on the road is fast, while the car on the hill is slow.
+the car on the hill is slow, but the car on the road is fast.
+we described the car on the road as fast and the car on the hill as slow.
+we compared the car on the road, which was fast, with the car on the hill, which was slow.
+we noticed opposite qualities because the car on the road was fast and the car on the hill was slow.
+unlike the car on the road, which is fast, the car on the hill is slow.
+the water in the river is fast, while the water in the small stream is slow.
+the water in the small stream is slow, but the water in the river is fast.
+we described the water in the river as fast and the water in the small stream as slow.
+we compared the water in the river, which was fast, with the water in the small stream, which was slow.
+we noticed opposite qualities because the water in the river was fast and the water in the small stream was slow.
+unlike the water in the river, which is fast, the water in the small stream is slow.
+the first visitor is early, while the last visitor is late.
+the last visitor is late, but the first visitor is early.
+we described the first visitor as early and the last visitor as late.
+we compared the first visitor, which was early, with the last visitor, which was late.
+we noticed opposite qualities because the first visitor was early and the last visitor was late.
+unlike the first visitor, which is early, the last visitor is late.
+the bus from the market is early, while the bus from the station is late.
+the bus from the station is late, but the bus from the market is early.
+we described the bus from the market as early and the bus from the station as late.
+we compared the bus from the market, which was early, with the bus from the station, which was late.
+we noticed opposite qualities because the bus from the market was early and the bus from the station was late.
+unlike the bus from the market, which is early, the bus from the station is late.
+the morning delivery is early, while the evening delivery is late.
+the evening delivery is late, but the morning delivery is early.
+we described the morning delivery as early and the evening delivery as late.
+we compared the morning delivery, which was early, with the evening delivery, which was late.
+we noticed opposite qualities because the morning delivery was early and the evening delivery was late.
+unlike the morning delivery, which is early, the evening delivery is late.
+the first payment is early, while the last payment is late.
+the last payment is late, but the first payment is early.
+we described the first payment as early and the last payment as late.
+we compared the first payment, which was early, with the last payment, which was late.
+we noticed opposite qualities because the first payment was early and the last payment was late.
+unlike the first payment, which is early, the last payment is late.
+the house near the river is big, while the house near the pond is small.
+the house near the pond is small, but the house near the river is big.
+we described the house near the river as big and the house near the pond as small.
+we compared the house near the river, which was big, with the house near the pond, which was small.
+we noticed opposite qualities because the house near the river was big and the house near the pond was small.
+unlike the house near the river, which is big, the house near the pond is small.
+the bowl on the table is big, while the bowl on the shelf is small.
+the bowl on the shelf is small, but the bowl on the table is big.
+we described the bowl on the table as big and the bowl on the shelf as small.
+we compared the bowl on the table, which was big, with the bowl on the shelf, which was small.
+we noticed opposite qualities because the bowl on the table was big and the bowl on the shelf was small.
+unlike the bowl on the table, which is big, the bowl on the shelf is small.
+the tree near the school is big, while the tree near the house is small.
+the tree near the house is small, but the tree near the school is big.
+we described the tree near the school as big and the tree near the house as small.
+we compared the tree near the school, which was big, with the tree near the house, which was small.
+we noticed opposite qualities because the tree near the school was big and the tree near the house was small.
+unlike the tree near the school, which is big, the tree near the house is small.
+the bag in the hall is big, while the bag in the kitchen is small.
+the bag in the kitchen is small, but the bag in the hall is big.
+we described the bag in the hall as big and the bag in the kitchen as small.
+we compared the bag in the hall, which was big, with the bag in the kitchen, which was small.
+we noticed opposite qualities because the bag in the hall was big and the bag in the kitchen was small.
+unlike the bag in the hall, which is big, the bag in the kitchen is small.
+the path through the field is long, while the path through the garden is short.
+the path through the garden is short, but the path through the field is long.
+we described the path through the field as long and the path through the garden as short.
+we compared the path through the field, which was long, with the path through the garden, which was short.
+we noticed opposite qualities because the path through the field was long and the path through the garden was short.
+unlike the path through the field, which is long, the path through the garden is short.
+the rope by the tree is long, while the rope by the gate is short.
+the rope by the gate is short, but the rope by the tree is long.
+we described the rope by the tree as long and the rope by the gate as short.
+we compared the rope by the tree, which was long, with the rope by the gate, which was short.
+we noticed opposite qualities because the rope by the tree was long and the rope by the gate was short.
+unlike the rope by the tree, which is long, the rope by the gate is short.
+the song at the start is long, while the song at the end is short.
+the song at the end is short, but the song at the start is long.
+we described the song at the start as long and the song at the end as short.
+we compared the song at the start, which was long, with the song at the end, which was short.
+we noticed opposite qualities because the song at the start was long and the song at the end was short.
+unlike the song at the start, which is long, the song at the end is short.
+the coat on the chair is long, while the coat on the shelf is short.
+the coat on the shelf is short, but the coat on the chair is long.
+we described the coat on the chair as long and the coat on the shelf as short.
+we compared the coat on the chair, which was long, with the coat on the shelf, which was short.
+we noticed opposite qualities because the coat on the chair was long and the coat on the shelf was short.
+unlike the coat on the chair, which is long, the coat on the shelf is short.
+the stone near the path is rough, while the stone near the river is smooth.
+the stone near the river is smooth, but the stone near the path is rough.
+we described the stone near the path as rough and the stone near the river as smooth.
+we compared the stone near the path, which was rough, with the stone near the river, which was smooth.
+we noticed opposite qualities because the stone near the path was rough and the stone near the river was smooth.
+unlike the stone near the path, which is rough, the stone near the river is smooth.
+the wood near the gate is rough, while the wood near the table is smooth.
+the wood near the table is smooth, but the wood near the gate is rough.
+we described the wood near the gate as rough and the wood near the table as smooth.
+we compared the wood near the gate, which was rough, with the wood near the table, which was smooth.
+we noticed opposite qualities because the wood near the gate was rough and the wood near the table was smooth.
+unlike the wood near the gate, which is rough, the wood near the table is smooth.
+the paper in the box is rough, while the paper in the book is smooth.
+the paper in the book is smooth, but the paper in the box is rough.
+we described the paper in the box as rough and the paper in the book as smooth.
+we compared the paper in the box, which was rough, with the paper in the book, which was smooth.
+we noticed opposite qualities because the paper in the box was rough and the paper in the book was smooth.
+unlike the paper in the box, which is rough, the paper in the book is smooth.
+the road through the field is rough, while the road through the town is smooth.
+the road through the town is smooth, but the road through the field is rough.
+we described the road through the field as rough and the road through the town as smooth.
+we compared the road through the field, which was rough, with the road through the town, which was smooth.
+we noticed opposite qualities because the road through the field was rough and the road through the town was smooth.
+unlike the road through the field, which is rough, the road through the town is smooth.
+the coat near the door is wet, while the coat near the fire is dry.
+the coat near the fire is dry, but the coat near the door is wet.
+we described the coat near the door as wet and the coat near the fire as dry.
+we compared the coat near the door, which was wet, with the coat near the fire, which was dry.
+we noticed opposite qualities because the coat near the door was wet and the coat near the fire was dry.
+unlike the coat near the door, which is wet, the coat near the fire is dry.
+the grass in the shade is wet, while the grass in the sun is dry.
+the grass in the sun is dry, but the grass in the shade is wet.
+we described the grass in the shade as wet and the grass in the sun as dry.
+we compared the grass in the shade, which was wet, with the grass in the sun, which was dry.
+we noticed opposite qualities because the grass in the shade was wet and the grass in the sun was dry.
+unlike the grass in the shade, which is wet, the grass in the sun is dry.
+the cloth in the sink is wet, while the cloth on the shelf is dry.
+the cloth on the shelf is dry, but the cloth in the sink is wet.
+we described the cloth in the sink as wet and the cloth on the shelf as dry.
+we compared the cloth in the sink, which was wet, with the cloth on the shelf, which was dry.
+we noticed opposite qualities because the cloth in the sink was wet and the cloth on the shelf was dry.
+unlike the cloth in the sink, which is wet, the cloth on the shelf is dry.
+the sand near the water is wet, while the sand near the road is dry.
+the sand near the road is dry, but the sand near the water is wet.
+we described the sand near the water as wet and the sand near the road as dry.
+we compared the sand near the water, which was wet, with the sand near the road, which was dry.
+we noticed opposite qualities because the sand near the water was wet and the sand near the road was dry.
+unlike the sand near the water, which is wet, the sand near the road is dry.
+the seat by the window is hard, while the seat by the door is soft.
+the seat by the door is soft, but the seat by the window is hard.
+we described the seat by the window as hard and the seat by the door as soft.
+we compared the seat by the window, which was hard, with the seat by the door, which was soft.
+we noticed opposite qualities because the seat by the window was hard and the seat by the door was soft.
+unlike the seat by the window, which is hard, the seat by the door is soft.
+the bread on the shelf is hard, while the bread on the table is soft.
+the bread on the table is soft, but the bread on the shelf is hard.
+we described the bread on the shelf as hard and the bread on the table as soft.
+we compared the bread on the shelf, which was hard, with the bread on the table, which was soft.
+we noticed opposite qualities because the bread on the shelf was hard and the bread on the table was soft.
+unlike the bread on the shelf, which is hard, the bread on the table is soft.
+the ground near the gate is hard, while the ground near the pond is soft.
+the ground near the pond is soft, but the ground near the gate is hard.
+we described the ground near the gate as hard and the ground near the pond as soft.
+we compared the ground near the gate, which was hard, with the ground near the pond, which was soft.
+we noticed opposite qualities because the ground near the gate was hard and the ground near the pond was soft.
+unlike the ground near the gate, which is hard, the ground near the pond is soft.
+the old brush is hard, while the new brush is soft.
+the new brush is soft, but the old brush is hard.
+we described the old brush as hard and the new brush as soft.
+we compared the old brush, which was hard, with the new brush, which was soft.
+we noticed opposite qualities because the old brush was hard and the new brush was soft.
+unlike the old brush, which is hard, the new brush is soft.
+the room by the window is bright, while the room by the hall is dark.
+the room by the hall is dark, but the room by the window is bright.
+we described the room by the window as bright and the room by the hall as dark.
+we compared the room by the window, which was bright, with the room by the hall, which was dark.
+we noticed opposite qualities because the room by the window was bright and the room by the hall was dark.
+unlike the room by the window, which is bright, the room by the hall is dark.
+the sky in the morning is bright, while the sky at night is dark.
+the sky at night is dark, but the sky in the morning is bright.
+we described the sky in the morning as bright and the sky at night as dark.
+we compared the sky in the morning, which was bright, with the sky at night, which was dark.
+we noticed opposite qualities because the sky in the morning was bright and the sky at night was dark.
+unlike the sky in the morning, which is bright, the sky at night is dark.
+the path by the light is bright, while the path by the tree is dark.
+the path by the tree is dark, but the path by the light is bright.
+we described the path by the light as bright and the path by the tree as dark.
+we compared the path by the light, which was bright, with the path by the tree, which was dark.
+we noticed opposite qualities because the path by the light was bright and the path by the tree was dark.
+unlike the path by the light, which is bright, the path by the tree is dark.
+the wall in the sun is bright, while the wall in the shade is dark.
+the wall in the shade is dark, but the wall in the sun is bright.
+we described the wall in the sun as bright and the wall in the shade as dark.
+we compared the wall in the sun, which was bright, with the wall in the shade, which was dark.
+we noticed opposite qualities because the wall in the sun was bright and the wall in the shade was dark.
+unlike the wall in the sun, which is bright, the wall in the shade is dark.
+the book on the shelf is thick, while the book on the table is thin.
+the book on the table is thin, but the book on the shelf is thick.
+we described the book on the shelf as thick and the book on the table as thin.
+we compared the book on the shelf, which was thick, with the book on the table, which was thin.
+we noticed opposite qualities because the book on the shelf was thick and the book on the table was thin.
+unlike the book on the shelf, which is thick, the book on the table is thin.
+the rope by the pond is thick, while the rope by the house is thin.
+the rope by the house is thin, but the rope by the pond is thick.
+we described the rope by the pond as thick and the rope by the house as thin.
+we compared the rope by the pond, which was thick, with the rope by the house, which was thin.
+we noticed opposite qualities because the rope by the pond was thick and the rope by the house was thin.
+unlike the rope by the pond, which is thick, the rope by the house is thin.
+the soup in the bowl is thick, while the soup in the pan is thin.
+the soup in the pan is thin, but the soup in the bowl is thick.
+we described the soup in the bowl as thick and the soup in the pan as thin.
+we compared the soup in the bowl, which was thick, with the soup in the pan, which was thin.
+we noticed opposite qualities because the soup in the bowl was thick and the soup in the pan was thin.
+unlike the soup in the bowl, which is thick, the soup in the pan is thin.
+the cloth on the floor is thick, while the cloth on the chair is thin.
+the cloth on the chair is thin, but the cloth on the floor is thick.
+we described the cloth on the floor as thick and the cloth on the chair as thin.
+we compared the cloth on the floor, which was thick, with the cloth on the chair, which was thin.
+we noticed opposite qualities because the cloth on the floor was thick and the cloth on the chair was thin.
+unlike the cloth on the floor, which is thick, the cloth on the chair is thin.
+the shelf by the window is high, while the shelf by the door is low.
+the shelf by the door is low, but the shelf by the window is high.
+we described the shelf by the window as high and the shelf by the door as low.
+we compared the shelf by the window, which was high, with the shelf by the door, which was low.
+we noticed opposite qualities because the shelf by the window was high and the shelf by the door was low.
+unlike the shelf by the window, which is high, the shelf by the door is low.
+the branch near the house is high, while the branch near the pond is low.
+the branch near the pond is low, but the branch near the house is high.
+we described the branch near the house as high and the branch near the pond as low.
+we compared the branch near the house, which was high, with the branch near the pond, which was low.
+we noticed opposite qualities because the branch near the house was high and the branch near the pond was low.
+unlike the branch near the house, which is high, the branch near the pond is low.
+the price at the store is high, while the price at the market is low.
+the price at the market is low, but the price at the store is high.
+we described the price at the store as high and the price at the market as low.
+we compared the price at the store, which was high, with the price at the market, which was low.
+we noticed opposite qualities because the price at the store was high and the price at the market was low.
+unlike the price at the store, which is high, the price at the market is low.
+the wall near the road is high, while the wall near the garden is low.
+the wall near the garden is low, but the wall near the road is high.
+we described the wall near the road as high and the wall near the garden as low.
+we compared the wall near the road, which was high, with the wall near the garden, which was low.
+we noticed opposite qualities because the wall near the road was high and the wall near the garden was low.
+unlike the wall near the road, which is high, the wall near the garden is low.

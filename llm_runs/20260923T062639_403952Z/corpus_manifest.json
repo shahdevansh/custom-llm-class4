@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "contextual_contrasts.txt",
+      "bytes": 31220,
+      "sha256": "997a26e8437d9c308a43e367e98c58ac9a6d23ec31ada2ed1ab92777122ab710",
+      "warnings": [],
+      "characters": 31220,
+      "passages": 384,
+      "unique_passages": 384,
+      "preview": "the soup in the pot is hot, while the soup in the bowl is cold.\nthe soup in the bowl is cold, but the soup in the pot is hot.\nwe described the soup in the pot as hot and the soup in the bowl as cold.\nwe compared the soup in the pot, which was hot, with the soup in the bowl, which was cold.\nwe notice"
+    },
+    {
+      "file": "grammar_practice.txt",
+      "bytes": 19340,
+      "sha256": "67d582c1deeabb29b69178d09baf5c3844ed941b9e5623d0ea1dc280de5eafb8",
+      "warnings": [],
+      "characters": 19340,
+      "passages": 528,
+      "unique_passages": 528,
+      "preview": "the baker is ready before work.\nthe bakers are ready before work.\nthis baker was ready after lunch.\nthese bakers were ready after lunch.\nour baker feels ready this morning.\nour bakers feel ready this morning.\na baker seems ready today.\nseveral bakers seem ready today.\nthe baker is tired before work."
+    }
+  ],
+  "ignored": [],
+  "external_passages": 912,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 5504,
+  "new_unique_passages": 912,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

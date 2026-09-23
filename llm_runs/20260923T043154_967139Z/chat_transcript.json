@@ -1,0 +1,44 @@
+{
+  "model_sha256": "bf49f05b14d5417840f3b551aa61e28c0e521e6d5557f146f3961ffc1afbe84e",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "selected the item after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the nurse",
+      "seed": 2027,
+      "response": "selected the important therapist team discussed the health .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the small cups",
+      "seed": 2028,
+      "response": "the different nurse focused on treatment and health .",
+      "unknown_prompt_words": [
+        "cups",
+        "small"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "explain quantum teleportation",
+      "seed": 2029,
+      "response": "the important peach focused on fruit and harvest .",
+      "unknown_prompt_words": [
+        "explain",
+        "quantum",
+        "teleportation"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}

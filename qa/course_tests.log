@@ -1,0 +1,16 @@
+invalid pdf header: b'not a'
+EOF marker not found
+..............
+----------------------------------------------------------------------
+Ran 14 tests in 0.905s
+
+OK
+Language evals (final): 1/1; 1/1 cases have usable vocabulary/context.
+  extend_corpus: 1/1 correct; 1 scorable
+Language evals (final): 0/1; 1/1 cases have usable vocabulary/context.
+  extend_corpus: 0/1 correct; 1 scorable
+number of parameters: 0.01M
+Language evals (final): 1/2; 2/2 cases have usable vocabulary/context.
+  starter_patterns: 1/2 correct; 2 scorable
+Language evals (final): 0/1; 0/1 cases have usable vocabulary/context.
+  extend_corpus: 0/1 correct; 0 scorable

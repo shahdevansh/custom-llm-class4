@@ -1,0 +1,15 @@
+number of parameters: 0.12M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: the customer
+Model: reviewed the package after checking the price .
+You: the nurse
+Model: was tired after work .
+You: the small cups
+Model: the bag in the kitchen , which is big .
+Unknown words: cups
+You: explain quantum teleportation
+Model: the box of books , which is heavy , while the visitor is light .
+Unknown words: explain, quantum, teleportation
+You: /quit
+Saved transcript: evidence/chat_transcript.json

@@ -1,0 +1,22 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+expanded: executed cell 2/28
+expanded: executed cell 4/28
+expanded: executed cell 6/28
+expanded: executed cell 8/28
+expanded: executed cell 10/28
+expanded: executed cell 12/28
+expanded: executed cell 14/28
+expanded: executed cell 16/28
+expanded: executed cell 18/28
+expanded: executed cell 20/28
+expanded: executed cell 22/28
+expanded: executed cell 24/28
+expanded: executed cell 25/28
+expanded: executed cell 26/28
+expanded: executed cell 27/28
+{
+  "notebook": "custom_llm_expanded.ipynb",
+  "run_dir": "llm_runs/20260923T062639_403952Z",
+  "wall_seconds": 18.271615982055664,
+  "python_executable": "/Users/shahdevansh/Documents/Codex/custom-llm-assignment-2026-09-22/.venv/bin/python"
+}

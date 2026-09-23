@@ -1,4 +1,7 @@
 torch>=2.2,<3
+numpy>=1.26,<3
 pypdf>=5,<7
 # For local notebook use only; Colab includes notebook tooling.
 jupyter>=1.0
+nbclient>=0.10
+nbconvert>=7

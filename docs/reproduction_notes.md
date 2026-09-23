@@ -1,0 +1,15 @@
+# Reproduction and provenance
+
+The course source was cloned from https://github.com/pepealonso95/custom-llm at commit `9e04ddb6aacb8efcb790e70c62550ca55e0f2a75`. The original notebook is retained in `source/course_starter.ipynb`; older `examples/` and `legacy/` files belong to the course repository and are **not** this submission's experimental evidence. The actual two experiments are indexed by `experiment_runs.json` and linked in the root README.
+
+The model, eval suite, eval runner, and terminal interface are unchanged, with SHA-256 checks in the notebook and audit script. Only the experiment settings and prediction were replaced in the copied notebooks, and three additional instances of the original chat cell were appended. These notebooks were executed in fresh Jupyter kernels through `nbclient`, preserving actual outputs and execution counts. They were not filled with simulated outputs.
+
+NumPy was added as an explicit dependency because the supplied runner hashes model tensors through `.numpy()`. Installing PyTorch alone did not install NumPy in this environment. The exact environment is recorded in `requirements-lock.txt`. Training used an Apple M3 Pro CPU on arm64 macOS; no external model API, pretrained model, GPU service, or purchased compute was used.
+
+The grammar and contrast files were generated deterministically from original, AI-assisted templates. They contain no personal documents. Five examples contain the article error “a artist”; it is deliberately retained in the submitted corpus because changing the source after training would misrepresent what the model saw. The generator, source files, manifests, and saved corpus agree.
+
+`scripts/record_chat.py` launched the real supplied `chat.py` in a pseudo-terminal and sent four prompts. It recorded actual terminal bytes and timestamps in `evidence/chat.cast` (asciinema version 2), while the supplied interface saved `evidence/chat_transcript.json`. The HTML page is a self-contained replay of that recording, not a replacement model or a live chat app. `evidence/chat_screenshot.png` is a browser screenshot of the complete recording. The live interfaces are the executed notebook's chat cells and `chat.py`.
+
+`scripts/build_run_viewers.py` embeds the actual initial and final checkpoint tables into copies of the supplied viewer. The two `evidence/embeddings_*.html` files therefore open with this submission's own weights already loaded. The original viewer remains available for loading other checkpoint files. Browser checks confirmed the expanded run's before/after views and neighbors; screenshots are included.
+
+The automated audit checks artifact consistency, saved-model replay, and normalized exact-prefix separation. It does not establish semantic independence, unseen-template generalization, or the student's understanding. The explanations were prepared with Codex; no personal reflection or student response has been invented. A learning-check question was offered during the work and remains for the student to answer in their own words.
